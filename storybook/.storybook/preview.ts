@@ -1,8 +1,10 @@
-import type { Preview } from "@storybook/angular";
+import { importProvidersFrom } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { Preview, applicationConfig } from '@storybook/angular';
 
 const preview: Preview = {
   parameters: {
-    actions: { argTypesRegex: "^on[A-Z].*" },
+    actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
       matchers: {
         color: /(background|color)$/i,
@@ -10,6 +12,11 @@ const preview: Preview = {
       },
     },
   },
+  decorators: [
+    applicationConfig({
+      providers: [importProvidersFrom(BrowserAnimationsModule)],
+    }),
+  ],
 };
 
 export default preview;

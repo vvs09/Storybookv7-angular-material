@@ -6,7 +6,7 @@ import {
 } from '@angular/material/slide-toggle';
 
 const meta: Meta<MatSlideToggle> = {
-  title: 'Slide Toggle',
+  title: 'Components/Slide Toggle',
   component: MatSlideToggle,
   tags: ['autodocs'],
   argTypes: {
@@ -173,9 +173,7 @@ const meta: Meta<MatSlideToggle> = {
   ],
   render: (args: MatSlideToggle) => ({
     props: args,
-    template: `<mat-slide-toggle ${argsToTemplate(
-      args
-    )}>Slide me!</mat-slide-toggle>
+    template: `<mat-slide-toggle ${argsToTemplate(args)}>Slide me!</mat-slide-toggle>
     `,
   }),
 };

@@ -3,7 +3,7 @@ import { argsToTemplate, moduleMetadata } from '@storybook/angular';
 import {MatProgressSpinnerModule,MatProgressSpinner} from '@angular/material/progress-spinner';
 
 const meta: Meta<MatProgressSpinner> = {
-  title: 'Progress Spinner',
+  title: 'Components/Progress Spinner',
   component: MatProgressSpinner,
   tags: ['autodocs'],
   argTypes: {
