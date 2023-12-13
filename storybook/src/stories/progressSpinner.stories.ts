@@ -112,6 +112,6 @@ export const Diameter: Story = {
   args: {
     ...Default.args,
     strokeWidth:10,
-    diameter:200
+    diameter:100
   }
 };
