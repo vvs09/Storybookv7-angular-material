@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/angular';
 import { argsToTemplate, moduleMetadata } from '@storybook/angular';
 import {
   MatSlideToggleModule,
-  MatSlideToggle,
+  MatSlideToggle
 } from '@angular/material/slide-toggle';
 
 const meta: Meta<MatSlideToggle> = {
@@ -148,6 +148,7 @@ const meta: Meta<MatSlideToggle> = {
       },
     },
     toggleChange: {
+      action: 'toggleChange',
       control: 'EventEmitter<void>',
       description:
         'An event will be dispatched each time the slide-toggle input is toggled. This event is always emitted when the user toggles the slide toggle, but this does not mean the slide toggles value has changed.',
@@ -157,6 +158,7 @@ const meta: Meta<MatSlideToggle> = {
       },
     },
     change: {
+      action: 'change',
       control: 'EventEmitter<void>',
       description:
         'An event will be dispatched each time the slide-toggle changes its value.',
@@ -172,7 +174,7 @@ const meta: Meta<MatSlideToggle> = {
     }),
   ],
   render: (args: MatSlideToggle) => ({
-    props: args,
+    props:args,
     template: `<mat-slide-toggle ${argsToTemplate(args)}>Slide me!</mat-slide-toggle>
     `,
   }),
