@@ -12,3 +12,8 @@ Build storybook
 ```bash
 npm run build-storybook
 ```
+### Requirements:
+NodeJs >=v14<=v18;
+Angular material:v15
+Angular Cli:v15
+Storybook:v7
