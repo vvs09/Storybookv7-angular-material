@@ -4,11 +4,11 @@ Storybook Url:https://657628f2ce99e9b752887c67-wimdredtmx.chromatic.com/?path=/d
 ```bash
 npm install
 ```
-### Run storybook
+Run storybook
 ```bash
 npm run storybook
 ```
-### Build storybook
+Build storybook
 ```bash
 npm run build-storybook
 ```
