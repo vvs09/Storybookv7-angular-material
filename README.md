@@ -1,6 +1,10 @@
 # Angualar Material Storybook
 
 ### Setup Guide:
+Insall angular Cli
+```bash
+npm install -g @angular/cli@15
+```
 ```bash
 npm install
 ```
