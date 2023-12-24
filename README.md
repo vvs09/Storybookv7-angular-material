@@ -16,7 +16,7 @@ Build storybook
 ```bash
 npm run build-storybook
 ```
-### Requirements:
+### Versions:
 <div>
   <ol>
     <li>NodeJs: v16</li>
