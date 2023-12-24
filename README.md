@@ -1,4 +1,4 @@
-# Angualar Material storybook
+# Angualar Material Storybook
 
 ### Setup Guide:
 ```bash
