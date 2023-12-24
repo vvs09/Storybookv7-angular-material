@@ -1,7 +1,7 @@
 # Angualar Material Storybook
 
 ### Setup Guide:
-Insall angular Cli
+Install angular Cli
 ```bash
 npm install -g @angular/cli@15
 ```
