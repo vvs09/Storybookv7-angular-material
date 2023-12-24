@@ -13,7 +13,12 @@ Build storybook
 npm run build-storybook
 ```
 ### Requirements:
-NodeJs >=v14<=v18
-Angular material:v15
-Angular Cli:v15
-Storybook:v7
+<div>
+  <ol>
+    <li>NodeJs: v16</li>
+    <li>Angular material: v15</li>
+    <li>Angular Cli:v15</li>
+    <li>Storybook:v7</li>
+  </ol>
+</div>
+
