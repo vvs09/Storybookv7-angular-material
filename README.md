@@ -1,5 +1,5 @@
 # Angular Material Storybook
-<P>A [Storybook](https://storybook.js.org) for angular material components.</P>
+A [Storybook](https://storybook.js.org) for angular material components.
 <p>Based on [Angular material v15](https://v15.material.angular.io). Built on storybook 7 and angular material 15.</p>
 <p>View the Storybook [here](https://657628f2ce99e9b752887c67-wimdredtmx.chromatic.com/?path=/docs/introduction--docs).</p>
 
