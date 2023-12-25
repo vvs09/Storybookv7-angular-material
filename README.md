@@ -23,7 +23,7 @@ npm run chromatic
 ```
 ## Available Components
 
-Name | Has [Stories](https://storybook.js.org/docs/angular/get-started/whats-a-story)? | Has Documentation? | Controls| Actions | Accessibility
+Name | [Stories](https://storybook.js.org/docs/angular/get-started/whats-a-story) | Documentation | Controls| Actions | Accessibility
 ---|:---:|:---:|:---:|:---:|:---:
 Paginator | :white_check_mark: | :white_check_mark: |:white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
 Progress Bar | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
