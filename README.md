@@ -15,4 +15,13 @@ Build storybook
 ```bash
 npm run build-storybook
 ```
+## Available Components
 
+Name | Has [Stories](https://storybook.js.org/docs/angular/get-started/whats-a-story)? | Has Docs Examples Stories?
+---|:---:|:---:
+[Paginator][mat-paginator] | :negative_squared_cross_mark: | :negative_squared_cross_mark:
+[Progress Bar][mat-progress-bar] | :negative_squared_cross_mark: | :negative_squared_cross_mark:
+[Progress Spinner][mat-progress-spinner] | :negative_squared_cross_mark: | :negative_squared_cross_mark:
+[Slide Toggle][mat-slide-toggle] | :negative_squared_cross_mark: | :negative_squared_cross_mark:
+
+---
