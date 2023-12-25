@@ -1,5 +1,7 @@
 # Angualar Material Storybook
-<P>Storybook 7 for angular material components</P>
+<P>A Storybook for angular material components.</P>
+<p>Based on [amcdnl/material-storybook](https://github.com/amcdnl/material-storybook)</p>
+<p>View the Storybook [here](https://657628f2ce99e9b752887c67-wimdredtmx.chromatic.com/?path=/docs/introduction--docs).</p>
 
 ### Setup Guide:
 ```bash
