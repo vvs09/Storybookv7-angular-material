@@ -19,9 +19,9 @@ npm run build-storybook
 
 Name | Has [Stories](https://storybook.js.org/docs/angular/get-started/whats-a-story)? | Has Docs Examples Stories?
 ---|:---:|:---:
-Paginator | :negative_squared_cross_mark: | :negative_squared_cross_mark:
-Progress Bar | :negative_squared_cross_mark: | :negative_squared_cross_mark:
-Progress Spinner | :negative_squared_cross_mark: | :negative_squared_cross_mark:
-Slide Toggle| :negative_squared_cross_mark: | :negative_squared_cross_mark:
+Paginator | :white_check_mark: | :white_check_mark:
+Progress Bar | :white_check_mark: | :white_check_mark:
+Progress Spinner | :white_check_mark: | :white_check_mark:
+Slide Toggle| :white_check_mark: | :white_check_mark:
 
 ---
