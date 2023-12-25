@@ -86,6 +86,7 @@ const meta: Meta<MatPaginator> = {
       },
     },
     page: {
+      action: 'page',
       control: '',
       description:
         'Event emitted when the paginator changes the page size or page index.',

@@ -29,5 +29,5 @@ Paginator | :white_check_mark: | :white_check_mark: |:white_check_mark:|:negativ
 Progress Bar | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
 Progress Spinner | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
 Slide Toggle| :white_check_mark: | :white_check_mark: | :white_check_mark: |:white_check_mark:| :white_check_mark:
-
+Chip | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
 ---
