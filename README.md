@@ -33,3 +33,8 @@ Chip | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squ
 ---
 
 ## Key Features
+<ul>
+  <li>Accessibility testing using the ally addon.</li>
+  <li>Actions and controls addons to play arounds the behaviour of the component.</li>
+  <li>Prebuilt stories for each component which represents each state of the component.</li>                                                                            
+</ul>
