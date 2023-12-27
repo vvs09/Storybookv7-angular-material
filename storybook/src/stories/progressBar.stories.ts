@@ -55,6 +55,7 @@ const meta: Meta<MatProgressBar> = {
       },
     },
     animationEnd: {
+      action:'animationEnd',
       control: 'object',
       description:
         'Event emitted when animation of the primary progress bar completes. This event will not be emitted when animations are disabled, nor will it be emitted for modes with continuous animations (indeterminate and query).',
