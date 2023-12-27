@@ -1,9 +1,9 @@
-# Contributing to Angular material Storybook
+# Contributing to Angular Material Storybook
 
-We would love for you to contribute to Angular and help make it even better than it is today!
+We would love for you to contribute to Angular Material Storybook and help make it even better than it is today!
 As a contributor, here are the guidelines we would like you to follow:
 
- - [Code of Conduct](#coc)
+ - [Code of Conduct](https://github.com/vvs09/Storybookv7-angular-material/blob/main/CODE_OF_CONDUCT.md)
  - [Question or Problem?](#question)
  - [Issues and Bugs](#issue)
  - [Feature Requests](#feature)
@@ -16,7 +16,7 @@ As a contributor, here are the guidelines we would like you to follow:
 ## <a name="coc"></a> Code of Conduct
 
 Help us keep Angular open and inclusive.
-Please read and follow our [Code of Conduct][coc].
+Please read and follow our [Code of Conduct](https://github.com/vvs09/Storybookv7-angular-material/blob/main/CODE_OF_CONDUCT.md).
 
 
 ## <a name="question"></a> Got a Question or Problem?
