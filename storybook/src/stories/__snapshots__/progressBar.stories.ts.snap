@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/Progress Bar Default smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-progress-bar role="progressbar"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    tabindex="-1"
+                    class="mat-mdc-progress-bar mdc-linear-progress mat-accent mdc-linear-progress--animation-ready"
+                    ng-reflect-mode="buffer"
+                    ng-reflect-color="accent"
+                    ng-reflect-value="0"
+                    ng-reflect-buffer-value="0"
+                    aria-valuenow="0"
+                    mode="buffer"
+  >
+    <div aria-hidden="true"
+         class="mdc-linear-progress__buffer"
+    >
+      <div class="mdc-linear-progress__buffer-bar"
+           style="flex-basis: 0%;"
+      >
+      </div>
+      <div class="mdc-linear-progress__buffer-dots">
+      </div>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+         style="transform: scaleX(0);"
+    >
+      <span class="mdc-linear-progress__bar-inner">
+      </span>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+    >
+      <span class="mdc-linear-progress__bar-inner">
+      </span>
+    </div>
+  </mat-progress-bar>
+</storybook-root>
+`;
+
+exports[`Components/Progress Bar DeterminateProgressBar smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-progress-bar role="progressbar"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    tabindex="-1"
+                    class="mat-mdc-progress-bar mdc-linear-progress mat-accent mdc-linear-progress--animation-ready"
+                    ng-reflect-mode="determinate"
+                    ng-reflect-color="accent"
+                    ng-reflect-value="20"
+                    ng-reflect-buffer-value="75"
+                    aria-valuenow="20"
+                    mode="determinate"
+  >
+    <div aria-hidden="true"
+         class="mdc-linear-progress__buffer"
+    >
+      <div class="mdc-linear-progress__buffer-bar"
+           style="flex-basis: 100%;"
+      >
+      </div>
+      <div class="mdc-linear-progress__buffer-dots">
+      </div>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+         style="transform: scaleX(0.2);"
+    >
+      <span class="mdc-linear-progress__bar-inner">
+      </span>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+    >
+      <span class="mdc-linear-progress__bar-inner">
+      </span>
+    </div>
+  </mat-progress-bar>
+</storybook-root>
+`;
+
+exports[`Components/Progress Bar IndeterminateProgressBar smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-progress-bar role="progressbar"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    tabindex="-1"
+                    class="mat-mdc-progress-bar mdc-linear-progress mat-accent mdc-linear-progress--animation-ready mdc-linear-progress--indeterminate"
+                    ng-reflect-mode="indeterminate"
+                    ng-reflect-color="accent"
+                    ng-reflect-value="0"
+                    ng-reflect-buffer-value="0"
+                    mode="indeterminate"
+  >
+    <div aria-hidden="true"
+         class="mdc-linear-progress__buffer"
+    >
+      <div class="mdc-linear-progress__buffer-bar"
+           style="flex-basis: 100%;"
+      >
+      </div>
+      <div class="mdc-linear-progress__buffer-dots">
+      </div>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+         style="transform: scaleX(1);"
+    >
+      <span class="mdc-linear-progress__bar-inner">
+      </span>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+    >
+      <span class="mdc-linear-progress__bar-inner">
+      </span>
+    </div>
+  </mat-progress-bar>
+</storybook-root>
+`;
+
+exports[`Components/Progress Bar PrimaryProgressBar smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-progress-bar role="progressbar"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    tabindex="-1"
+                    class="mat-mdc-progress-bar mdc-linear-progress mat-primary mdc-linear-progress--animation-ready mdc-linear-progress--indeterminate"
+                    ng-reflect-mode="indeterminate"
+                    ng-reflect-color="primary"
+                    ng-reflect-value="30"
+                    ng-reflect-buffer-value="75"
+                    mode="indeterminate"
+  >
+    <div aria-hidden="true"
+         class="mdc-linear-progress__buffer"
+    >
+      <div class="mdc-linear-progress__buffer-bar"
+           style="flex-basis: 100%;"
+      >
+      </div>
+      <div class="mdc-linear-progress__buffer-dots">
+      </div>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+         style="transform: scaleX(1);"
+    >
+      <span class="mdc-linear-progress__bar-inner">
+      </span>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+    >
+      <span class="mdc-linear-progress__bar-inner">
+      </span>
+    </div>
+  </mat-progress-bar>
+</storybook-root>
+`;
+
+exports[`Components/Progress Bar QueryProgressBar smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-progress-bar role="progressbar"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    tabindex="-1"
+                    class="mat-mdc-progress-bar mdc-linear-progress mat-accent mdc-linear-progress--animation-ready mdc-linear-progress--indeterminate"
+                    ng-reflect-mode="query"
+                    ng-reflect-color="accent"
+                    ng-reflect-value="30"
+                    ng-reflect-buffer-value="75"
+                    mode="query"
+  >
+    <div aria-hidden="true"
+         class="mdc-linear-progress__buffer"
+    >
+      <div class="mdc-linear-progress__buffer-bar"
+           style="flex-basis: 100%;"
+      >
+      </div>
+      <div class="mdc-linear-progress__buffer-dots">
+      </div>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+         style="transform: scaleX(1);"
+    >
+      <span class="mdc-linear-progress__bar-inner">
+      </span>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+    >
+      <span class="mdc-linear-progress__bar-inner">
+      </span>
+    </div>
+  </mat-progress-bar>
+</storybook-root>
+`;
+
+exports[`Components/Progress Bar WarnProgressBar smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-progress-bar role="progressbar"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    tabindex="-1"
+                    class="mat-mdc-progress-bar mdc-linear-progress mat-warn mdc-linear-progress--animation-ready"
+                    ng-reflect-mode="buffer"
+                    ng-reflect-color="warn"
+                    ng-reflect-value="0"
+                    ng-reflect-buffer-value="0"
+                    aria-valuenow="0"
+                    mode="buffer"
+  >
+    <div aria-hidden="true"
+         class="mdc-linear-progress__buffer"
+    >
+      <div class="mdc-linear-progress__buffer-bar"
+           style="flex-basis: 0%;"
+      >
+      </div>
+      <div class="mdc-linear-progress__buffer-dots">
+      </div>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-linear-progress__bar mdc-linear-progress__primary-bar"
+         style="transform: scaleX(0);"
+    >
+      <span class="mdc-linear-progress__bar-inner">
+      </span>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar"
+    >
+      <span class="mdc-linear-progress__bar-inner">
+      </span>
+    </div>
+  </mat-progress-bar>
+</storybook-root>
+`;

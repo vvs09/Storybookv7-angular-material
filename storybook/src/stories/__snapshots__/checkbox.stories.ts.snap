@@ -1,0 +1,475 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/Checkbox Checked smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-checkbox class="mat-mdc-checkbox mat-accent mat-mdc-checkbox-checked"
+                ng-reflect-color="accent"
+                ng-reflect-disabled="false"
+                ng-reflect-disable-ripple="false"
+                ng-reflect-id="1"
+                ng-reflect-checked="true"
+                ng-reflect-indeterminate="false"
+                ng-reflect-label-position="after"
+                ng-reflect-name="label checkbox"
+                ng-reflect-required="false"
+                ng-reflect-value="checkbox1"
+                id="1"
+  >
+    <div class="mdc-form-field">
+      <div class="mdc-checkbox">
+        <div class="mat-mdc-checkbox-touch-target">
+        </div>
+        <input type="checkbox"
+               class="mdc-checkbox__native-control mdc-checkbox--selected"
+               id="1-input"
+               tabindex="0"
+               name="label checkbox"
+               value="checkbox1"
+        >
+        <div class="mdc-checkbox__ripple">
+        </div>
+        <div class="mdc-checkbox__background">
+          <svg focusable="false"
+               viewbox="0 0 24 24"
+               aria-hidden="true"
+               class="mdc-checkbox__checkmark"
+          >
+            <path fill="none"
+                  d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                  class="mdc-checkbox__checkmark-path"
+            >
+            </path>
+          </svg>
+          <div class="mdc-checkbox__mixedmark">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-mdc-checkbox-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="false"
+             ng-reflect-centered="true"
+        >
+        </div>
+      </div>
+      <label for="1-input">
+        Checkbox
+      </label>
+    </div>
+  </mat-checkbox>
+</storybook-root>
+`;
+
+exports[`Components/Checkbox Default smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-checkbox class="mat-mdc-checkbox mat-accent"
+                ng-reflect-color="accent"
+                ng-reflect-disabled="false"
+                ng-reflect-disable-ripple="false"
+                ng-reflect-id="1"
+                ng-reflect-checked="false"
+                ng-reflect-indeterminate="false"
+                ng-reflect-label-position="after"
+                ng-reflect-name="label checkbox"
+                ng-reflect-required="false"
+                ng-reflect-value="checkbox1"
+                id="1"
+  >
+    <div class="mdc-form-field">
+      <div class="mdc-checkbox">
+        <div class="mat-mdc-checkbox-touch-target">
+        </div>
+        <input type="checkbox"
+               class="mdc-checkbox__native-control"
+               id="1-input"
+               tabindex="0"
+               name="label checkbox"
+               value="checkbox1"
+        >
+        <div class="mdc-checkbox__ripple">
+        </div>
+        <div class="mdc-checkbox__background">
+          <svg focusable="false"
+               viewbox="0 0 24 24"
+               aria-hidden="true"
+               class="mdc-checkbox__checkmark"
+          >
+            <path fill="none"
+                  d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                  class="mdc-checkbox__checkmark-path"
+            >
+            </path>
+          </svg>
+          <div class="mdc-checkbox__mixedmark">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-mdc-checkbox-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="false"
+             ng-reflect-centered="true"
+        >
+        </div>
+      </div>
+      <label for="1-input">
+        Checkbox
+      </label>
+    </div>
+  </mat-checkbox>
+</storybook-root>
+`;
+
+exports[`Components/Checkbox Disabled smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-checkbox class="mat-mdc-checkbox mat-accent mdc-checkbox--disabled mat-mdc-checkbox-disabled"
+                ng-reflect-color="accent"
+                ng-reflect-disabled="true"
+                ng-reflect-disable-ripple="false"
+                ng-reflect-id="1"
+                ng-reflect-checked="false"
+                ng-reflect-indeterminate="false"
+                ng-reflect-label-position="after"
+                ng-reflect-name="label checkbox"
+                ng-reflect-required="false"
+                ng-reflect-value="checkbox1"
+                id="1"
+  >
+    <div class="mdc-form-field">
+      <div class="mdc-checkbox">
+        <div class="mat-mdc-checkbox-touch-target">
+        </div>
+        <input type="checkbox"
+               class="mdc-checkbox__native-control"
+               disabled
+               id="1-input"
+               tabindex="-1"
+               name="label checkbox"
+               value="checkbox1"
+        >
+        <div class="mdc-checkbox__ripple">
+        </div>
+        <div class="mdc-checkbox__background">
+          <svg focusable="false"
+               viewbox="0 0 24 24"
+               aria-hidden="true"
+               class="mdc-checkbox__checkmark"
+          >
+            <path fill="none"
+                  d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                  class="mdc-checkbox__checkmark-path"
+            >
+            </path>
+          </svg>
+          <div class="mdc-checkbox__mixedmark">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-mdc-checkbox-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="true"
+             ng-reflect-centered="true"
+        >
+        </div>
+      </div>
+      <label for="1-input">
+        Checkbox
+      </label>
+    </div>
+  </mat-checkbox>
+</storybook-root>
+`;
+
+exports[`Components/Checkbox Indeterminate smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-checkbox class="mat-mdc-checkbox mat-accent"
+                ng-reflect-color="accent"
+                ng-reflect-disabled="false"
+                ng-reflect-disable-ripple="false"
+                ng-reflect-id="1"
+                ng-reflect-checked="false"
+                ng-reflect-indeterminate="true"
+                ng-reflect-label-position="after"
+                ng-reflect-name="label checkbox"
+                ng-reflect-required="false"
+                ng-reflect-value="checkbox1"
+                id="1"
+  >
+    <div class="mdc-form-field">
+      <div class="mdc-checkbox">
+        <div class="mat-mdc-checkbox-touch-target">
+        </div>
+        <input type="checkbox"
+               class="mdc-checkbox__native-control"
+               id="1-input"
+               tabindex="0"
+               name="label checkbox"
+               value="checkbox1"
+        >
+        <div class="mdc-checkbox__ripple">
+        </div>
+        <div class="mdc-checkbox__background">
+          <svg focusable="false"
+               viewbox="0 0 24 24"
+               aria-hidden="true"
+               class="mdc-checkbox__checkmark"
+          >
+            <path fill="none"
+                  d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                  class="mdc-checkbox__checkmark-path"
+            >
+            </path>
+          </svg>
+          <div class="mdc-checkbox__mixedmark">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-mdc-checkbox-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="false"
+             ng-reflect-centered="true"
+        >
+        </div>
+      </div>
+      <label for="1-input">
+        Checkbox
+      </label>
+    </div>
+  </mat-checkbox>
+</storybook-root>
+`;
+
+exports[`Components/Checkbox LabelPosition smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-checkbox class="mat-mdc-checkbox mat-accent"
+                ng-reflect-color="accent"
+                ng-reflect-disabled="false"
+                ng-reflect-disable-ripple="false"
+                ng-reflect-id="1"
+                ng-reflect-checked="false"
+                ng-reflect-indeterminate="false"
+                ng-reflect-label-position="before"
+                ng-reflect-name="label checkbox"
+                ng-reflect-required="false"
+                ng-reflect-value="checkbox1"
+                id="1"
+  >
+    <div class="mdc-form-field mdc-form-field--align-end">
+      <div class="mdc-checkbox">
+        <div class="mat-mdc-checkbox-touch-target">
+        </div>
+        <input type="checkbox"
+               class="mdc-checkbox__native-control"
+               id="1-input"
+               tabindex="0"
+               name="label checkbox"
+               value="checkbox1"
+        >
+        <div class="mdc-checkbox__ripple">
+        </div>
+        <div class="mdc-checkbox__background">
+          <svg focusable="false"
+               viewbox="0 0 24 24"
+               aria-hidden="true"
+               class="mdc-checkbox__checkmark"
+          >
+            <path fill="none"
+                  d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                  class="mdc-checkbox__checkmark-path"
+            >
+            </path>
+          </svg>
+          <div class="mdc-checkbox__mixedmark">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-mdc-checkbox-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="false"
+             ng-reflect-centered="true"
+        >
+        </div>
+      </div>
+      <label for="1-input">
+        Checkbox
+      </label>
+    </div>
+  </mat-checkbox>
+</storybook-root>
+`;
+
+exports[`Components/Checkbox Primary smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-checkbox class="mat-mdc-checkbox mat-primary"
+                ng-reflect-color="primary"
+                ng-reflect-disabled="false"
+                ng-reflect-disable-ripple="false"
+                ng-reflect-id="1"
+                ng-reflect-checked="false"
+                ng-reflect-indeterminate="false"
+                ng-reflect-label-position="after"
+                ng-reflect-name="label checkbox"
+                ng-reflect-required="false"
+                ng-reflect-value="checkbox1"
+                id="1"
+  >
+    <div class="mdc-form-field">
+      <div class="mdc-checkbox">
+        <div class="mat-mdc-checkbox-touch-target">
+        </div>
+        <input type="checkbox"
+               class="mdc-checkbox__native-control"
+               id="1-input"
+               tabindex="0"
+               name="label checkbox"
+               value="checkbox1"
+        >
+        <div class="mdc-checkbox__ripple">
+        </div>
+        <div class="mdc-checkbox__background">
+          <svg focusable="false"
+               viewbox="0 0 24 24"
+               aria-hidden="true"
+               class="mdc-checkbox__checkmark"
+          >
+            <path fill="none"
+                  d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                  class="mdc-checkbox__checkmark-path"
+            >
+            </path>
+          </svg>
+          <div class="mdc-checkbox__mixedmark">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-mdc-checkbox-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="false"
+             ng-reflect-centered="true"
+        >
+        </div>
+      </div>
+      <label for="1-input">
+        Checkbox
+      </label>
+    </div>
+  </mat-checkbox>
+</storybook-root>
+`;
+
+exports[`Components/Checkbox Required smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-checkbox class="mat-mdc-checkbox mat-accent"
+                ng-reflect-color="accent"
+                ng-reflect-disabled="false"
+                ng-reflect-disable-ripple="false"
+                ng-reflect-id="1"
+                ng-reflect-checked="false"
+                ng-reflect-indeterminate="false"
+                ng-reflect-label-position="after"
+                ng-reflect-name="label checkbox"
+                ng-reflect-required="true"
+                ng-reflect-value="checkbox1"
+                id="1"
+  >
+    <div class="mdc-form-field">
+      <div class="mdc-checkbox">
+        <div class="mat-mdc-checkbox-touch-target">
+        </div>
+        <input type="checkbox"
+               class="mdc-checkbox__native-control"
+               id="1-input"
+               required
+               tabindex="0"
+               name="label checkbox"
+               value="checkbox1"
+        >
+        <div class="mdc-checkbox__ripple">
+        </div>
+        <div class="mdc-checkbox__background">
+          <svg focusable="false"
+               viewbox="0 0 24 24"
+               aria-hidden="true"
+               class="mdc-checkbox__checkmark"
+          >
+            <path fill="none"
+                  d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                  class="mdc-checkbox__checkmark-path"
+            >
+            </path>
+          </svg>
+          <div class="mdc-checkbox__mixedmark">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-mdc-checkbox-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="false"
+             ng-reflect-centered="true"
+        >
+        </div>
+      </div>
+      <label for="1-input">
+        Checkbox
+      </label>
+    </div>
+  </mat-checkbox>
+</storybook-root>
+`;
+
+exports[`Components/Checkbox Warn smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-checkbox class="mat-mdc-checkbox mat-warn"
+                ng-reflect-color="warn"
+                ng-reflect-disabled="false"
+                ng-reflect-disable-ripple="false"
+                ng-reflect-id="1"
+                ng-reflect-checked="false"
+                ng-reflect-indeterminate="false"
+                ng-reflect-label-position="after"
+                ng-reflect-name="label checkbox"
+                ng-reflect-required="false"
+                ng-reflect-value="checkbox1"
+                id="1"
+  >
+    <div class="mdc-form-field">
+      <div class="mdc-checkbox">
+        <div class="mat-mdc-checkbox-touch-target">
+        </div>
+        <input type="checkbox"
+               class="mdc-checkbox__native-control"
+               id="1-input"
+               tabindex="0"
+               name="label checkbox"
+               value="checkbox1"
+        >
+        <div class="mdc-checkbox__ripple">
+        </div>
+        <div class="mdc-checkbox__background">
+          <svg focusable="false"
+               viewbox="0 0 24 24"
+               aria-hidden="true"
+               class="mdc-checkbox__checkmark"
+          >
+            <path fill="none"
+                  d="M1.73,12.91 8.1,19.28 22.79,4.59"
+                  class="mdc-checkbox__checkmark-path"
+            >
+            </path>
+          </svg>
+          <div class="mdc-checkbox__mixedmark">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-mdc-checkbox-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="false"
+             ng-reflect-centered="true"
+        >
+        </div>
+      </div>
+      <label for="1-input">
+        Checkbox
+      </label>
+    </div>
+  </mat-checkbox>
+</storybook-root>
+`;

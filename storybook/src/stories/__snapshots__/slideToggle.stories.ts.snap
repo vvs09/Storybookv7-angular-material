@@ -1,0 +1,471 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/Slide Toggle Accent smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-slide-toggle class="mat-mdc-slide-toggle mat-accent mat-mdc-slide-toggle-checked"
+                    ng-reflect-color="accent"
+                    ng-reflect-checked="true"
+                    ng-reflect-disable-ripple="false"
+                    ng-reflect-disabled="false"
+                    ng-reflect-id="slide toggle storybook"
+                    ng-reflect-label-position="after"
+                    ng-reflect-name="Slide Toggle"
+                    ng-reflect-required="false"
+                    id="slide toggle storybook"
+  >
+    <div class="mdc-form-field">
+      <button role="switch"
+              type="button"
+              class="mdc-switch mdc-switch--selected mdc-switch--checked"
+              tabindex="0"
+              id="slide toggle storybook-button"
+              name="Slide Toggle"
+              aria-labelledby="mat-mdc-slide-toggle-3-label"
+              aria-checked="true"
+      >
+        <div class="mdc-switch__track">
+        </div>
+        <div class="mdc-switch__handle-track">
+          <div class="mdc-switch__handle">
+            <div class="mdc-switch__shadow">
+              <div class="mdc-elevation-overlay">
+              </div>
+            </div>
+            <div class="mdc-switch__ripple">
+              <div mat-ripple
+                   class="mat-ripple mat-mdc-slide-toggle-ripple mat-mdc-focus-indicator"
+                   ng-reflect-trigger="[object HTMLButtonElement]"
+                   ng-reflect-disabled="false"
+                   ng-reflect-centered="true"
+              >
+              </div>
+            </div>
+            <div class="mdc-switch__icons">
+              <svg viewbox="0 0 24 24"
+                   class="mdc-switch__icon mdc-switch__icon--on"
+              >
+                <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z">
+                </path>
+              </svg>
+              <svg viewbox="0 0 24 24"
+                   class="mdc-switch__icon mdc-switch__icon--off"
+              >
+                <path d="M20 13H4v-2h16v2z">
+                </path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </button>
+      <label for="slide toggle storybook-button"
+             id="mat-mdc-slide-toggle-3-label"
+      >
+        Slide me!
+      </label>
+    </div>
+  </mat-slide-toggle>
+</storybook-root>
+`;
+
+exports[`Components/Slide Toggle Checked smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-slide-toggle class="mat-mdc-slide-toggle mat-primary"
+                    ng-reflect-color="primary"
+                    ng-reflect-checked="false"
+                    ng-reflect-disable-ripple="false"
+                    ng-reflect-disabled="false"
+                    ng-reflect-id="slide toggle storybook"
+                    ng-reflect-label-position="after"
+                    ng-reflect-name="Slide Toggle"
+                    ng-reflect-required="false"
+                    id="slide toggle storybook"
+  >
+    <div class="mdc-form-field">
+      <button role="switch"
+              type="button"
+              class="mdc-switch mdc-switch--unselected"
+              tabindex="0"
+              id="slide toggle storybook-button"
+              name="Slide Toggle"
+              aria-labelledby="mat-mdc-slide-toggle-5-label"
+              aria-checked="false"
+      >
+        <div class="mdc-switch__track">
+        </div>
+        <div class="mdc-switch__handle-track">
+          <div class="mdc-switch__handle">
+            <div class="mdc-switch__shadow">
+              <div class="mdc-elevation-overlay">
+              </div>
+            </div>
+            <div class="mdc-switch__ripple">
+              <div mat-ripple
+                   class="mat-ripple mat-mdc-slide-toggle-ripple mat-mdc-focus-indicator"
+                   ng-reflect-trigger="[object HTMLButtonElement]"
+                   ng-reflect-disabled="false"
+                   ng-reflect-centered="true"
+              >
+              </div>
+            </div>
+            <div class="mdc-switch__icons">
+              <svg viewbox="0 0 24 24"
+                   class="mdc-switch__icon mdc-switch__icon--on"
+              >
+                <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z">
+                </path>
+              </svg>
+              <svg viewbox="0 0 24 24"
+                   class="mdc-switch__icon mdc-switch__icon--off"
+              >
+                <path d="M20 13H4v-2h16v2z">
+                </path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </button>
+      <label for="slide toggle storybook-button"
+             id="mat-mdc-slide-toggle-5-label"
+      >
+        Slide me!
+      </label>
+    </div>
+  </mat-slide-toggle>
+</storybook-root>
+`;
+
+exports[`Components/Slide Toggle Default smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-slide-toggle class="mat-mdc-slide-toggle mat-primary mat-mdc-slide-toggle-checked"
+                    ng-reflect-color="primary"
+                    ng-reflect-checked="true"
+                    ng-reflect-disable-ripple="false"
+                    ng-reflect-disabled="false"
+                    ng-reflect-id="slide toggle storybook"
+                    ng-reflect-label-position="after"
+                    ng-reflect-name="Slide Toggle"
+                    ng-reflect-required="false"
+                    id="slide toggle storybook"
+  >
+    <div class="mdc-form-field">
+      <button role="switch"
+              type="button"
+              class="mdc-switch mdc-switch--selected mdc-switch--checked"
+              tabindex="0"
+              id="slide toggle storybook-button"
+              name="Slide Toggle"
+              aria-labelledby="mat-mdc-slide-toggle-1-label"
+              aria-checked="true"
+      >
+        <div class="mdc-switch__track">
+        </div>
+        <div class="mdc-switch__handle-track">
+          <div class="mdc-switch__handle">
+            <div class="mdc-switch__shadow">
+              <div class="mdc-elevation-overlay">
+              </div>
+            </div>
+            <div class="mdc-switch__ripple">
+              <div mat-ripple
+                   class="mat-ripple mat-mdc-slide-toggle-ripple mat-mdc-focus-indicator"
+                   ng-reflect-trigger="[object HTMLButtonElement]"
+                   ng-reflect-disabled="false"
+                   ng-reflect-centered="true"
+              >
+              </div>
+            </div>
+            <div class="mdc-switch__icons">
+              <svg viewbox="0 0 24 24"
+                   class="mdc-switch__icon mdc-switch__icon--on"
+              >
+                <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z">
+                </path>
+              </svg>
+              <svg viewbox="0 0 24 24"
+                   class="mdc-switch__icon mdc-switch__icon--off"
+              >
+                <path d="M20 13H4v-2h16v2z">
+                </path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </button>
+      <label for="slide toggle storybook-button"
+             id="mat-mdc-slide-toggle-1-label"
+      >
+        Slide me!
+      </label>
+    </div>
+  </mat-slide-toggle>
+</storybook-root>
+`;
+
+exports[`Components/Slide Toggle Disable smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-slide-toggle class="mat-mdc-slide-toggle mat-primary mat-mdc-slide-toggle-checked"
+                    ng-reflect-color="primary"
+                    ng-reflect-checked="true"
+                    ng-reflect-disable-ripple="false"
+                    ng-reflect-disabled="true"
+                    ng-reflect-id="slide toggle storybook"
+                    ng-reflect-label-position="after"
+                    ng-reflect-name="Slide Toggle"
+                    ng-reflect-required="false"
+                    id="slide toggle storybook"
+  >
+    <div class="mdc-form-field">
+      <button role="switch"
+              type="button"
+              class="mdc-switch mdc-switch--selected mdc-switch--checked mdc-switch--disabled"
+              tabindex="-1"
+              disabled
+              id="slide toggle storybook-button"
+              name="Slide Toggle"
+              aria-labelledby="mat-mdc-slide-toggle-7-label"
+              aria-checked="true"
+      >
+        <div class="mdc-switch__track">
+        </div>
+        <div class="mdc-switch__handle-track">
+          <div class="mdc-switch__handle">
+            <div class="mdc-switch__shadow">
+              <div class="mdc-elevation-overlay">
+              </div>
+            </div>
+            <div class="mdc-switch__ripple">
+              <div mat-ripple
+                   class="mat-ripple mat-mdc-slide-toggle-ripple mat-mdc-focus-indicator"
+                   ng-reflect-trigger="[object HTMLButtonElement]"
+                   ng-reflect-disabled="true"
+                   ng-reflect-centered="true"
+              >
+              </div>
+            </div>
+            <div class="mdc-switch__icons">
+              <svg viewbox="0 0 24 24"
+                   class="mdc-switch__icon mdc-switch__icon--on"
+              >
+                <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z">
+                </path>
+              </svg>
+              <svg viewbox="0 0 24 24"
+                   class="mdc-switch__icon mdc-switch__icon--off"
+              >
+                <path d="M20 13H4v-2h16v2z">
+                </path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </button>
+      <label for="slide toggle storybook-button"
+             id="mat-mdc-slide-toggle-7-label"
+      >
+        Slide me!
+      </label>
+    </div>
+  </mat-slide-toggle>
+</storybook-root>
+`;
+
+exports[`Components/Slide Toggle DisableRipple smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-slide-toggle class="mat-mdc-slide-toggle mat-primary mat-mdc-slide-toggle-checked"
+                    ng-reflect-color="primary"
+                    ng-reflect-checked="true"
+                    ng-reflect-disable-ripple="true"
+                    ng-reflect-disabled="false"
+                    ng-reflect-id="slide toggle storybook"
+                    ng-reflect-label-position="after"
+                    ng-reflect-name="Slide Toggle"
+                    ng-reflect-required="false"
+                    id="slide toggle storybook"
+  >
+    <div class="mdc-form-field">
+      <button role="switch"
+              type="button"
+              class="mdc-switch mdc-switch--selected mdc-switch--checked"
+              tabindex="0"
+              id="slide toggle storybook-button"
+              name="Slide Toggle"
+              aria-labelledby="mat-mdc-slide-toggle-6-label"
+              aria-checked="true"
+      >
+        <div class="mdc-switch__track">
+        </div>
+        <div class="mdc-switch__handle-track">
+          <div class="mdc-switch__handle">
+            <div class="mdc-switch__shadow">
+              <div class="mdc-elevation-overlay">
+              </div>
+            </div>
+            <div class="mdc-switch__ripple">
+              <div mat-ripple
+                   class="mat-ripple mat-mdc-slide-toggle-ripple mat-mdc-focus-indicator"
+                   ng-reflect-trigger="[object HTMLButtonElement]"
+                   ng-reflect-disabled="true"
+                   ng-reflect-centered="true"
+              >
+              </div>
+            </div>
+            <div class="mdc-switch__icons">
+              <svg viewbox="0 0 24 24"
+                   class="mdc-switch__icon mdc-switch__icon--on"
+              >
+                <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z">
+                </path>
+              </svg>
+              <svg viewbox="0 0 24 24"
+                   class="mdc-switch__icon mdc-switch__icon--off"
+              >
+                <path d="M20 13H4v-2h16v2z">
+                </path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </button>
+      <label for="slide toggle storybook-button"
+             id="mat-mdc-slide-toggle-6-label"
+      >
+        Slide me!
+      </label>
+    </div>
+  </mat-slide-toggle>
+</storybook-root>
+`;
+
+exports[`Components/Slide Toggle PositionBefore smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-slide-toggle class="mat-mdc-slide-toggle mat-primary mat-mdc-slide-toggle-checked"
+                    ng-reflect-color="primary"
+                    ng-reflect-checked="true"
+                    ng-reflect-disable-ripple="false"
+                    ng-reflect-disabled="false"
+                    ng-reflect-id="slide toggle storybook"
+                    ng-reflect-label-position="before"
+                    ng-reflect-name="Slide Toggle"
+                    ng-reflect-required="false"
+                    id="slide toggle storybook"
+  >
+    <div class="mdc-form-field mdc-form-field--align-end">
+      <button role="switch"
+              type="button"
+              class="mdc-switch mdc-switch--selected mdc-switch--checked"
+              tabindex="0"
+              id="slide toggle storybook-button"
+              name="Slide Toggle"
+              aria-labelledby="mat-mdc-slide-toggle-4-label"
+              aria-checked="true"
+      >
+        <div class="mdc-switch__track">
+        </div>
+        <div class="mdc-switch__handle-track">
+          <div class="mdc-switch__handle">
+            <div class="mdc-switch__shadow">
+              <div class="mdc-elevation-overlay">
+              </div>
+            </div>
+            <div class="mdc-switch__ripple">
+              <div mat-ripple
+                   class="mat-ripple mat-mdc-slide-toggle-ripple mat-mdc-focus-indicator"
+                   ng-reflect-trigger="[object HTMLButtonElement]"
+                   ng-reflect-disabled="false"
+                   ng-reflect-centered="true"
+              >
+              </div>
+            </div>
+            <div class="mdc-switch__icons">
+              <svg viewbox="0 0 24 24"
+                   class="mdc-switch__icon mdc-switch__icon--on"
+              >
+                <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z">
+                </path>
+              </svg>
+              <svg viewbox="0 0 24 24"
+                   class="mdc-switch__icon mdc-switch__icon--off"
+              >
+                <path d="M20 13H4v-2h16v2z">
+                </path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </button>
+      <label for="slide toggle storybook-button"
+             id="mat-mdc-slide-toggle-4-label"
+      >
+        Slide me!
+      </label>
+    </div>
+  </mat-slide-toggle>
+</storybook-root>
+`;
+
+exports[`Components/Slide Toggle Warn smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-slide-toggle class="mat-mdc-slide-toggle mat-warn mat-mdc-slide-toggle-checked"
+                    ng-reflect-color="warn"
+                    ng-reflect-checked="true"
+                    ng-reflect-disable-ripple="false"
+                    ng-reflect-disabled="false"
+                    ng-reflect-id="slide toggle storybook"
+                    ng-reflect-label-position="after"
+                    ng-reflect-name="Slide Toggle"
+                    ng-reflect-required="false"
+                    id="slide toggle storybook"
+  >
+    <div class="mdc-form-field">
+      <button role="switch"
+              type="button"
+              class="mdc-switch mdc-switch--selected mdc-switch--checked"
+              tabindex="0"
+              id="slide toggle storybook-button"
+              name="Slide Toggle"
+              aria-labelledby="mat-mdc-slide-toggle-2-label"
+              aria-checked="true"
+      >
+        <div class="mdc-switch__track">
+        </div>
+        <div class="mdc-switch__handle-track">
+          <div class="mdc-switch__handle">
+            <div class="mdc-switch__shadow">
+              <div class="mdc-elevation-overlay">
+              </div>
+            </div>
+            <div class="mdc-switch__ripple">
+              <div mat-ripple
+                   class="mat-ripple mat-mdc-slide-toggle-ripple mat-mdc-focus-indicator"
+                   ng-reflect-trigger="[object HTMLButtonElement]"
+                   ng-reflect-disabled="false"
+                   ng-reflect-centered="true"
+              >
+              </div>
+            </div>
+            <div class="mdc-switch__icons">
+              <svg viewbox="0 0 24 24"
+                   class="mdc-switch__icon mdc-switch__icon--on"
+              >
+                <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z">
+                </path>
+              </svg>
+              <svg viewbox="0 0 24 24"
+                   class="mdc-switch__icon mdc-switch__icon--off"
+              >
+                <path d="M20 13H4v-2h16v2z">
+                </path>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </button>
+      <label for="slide toggle storybook-button"
+             id="mat-mdc-slide-toggle-2-label"
+      >
+        Slide me!
+      </label>
+    </div>
+  </mat-slide-toggle>
+</storybook-root>
+`;

@@ -1,0 +1,346 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/Radio button Checked smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-radio-button class="mat-mdc-radio-button mat-accent mat-mdc-radio-checked"
+                    ng-reflect-color="accent"
+                    ng-reflect-disabled="false"
+                    ng-reflect-disable-ripple="false"
+                    ng-reflect-id="1"
+                    ng-reflect-checked="true"
+                    ng-reflect-label-position="after"
+                    ng-reflect-name="label radio"
+                    ng-reflect-required="false"
+                    ng-reflect-value="radio1"
+                    id="1"
+  >
+    <div class="mdc-form-field">
+      <div class="mdc-radio">
+        <div class="mat-mdc-radio-touch-target">
+        </div>
+        <input type="radio"
+               class="mdc-radio__native-control"
+               id="1-input"
+               name="label radio"
+               value="radio1"
+               tabindex="0"
+        >
+        <div class="mdc-radio__background">
+          <div class="mdc-radio__outer-circle">
+          </div>
+          <div class="mdc-radio__inner-circle">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-radio-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="false"
+             ng-reflect-centered="true"
+        >
+          <div class="mat-ripple-element mat-radio-persistent-ripple">
+          </div>
+        </div>
+      </div>
+      <label for="1-input">
+        Option 1
+      </label>
+    </div>
+  </mat-radio-button>
+</storybook-root>
+`;
+
+exports[`Components/Radio button Default smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-radio-button class="mat-mdc-radio-button mat-accent"
+                    ng-reflect-color="accent"
+                    ng-reflect-disabled="false"
+                    ng-reflect-disable-ripple="false"
+                    ng-reflect-id="1"
+                    ng-reflect-checked="false"
+                    ng-reflect-label-position="after"
+                    ng-reflect-name="label radio"
+                    ng-reflect-required="false"
+                    ng-reflect-value="radio1"
+                    id="1"
+  >
+    <div class="mdc-form-field">
+      <div class="mdc-radio">
+        <div class="mat-mdc-radio-touch-target">
+        </div>
+        <input type="radio"
+               class="mdc-radio__native-control"
+               id="1-input"
+               name="label radio"
+               value="radio1"
+               tabindex="0"
+        >
+        <div class="mdc-radio__background">
+          <div class="mdc-radio__outer-circle">
+          </div>
+          <div class="mdc-radio__inner-circle">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-radio-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="false"
+             ng-reflect-centered="true"
+        >
+          <div class="mat-ripple-element mat-radio-persistent-ripple">
+          </div>
+        </div>
+      </div>
+      <label for="1-input">
+        Option 1
+      </label>
+    </div>
+  </mat-radio-button>
+</storybook-root>
+`;
+
+exports[`Components/Radio button Disabled smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-radio-button class="mat-mdc-radio-button mat-accent"
+                    ng-reflect-color="accent"
+                    ng-reflect-disabled="true"
+                    ng-reflect-disable-ripple="false"
+                    ng-reflect-id="1"
+                    ng-reflect-checked="false"
+                    ng-reflect-label-position="after"
+                    ng-reflect-name="label radio"
+                    ng-reflect-required="false"
+                    ng-reflect-value="radio1"
+                    id="1"
+  >
+    <div class="mdc-form-field">
+      <div class="mdc-radio mdc-radio--disabled">
+        <div class="mat-mdc-radio-touch-target">
+        </div>
+        <input type="radio"
+               class="mdc-radio__native-control"
+               id="1-input"
+               disabled
+               name="label radio"
+               value="radio1"
+               tabindex="-1"
+        >
+        <div class="mdc-radio__background">
+          <div class="mdc-radio__outer-circle">
+          </div>
+          <div class="mdc-radio__inner-circle">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-radio-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="true"
+             ng-reflect-centered="true"
+        >
+          <div class="mat-ripple-element mat-radio-persistent-ripple">
+          </div>
+        </div>
+      </div>
+      <label for="1-input">
+        Option 1
+      </label>
+    </div>
+  </mat-radio-button>
+</storybook-root>
+`;
+
+exports[`Components/Radio button LabelPosition smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-radio-button class="mat-mdc-radio-button mat-accent"
+                    ng-reflect-color="accent"
+                    ng-reflect-disabled="false"
+                    ng-reflect-disable-ripple="false"
+                    ng-reflect-id="1"
+                    ng-reflect-checked="false"
+                    ng-reflect-label-position="before"
+                    ng-reflect-name="label radio"
+                    ng-reflect-required="false"
+                    ng-reflect-value="radio1"
+                    id="1"
+  >
+    <div class="mdc-form-field mdc-form-field--align-end">
+      <div class="mdc-radio">
+        <div class="mat-mdc-radio-touch-target">
+        </div>
+        <input type="radio"
+               class="mdc-radio__native-control"
+               id="1-input"
+               name="label radio"
+               value="radio1"
+               tabindex="0"
+        >
+        <div class="mdc-radio__background">
+          <div class="mdc-radio__outer-circle">
+          </div>
+          <div class="mdc-radio__inner-circle">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-radio-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="false"
+             ng-reflect-centered="true"
+        >
+          <div class="mat-ripple-element mat-radio-persistent-ripple">
+          </div>
+        </div>
+      </div>
+      <label for="1-input">
+        Option 1
+      </label>
+    </div>
+  </mat-radio-button>
+</storybook-root>
+`;
+
+exports[`Components/Radio button Primary smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-radio-button class="mat-mdc-radio-button mat-primary"
+                    ng-reflect-color="primary"
+                    ng-reflect-disabled="false"
+                    ng-reflect-disable-ripple="false"
+                    ng-reflect-id="1"
+                    ng-reflect-checked="false"
+                    ng-reflect-label-position="after"
+                    ng-reflect-name="label radio"
+                    ng-reflect-required="false"
+                    ng-reflect-value="radio1"
+                    id="1"
+  >
+    <div class="mdc-form-field">
+      <div class="mdc-radio">
+        <div class="mat-mdc-radio-touch-target">
+        </div>
+        <input type="radio"
+               class="mdc-radio__native-control"
+               id="1-input"
+               name="label radio"
+               value="radio1"
+               tabindex="0"
+        >
+        <div class="mdc-radio__background">
+          <div class="mdc-radio__outer-circle">
+          </div>
+          <div class="mdc-radio__inner-circle">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-radio-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="false"
+             ng-reflect-centered="true"
+        >
+          <div class="mat-ripple-element mat-radio-persistent-ripple">
+          </div>
+        </div>
+      </div>
+      <label for="1-input">
+        Option 1
+      </label>
+    </div>
+  </mat-radio-button>
+</storybook-root>
+`;
+
+exports[`Components/Radio button Required smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-radio-button class="mat-mdc-radio-button mat-accent"
+                    ng-reflect-color="accent"
+                    ng-reflect-disabled="false"
+                    ng-reflect-disable-ripple="false"
+                    ng-reflect-id="1"
+                    ng-reflect-checked="false"
+                    ng-reflect-label-position="after"
+                    ng-reflect-name="label radio"
+                    ng-reflect-required="true"
+                    ng-reflect-value="radio1"
+                    id="1"
+  >
+    <div class="mdc-form-field">
+      <div class="mdc-radio">
+        <div class="mat-mdc-radio-touch-target">
+        </div>
+        <input type="radio"
+               class="mdc-radio__native-control"
+               id="1-input"
+               required
+               name="label radio"
+               value="radio1"
+               tabindex="0"
+        >
+        <div class="mdc-radio__background">
+          <div class="mdc-radio__outer-circle">
+          </div>
+          <div class="mdc-radio__inner-circle">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-radio-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="false"
+             ng-reflect-centered="true"
+        >
+          <div class="mat-ripple-element mat-radio-persistent-ripple">
+          </div>
+        </div>
+      </div>
+      <label for="1-input">
+        Option 1
+      </label>
+    </div>
+  </mat-radio-button>
+</storybook-root>
+`;
+
+exports[`Components/Radio button Warn smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-radio-button class="mat-mdc-radio-button mat-warn"
+                    ng-reflect-color="warn"
+                    ng-reflect-disabled="false"
+                    ng-reflect-disable-ripple="false"
+                    ng-reflect-id="1"
+                    ng-reflect-checked="false"
+                    ng-reflect-label-position="after"
+                    ng-reflect-name="label radio"
+                    ng-reflect-required="false"
+                    ng-reflect-value="radio1"
+                    id="1"
+  >
+    <div class="mdc-form-field">
+      <div class="mdc-radio">
+        <div class="mat-mdc-radio-touch-target">
+        </div>
+        <input type="radio"
+               class="mdc-radio__native-control"
+               id="1-input"
+               name="label radio"
+               value="radio1"
+               tabindex="0"
+        >
+        <div class="mdc-radio__background">
+          <div class="mdc-radio__outer-circle">
+          </div>
+          <div class="mdc-radio__inner-circle">
+          </div>
+        </div>
+        <div mat-ripple
+             class="mat-ripple mat-radio-ripple mat-mdc-focus-indicator"
+             ng-reflect-trigger="[object HTMLDivElement]"
+             ng-reflect-disabled="false"
+             ng-reflect-centered="true"
+        >
+          <div class="mat-ripple-element mat-radio-persistent-ripple">
+          </div>
+        </div>
+      </div>
+      <label for="1-input">
+        Option 1
+      </label>
+    </div>
+  </mat-radio-button>
+</storybook-root>
+`;

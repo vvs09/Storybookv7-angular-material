@@ -1,0 +1,421 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/Progress Spinner Accent smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-progress-spinner role="progressbar"
+                        tabindex="-1"
+                        aria-label="spinner"
+                        class="mat-mdc-progress-spinner mdc-circular-progress mat-accent mdc-circular-progress--indeterminate"
+                        ng-reflect-color="accent"
+                        ng-reflect-mode="indeterminate"
+                        ng-reflect-diameter="80"
+                        ng-reflect-stroke-width="5"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        mode="indeterminate"
+                        style="width: 80px; height: 80px;"
+  >
+    <div aria-hidden="true"
+         class="mdc-circular-progress__determinate-container"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg"
+           focusable="false"
+           class="mdc-circular-progress__determinate-circle-graphic"
+           viewbox="0 0 75 75"
+      >
+        <circle cx="50%"
+                cy="50%"
+                class="mdc-circular-progress__determinate-circle"
+                r="35"
+                style="stroke-dasharray: 219.911px; stroke-width: 6.25%;"
+        >
+        </circle>
+      </svg>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-circular-progress__indeterminate-container"
+    >
+      <div class="mdc-circular-progress__spinner-layer">
+        <div class="mdc-circular-progress__circle-clipper mdc-circular-progress__circle-left">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 75 75"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="35"
+                    style="stroke-dasharray: 219.911px; stroke-dashoffset: 109.956px; stroke-width: 6.25%;"
+            >
+            </circle>
+          </svg>
+        </div>
+        <div class="mdc-circular-progress__gap-patch">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 75 75"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="35"
+                    style="stroke-dasharray: 219.911px; stroke-dashoffset: 109.956px; stroke-width: 6.25%;"
+            >
+            </circle>
+          </svg>
+        </div>
+        <div class="mdc-circular-progress__circle-clipper mdc-circular-progress__circle-right">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 75 75"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="35"
+                    style="stroke-dasharray: 219.911px; stroke-dashoffset: 109.956px; stroke-width: 6.25%;"
+            >
+            </circle>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </mat-progress-spinner>
+</storybook-root>
+`;
+
+exports[`Components/Progress Spinner Default smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-progress-spinner role="progressbar"
+                        tabindex="-1"
+                        aria-label="spinner"
+                        class="mat-mdc-progress-spinner mdc-circular-progress mat-primary mdc-circular-progress--indeterminate"
+                        ng-reflect-color="primary"
+                        ng-reflect-mode="indeterminate"
+                        ng-reflect-diameter="80"
+                        ng-reflect-stroke-width="5"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        mode="indeterminate"
+                        style="width: 80px; height: 80px;"
+  >
+    <div aria-hidden="true"
+         class="mdc-circular-progress__determinate-container"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg"
+           focusable="false"
+           class="mdc-circular-progress__determinate-circle-graphic"
+           viewbox="0 0 75 75"
+      >
+        <circle cx="50%"
+                cy="50%"
+                class="mdc-circular-progress__determinate-circle"
+                r="35"
+                style="stroke-dasharray: 219.911px; stroke-width: 6.25%;"
+        >
+        </circle>
+      </svg>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-circular-progress__indeterminate-container"
+    >
+      <div class="mdc-circular-progress__spinner-layer">
+        <div class="mdc-circular-progress__circle-clipper mdc-circular-progress__circle-left">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 75 75"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="35"
+                    style="stroke-dasharray: 219.911px; stroke-dashoffset: 109.956px; stroke-width: 6.25%;"
+            >
+            </circle>
+          </svg>
+        </div>
+        <div class="mdc-circular-progress__gap-patch">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 75 75"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="35"
+                    style="stroke-dasharray: 219.911px; stroke-dashoffset: 109.956px; stroke-width: 6.25%;"
+            >
+            </circle>
+          </svg>
+        </div>
+        <div class="mdc-circular-progress__circle-clipper mdc-circular-progress__circle-right">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 75 75"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="35"
+                    style="stroke-dasharray: 219.911px; stroke-dashoffset: 109.956px; stroke-width: 6.25%;"
+            >
+            </circle>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </mat-progress-spinner>
+</storybook-root>
+`;
+
+exports[`Components/Progress Spinner Diameter smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-progress-spinner role="progressbar"
+                        tabindex="-1"
+                        aria-label="spinner"
+                        class="mat-mdc-progress-spinner mdc-circular-progress mat-primary mdc-circular-progress--indeterminate"
+                        ng-reflect-color="primary"
+                        ng-reflect-mode="indeterminate"
+                        ng-reflect-diameter="100"
+                        ng-reflect-stroke-width="10"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        mode="indeterminate"
+                        style="width: 100px; height: 100px;"
+  >
+    <div aria-hidden="true"
+         class="mdc-circular-progress__determinate-container"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg"
+           focusable="false"
+           class="mdc-circular-progress__determinate-circle-graphic"
+           viewbox="0 0 100 100"
+      >
+        <circle cx="50%"
+                cy="50%"
+                class="mdc-circular-progress__determinate-circle"
+                r="45"
+                style="stroke-dasharray: 282.743px; stroke-width: 10%;"
+        >
+        </circle>
+      </svg>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-circular-progress__indeterminate-container"
+    >
+      <div class="mdc-circular-progress__spinner-layer">
+        <div class="mdc-circular-progress__circle-clipper mdc-circular-progress__circle-left">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 100 100"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="45"
+                    style="stroke-dasharray: 282.743px; stroke-dashoffset: 141.372px; stroke-width: 10%;"
+            >
+            </circle>
+          </svg>
+        </div>
+        <div class="mdc-circular-progress__gap-patch">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 100 100"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="45"
+                    style="stroke-dasharray: 282.743px; stroke-dashoffset: 141.372px; stroke-width: 10%;"
+            >
+            </circle>
+          </svg>
+        </div>
+        <div class="mdc-circular-progress__circle-clipper mdc-circular-progress__circle-right">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 100 100"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="45"
+                    style="stroke-dasharray: 282.743px; stroke-dashoffset: 141.372px; stroke-width: 10%;"
+            >
+            </circle>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </mat-progress-spinner>
+</storybook-root>
+`;
+
+exports[`Components/Progress Spinner StrokeWidth smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-progress-spinner role="progressbar"
+                        tabindex="-1"
+                        aria-label="spinner"
+                        class="mat-mdc-progress-spinner mdc-circular-progress mat-primary mdc-circular-progress--indeterminate"
+                        ng-reflect-color="primary"
+                        ng-reflect-mode="indeterminate"
+                        ng-reflect-diameter="80"
+                        ng-reflect-stroke-width="10"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        mode="indeterminate"
+                        style="width: 80px; height: 80px;"
+  >
+    <div aria-hidden="true"
+         class="mdc-circular-progress__determinate-container"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg"
+           focusable="false"
+           class="mdc-circular-progress__determinate-circle-graphic"
+           viewbox="0 0 80 80"
+      >
+        <circle cx="50%"
+                cy="50%"
+                class="mdc-circular-progress__determinate-circle"
+                r="35"
+                style="stroke-dasharray: 219.911px; stroke-width: 12.5%;"
+        >
+        </circle>
+      </svg>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-circular-progress__indeterminate-container"
+    >
+      <div class="mdc-circular-progress__spinner-layer">
+        <div class="mdc-circular-progress__circle-clipper mdc-circular-progress__circle-left">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 80 80"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="35"
+                    style="stroke-dasharray: 219.911px; stroke-dashoffset: 109.956px; stroke-width: 12.5%;"
+            >
+            </circle>
+          </svg>
+        </div>
+        <div class="mdc-circular-progress__gap-patch">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 80 80"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="35"
+                    style="stroke-dasharray: 219.911px; stroke-dashoffset: 109.956px; stroke-width: 12.5%;"
+            >
+            </circle>
+          </svg>
+        </div>
+        <div class="mdc-circular-progress__circle-clipper mdc-circular-progress__circle-right">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 80 80"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="35"
+                    style="stroke-dasharray: 219.911px; stroke-dashoffset: 109.956px; stroke-width: 12.5%;"
+            >
+            </circle>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </mat-progress-spinner>
+</storybook-root>
+`;
+
+exports[`Components/Progress Spinner Warn smoke-test 1`] = `
+<storybook-root ng-version="15.2.10">
+  <mat-progress-spinner role="progressbar"
+                        tabindex="-1"
+                        aria-label="spinner"
+                        class="mat-mdc-progress-spinner mdc-circular-progress mat-warn mdc-circular-progress--indeterminate"
+                        ng-reflect-color="warn"
+                        ng-reflect-mode="indeterminate"
+                        ng-reflect-diameter="80"
+                        ng-reflect-stroke-width="5"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        mode="indeterminate"
+                        style="width: 80px; height: 80px;"
+  >
+    <div aria-hidden="true"
+         class="mdc-circular-progress__determinate-container"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg"
+           focusable="false"
+           class="mdc-circular-progress__determinate-circle-graphic"
+           viewbox="0 0 75 75"
+      >
+        <circle cx="50%"
+                cy="50%"
+                class="mdc-circular-progress__determinate-circle"
+                r="35"
+                style="stroke-dasharray: 219.911px; stroke-width: 6.25%;"
+        >
+        </circle>
+      </svg>
+    </div>
+    <div aria-hidden="true"
+         class="mdc-circular-progress__indeterminate-container"
+    >
+      <div class="mdc-circular-progress__spinner-layer">
+        <div class="mdc-circular-progress__circle-clipper mdc-circular-progress__circle-left">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 75 75"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="35"
+                    style="stroke-dasharray: 219.911px; stroke-dashoffset: 109.956px; stroke-width: 6.25%;"
+            >
+            </circle>
+          </svg>
+        </div>
+        <div class="mdc-circular-progress__gap-patch">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 75 75"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="35"
+                    style="stroke-dasharray: 219.911px; stroke-dashoffset: 109.956px; stroke-width: 6.25%;"
+            >
+            </circle>
+          </svg>
+        </div>
+        <div class="mdc-circular-progress__circle-clipper mdc-circular-progress__circle-right">
+          <svg xmlns="http://www.w3.org/2000/svg"
+               focusable="false"
+               class="mdc-circular-progress__indeterminate-circle-graphic"
+               viewbox="0 0 75 75"
+          >
+            <circle cx="50%"
+                    cy="50%"
+                    r="35"
+                    style="stroke-dasharray: 219.911px; stroke-dashoffset: 109.956px; stroke-width: 6.25%;"
+            >
+            </circle>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </mat-progress-spinner>
+</storybook-root>
+`;
