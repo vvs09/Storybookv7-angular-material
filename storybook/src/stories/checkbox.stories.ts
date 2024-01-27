@@ -14,7 +14,10 @@ const meta: Meta<MatCheckbox> = {
       description: 'Theme color palette for the component.',
       table: {
         category: 'INPUTS',
-        defaultValue: { summary: '-' },
+        defaultValue: { summary: 'undefined' },
+        type: {
+          summary: 'string  | undefined',
+        },
       },
     },
     disabled: {
@@ -23,7 +26,10 @@ const meta: Meta<MatCheckbox> = {
         'Whether the checkbox is disabled. This fully overrides the implementation provided by mixinDisabled, but the mixin is still required because mixinTabIndex requires it.',
       table: {
         category: 'INPUTS',
-        defaultValue: { summary: '-' },
+        defaultValue: { summary: 'false' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     ariaDescribedby: {
@@ -33,6 +39,9 @@ const meta: Meta<MatCheckbox> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     ariaLabel: {
@@ -41,6 +50,9 @@ const meta: Meta<MatCheckbox> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string  | undefined',
+        },
       },
     },
     disableRipple: {
@@ -48,7 +60,10 @@ const meta: Meta<MatCheckbox> = {
       description: 'Whether ripples are disabled.',
       table: {
         category: 'INPUTS',
-        defaultValue: { summary: '-' },
+        defaultValue: { summary: 'false' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     ariaLabelledby: {
@@ -58,6 +73,9 @@ const meta: Meta<MatCheckbox> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     id: {
@@ -67,6 +85,9 @@ const meta: Meta<MatCheckbox> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     checked: {
@@ -75,6 +96,9 @@ const meta: Meta<MatCheckbox> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     indeterminate: {
@@ -84,6 +108,9 @@ const meta: Meta<MatCheckbox> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     labelPosition: {
@@ -93,7 +120,10 @@ const meta: Meta<MatCheckbox> = {
         'Whether the label should appear after or before the checkbox. Defaults to after',
       table: {
         category: 'INPUTS',
-        defaultValue: { summary: '-' },
+        defaultValue: { summary: 'after' },
+        type: {
+          summary: 'before | after',
+        },
       },
     },
     name: {
@@ -102,6 +132,9 @@ const meta: Meta<MatCheckbox> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     required: {
@@ -110,6 +143,9 @@ const meta: Meta<MatCheckbox> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     change: {
@@ -118,6 +154,9 @@ const meta: Meta<MatCheckbox> = {
       table: {
         category: 'OUTPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'eventemiter',
+        },
       },
     },
     indeterminateChange: {
@@ -127,6 +166,9 @@ const meta: Meta<MatCheckbox> = {
       table: {
         category: 'OUTPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'eventemiter',
+        },
       },
     },
     inputId: {
@@ -135,14 +177,9 @@ const meta: Meta<MatCheckbox> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
-      },
-    },
-    ripple: {
-      control: 'object',
-      description: 'Reference to the ripple instance of the checkbox.',
-      table: {
-        category: 'INPUTS',
-        defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     value: {
@@ -151,6 +188,9 @@ const meta: Meta<MatCheckbox> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
   },
