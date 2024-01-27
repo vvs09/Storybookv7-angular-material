@@ -7,8 +7,8 @@ export default create({
   fontCode: 'monospace',
 
   brandTitle: 'Storybook for angular',
-  brandUrl: 'https://v15.material.angular.io',
-  brandImage: './logo.png',
+  brandUrl: 'https://material.angular.io/',
+  brandImage: './logo.svg',
   brandTarget: '_self',
 
   //
