@@ -1,7 +1,7 @@
 # Angular Material Storybook
 A [Storybook](https://storybook.js.org) for angular material components.
 
-Based on [Angular material v15](https://v15.material.angular.io). Built on storybook 7 and angular material 15.
+Based on [Angular material v17](https://material.angular.io/). Built on storybook 7 and angular material 17.
 
 View the Storybook [here](https://657628f2ce99e9b752887c67-ujchaegidn.chromatic.com/?path=/docs/introduction--docs).
 
@@ -20,6 +20,10 @@ npm run build-storybook
 Deploy storybook
 ```bash
 npm run chromatic
+```
+Running visual tests
+```bash
+npm run test-storybook
 ```
 ## Available Components
 
