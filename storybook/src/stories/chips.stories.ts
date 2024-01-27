@@ -128,7 +128,7 @@ const meta: Meta<MatChip> = {
         category: 'OUTPUTS',
         defaultValue: { summary: '-' },
         type: {
-          summary: 'Eventemiter',
+          summary: 'EventEmitter<MatChipEvent>',
         },
       },
     },
@@ -139,7 +139,7 @@ const meta: Meta<MatChip> = {
         category: 'OUTPUTS',
         defaultValue: { summary: '-' },
         type: {
-          summary: 'Eventemiter',
+          summary: 'EventEmitter<MatChipEvent>',
         },
       },
     }

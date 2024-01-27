@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/angular';
 import { argsToTemplate, moduleMetadata } from '@storybook/angular';
 import {
   MatSlideToggleModule,
-  MatSlideToggle
+  MatSlideToggle,
 } from '@angular/material/slide-toggle';
 
 const meta: Meta<MatSlideToggle> = {
@@ -17,6 +17,9 @@ const meta: Meta<MatSlideToggle> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     ariaDescribedby: {
@@ -26,6 +29,9 @@ const meta: Meta<MatSlideToggle> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     ariaLabel: {
@@ -35,6 +41,9 @@ const meta: Meta<MatSlideToggle> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     ariaLabelledby: {
@@ -44,6 +53,9 @@ const meta: Meta<MatSlideToggle> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     checked: {
@@ -52,6 +64,9 @@ const meta: Meta<MatSlideToggle> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     disableRipple: {
@@ -60,6 +75,9 @@ const meta: Meta<MatSlideToggle> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     disabled: {
@@ -68,6 +86,9 @@ const meta: Meta<MatSlideToggle> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     id: {
@@ -77,6 +98,9 @@ const meta: Meta<MatSlideToggle> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     labelPosition: {
@@ -87,6 +111,9 @@ const meta: Meta<MatSlideToggle> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: 'after' },
+        type: {
+          summary: 'after | before',
+        },
       },
     },
     name: {
@@ -96,6 +123,9 @@ const meta: Meta<MatSlideToggle> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     required: {
@@ -104,6 +134,9 @@ const meta: Meta<MatSlideToggle> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     buttonId: {
@@ -112,31 +145,20 @@ const meta: Meta<MatSlideToggle> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
-    // defaultColor: {
-    //   control: 'text',
-    //   description:
-    //     'Used to set the aria-describedby attribute on the underlying input element.',
-    //   table: {
-    //     category: 'INPUTS',
-    //     defaultValue: { summary: '-' },
-    //   },
-    // },
-    // defaultTabIndex: {
-    //   control: 'number',
-    //   description: 'abindex to which to fall back to if no value is set.',
-    //   table: {
-    //     category: 'INPUTS',
-    //     defaultValue: { summary: '-' },
-    //   },
-    // },
     defaults: {
       control: 'number',
       description: '',
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'MatSlideToggleDefaultOptions',
+        },
       },
     },
     inputId: {
@@ -149,22 +171,28 @@ const meta: Meta<MatSlideToggle> = {
     },
     toggleChange: {
       action: 'toggleChange',
-      control: 'EventEmitter<void>',
+      control: '-',
       description:
         'An event will be dispatched each time the slide-toggle input is toggled. This event is always emitted when the user toggles the slide toggle, but this does not mean the slide toggles value has changed.',
       table: {
         category: 'OUTPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'EventEmitter<MatSlideToggleChange>',
+        },
       },
     },
     change: {
       action: 'change',
-      control: 'EventEmitter<void>',
+      control: '-',
       description:
         'An event will be dispatched each time the slide-toggle changes its value.',
       table: {
         category: 'OUTPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'EventEmitter<void>',
+        },
       },
     },
   },
@@ -174,8 +202,10 @@ const meta: Meta<MatSlideToggle> = {
     }),
   ],
   render: (args: MatSlideToggle) => ({
-    props:args,
-    template: `<mat-slide-toggle ${argsToTemplate(args)}>Slide me!</mat-slide-toggle>
+    props: args,
+    template: `<mat-slide-toggle ${argsToTemplate(
+      args
+    )}>Slide me!</mat-slide-toggle>
     `,
   }),
 };
@@ -187,7 +217,7 @@ export const Default: Story = {
   args: {
     ariaDescribedby: 'Silde Toggle',
     ariaLabel: 'Silde Toggle',
-    ariaLabelledby:'Silde Toggle',
+    ariaLabelledby: 'Silde Toggle',
     color: 'primary',
     checked: true,
     disableRipple: false,

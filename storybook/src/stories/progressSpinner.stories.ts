@@ -14,6 +14,9 @@ const meta: Meta<MatProgressSpinner> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     diameter: {
@@ -23,6 +26,9 @@ const meta: Meta<MatProgressSpinner> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'number',
+        },
       },
     },
     mode: {
@@ -33,6 +39,9 @@ const meta: Meta<MatProgressSpinner> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: 'determinate' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     strokeWidth: {
@@ -41,6 +50,9 @@ const meta: Meta<MatProgressSpinner> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'number',
+        },
       },
     },
     value: {
@@ -50,16 +62,11 @@ const meta: Meta<MatProgressSpinner> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'number',
+        },
       },
     },
-    // defaultColor: {
-    //   control: 'string',
-    //   description: 'Default color to fall back to if no value is set.',
-    //   table: {
-    //     category: 'INPUTS',
-    //     defaultValue: { summary: '-' },
-    //   },
-    // },
   },
   decorators: [
     moduleMetadata({

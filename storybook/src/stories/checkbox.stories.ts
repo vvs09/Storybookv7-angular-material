@@ -155,7 +155,7 @@ const meta: Meta<MatCheckbox> = {
         category: 'OUTPUTS',
         defaultValue: { summary: '-' },
         type: {
-          summary: 'eventemiter',
+          summary: 'EventEmitter<MatCheckboxChange',
         },
       },
     },
@@ -167,7 +167,7 @@ const meta: Meta<MatCheckbox> = {
         category: 'OUTPUTS',
         defaultValue: { summary: '-' },
         type: {
-          summary: 'eventemiter',
+          summary: 'EventEmitter<boolean>',
         },
       },
     },

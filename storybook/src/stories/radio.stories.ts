@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { argsToTemplate, moduleMetadata } from '@storybook/angular';
-import {MatRadioModule,MatRadioButton} from '@angular/material/radio';
+import { MatRadioModule, MatRadioButton } from '@angular/material/radio';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 const meta: Meta<MatRadioButton> = {
@@ -15,6 +15,9 @@ const meta: Meta<MatRadioButton> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     disabled: {
@@ -24,6 +27,9 @@ const meta: Meta<MatRadioButton> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     ariaDescribedby: {
@@ -33,6 +39,9 @@ const meta: Meta<MatRadioButton> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     ariaLabel: {
@@ -41,6 +50,9 @@ const meta: Meta<MatRadioButton> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     disableRipple: {
@@ -49,6 +61,9 @@ const meta: Meta<MatRadioButton> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     ariaLabelledby: {
@@ -58,6 +73,9 @@ const meta: Meta<MatRadioButton> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     id: {
@@ -67,6 +85,9 @@ const meta: Meta<MatRadioButton> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     checked: {
@@ -75,6 +96,9 @@ const meta: Meta<MatRadioButton> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     labelPosition: {
@@ -84,7 +108,10 @@ const meta: Meta<MatRadioButton> = {
         'Whether the label should appear after or before the radio. Defaults to after',
       table: {
         category: 'INPUTS',
-        defaultValue: { summary: '-' },
+        defaultValue: { summary: 'after' },
+        type: {
+          summary: 'before | after',
+        },
       },
     },
     name: {
@@ -93,6 +120,9 @@ const meta: Meta<MatRadioButton> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     required: {
@@ -101,22 +131,20 @@ const meta: Meta<MatRadioButton> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
-    // defaultTabIndex: {
-    //   control: 'number',
-    //   description: 'Tabindex to which to fall back to if no value is set.',
-    //   table: {
-    //     category: 'INPUTS',
-    //     defaultValue: { summary: '-' },
-    //   },
-    // },
     change: {
       control: 'object',
       description: 'Event emitted when the radios checked value changes.',
       table: {
         category: 'OUTPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'EventEmitter<MatRadioChange>',
+        },
       },
     },
     inputId: {
@@ -125,6 +153,9 @@ const meta: Meta<MatRadioButton> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     value: {
@@ -133,6 +164,9 @@ const meta: Meta<MatRadioButton> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'any',
+        },
       },
     },
   },
@@ -143,8 +177,10 @@ const meta: Meta<MatRadioButton> = {
   ],
   render: (args: MatRadioButton) => ({
     props: args,
-    template: `<mat-radio-button ${argsToTemplate(args)}>Option 1</mat-radio-button>`
- }),
+    template: `<mat-radio-button ${argsToTemplate(
+      args
+    )}>Option 1</mat-radio-button>`,
+  }),
 };
 
 export default meta;
@@ -163,7 +199,6 @@ export const Default: Story = {
     labelPosition: 'after',
     name: 'label radio',
     required: false,
-    // defaultTabIndex: -1,
     inputId: '1',
     value: 'radio1',
   },
@@ -196,7 +231,6 @@ export const Checked: Story = {
     checked: true,
   },
 };
-
 
 export const LabelPosition: Story = {
   args: {

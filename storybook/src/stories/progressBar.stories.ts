@@ -17,6 +17,9 @@ const meta: Meta<MatProgressBar> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     bufferValue: {
@@ -25,6 +28,9 @@ const meta: Meta<MatProgressBar> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '0' },
+        type: {
+          summary: 'number',
+        },
       },
     },
     mode: {
@@ -35,6 +41,9 @@ const meta: Meta<MatProgressBar> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     value: {
@@ -44,16 +53,22 @@ const meta: Meta<MatProgressBar> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '0' },
+        type: {
+          summary: 'number',
+        },
       },
     },
     animationEnd: {
       action:'animationEnd',
-      control: 'object',
+      control: '-',
       description:
         'Event emitted when animation of the primary progress bar completes. This event will not be emitted when animations are disabled, nor will it be emitted for modes with continuous animations (indeterminate and query).',
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '50' },
+        type: {
+          summary: 'EventEmitter<ProgressAnimationEnd>',
+        },
       },
     },
   },
@@ -77,7 +92,7 @@ export const Default: Story = {
     mode:'buffer',
     color:'accent',
     value:0,
-    bufferValue:0
+    bufferValue:0,
   },
 };
 

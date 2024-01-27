@@ -14,6 +14,9 @@ const meta: Meta<MatPaginator> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     disabled: {
@@ -22,6 +25,9 @@ const meta: Meta<MatPaginator> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     hidePageSize: {
@@ -30,6 +36,9 @@ const meta: Meta<MatPaginator> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     length: {
@@ -39,6 +48,9 @@ const meta: Meta<MatPaginator> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '0' },
+        type: {
+          summary: 'number',
+        },
       },
     },
     pageIndex: {
@@ -48,6 +60,9 @@ const meta: Meta<MatPaginator> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '0' },
+        type: {
+          summary: 'number',
+        },
       },
     },
     pageSize: {
@@ -57,6 +72,9 @@ const meta: Meta<MatPaginator> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '50' },
+        type: {
+          summary: 'number',
+        },
       },
     },
     pageSizeOptions: {
@@ -66,6 +84,9 @@ const meta: Meta<MatPaginator> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'array',
+        },
       },
     },
     selectConfig: {
@@ -75,6 +96,9 @@ const meta: Meta<MatPaginator> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'object',
+        },
       },
     },
     showFirstLastButtons: {
@@ -83,6 +107,9 @@ const meta: Meta<MatPaginator> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     page: {
@@ -93,6 +120,9 @@ const meta: Meta<MatPaginator> = {
       table: {
         category: 'OUTPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'EventEmitter<PageEvent>',
+        },
       },
     },
   },
