@@ -112,22 +112,6 @@ const meta: Meta<MatCheckbox> = {
         defaultValue: { summary: '-' },
       },
     },
-    defaultColor: {
-      control: 'text',
-      description: 'Default color to fall back to if no value is set.',
-      table: {
-        category: 'INPUTS',
-        defaultValue: { summary: '-' },
-      },
-    },
-    defaultTabIndex: {
-      control: 'number',
-      description: 'Tabindex to which to fall back to if no value is set.',
-      table: {
-        category: 'INPUTS',
-        defaultValue: { summary: '-' },
-      },
-    },
     change: {
       control: 'object',
       description: 'Event emitted when the checkboxs checked value changes.',
@@ -198,8 +182,6 @@ export const Default: Story = {
     labelPosition: 'after',
     name: 'label checkbox',
     required: false,
-    defaultColor: 'accent',
-    defaultTabIndex: -1,
     inputId: '1',
     value: 'checkbox1',
   },

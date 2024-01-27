@@ -106,23 +106,7 @@ const meta: Meta<MatChip> = {
         category: 'OUTPUTS',
         defaultValue: { summary: '-' },
       },
-    },
-    defaultColor: {
-      control: 'text',
-      description: 'Default color to fall back to if no value is set.',
-      table: {
-        category: 'INPUTS',
-        defaultValue: { summary: '-' },
-      },
-    },
-    defaultTabIndex: {
-      control: 'number',
-      description: 'Tabindex to which to fall back to if no value is set.',
-      table: {
-        category: 'INPUTS',
-        defaultValue: { summary: '-' },
-      },
-    },
+    }
   },
   decorators: [
     moduleMetadata({
@@ -148,9 +132,7 @@ export const Default: Story = {
     ariaDescription: 'chip',
     ariaLabel: 'chip',
     role: 'button',
-    defaultTabIndex: -1,
     disableRipple: false,
-    defaultColor: 'accent',
     id: '1',
     value: 'chip',
     removable: false,

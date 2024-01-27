@@ -32,14 +32,14 @@ const meta: Meta<MatButton & { label: string; buttonType: string }> = {
         defaultValue: { summary: '-' },
       },
     },
-    defaultColor: {
-      control: 'text',
-      description: 'Default color to fall back to if no value is set.',
-      table: {
-        category: 'INPUTS',
-        defaultValue: { summary: '-' },
-      },
-    },
+    // defaultColor: {
+    //   control: 'text',
+    //   description: 'Default color to fall back to if no value is set.',
+    //   table: {
+    //     category: 'INPUTS',
+    //     defaultValue: { summary: '-' },
+    //   },
+    // },
     ripple: {
       control: 'object',
       description: 'Reference to the MatRipple instance of the button.',
@@ -71,7 +71,7 @@ type Story = StoryObj<MatButton & { label: string; buttonType: string }>;
 export const accent: Story = {
   args: {
     color: 'accent',
-    defaultColor: 'accent',
+    // defaultColor: 'accent',
     disabled: false,
     disableRipple: false,
     label: 'Button',

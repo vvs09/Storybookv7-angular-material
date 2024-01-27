@@ -52,14 +52,14 @@ const meta: Meta<MatProgressSpinner> = {
         defaultValue: { summary: '-' },
       },
     },
-    defaultColor: {
-      control: 'string',
-      description: 'Default color to fall back to if no value is set.',
-      table: {
-        category: 'INPUTS',
-        defaultValue: { summary: '-' },
-      },
-    },
+    // defaultColor: {
+    //   control: 'string',
+    //   description: 'Default color to fall back to if no value is set.',
+    //   table: {
+    //     category: 'INPUTS',
+    //     defaultValue: { summary: '-' },
+    //   },
+    // },
   },
   decorators: [
     moduleMetadata({

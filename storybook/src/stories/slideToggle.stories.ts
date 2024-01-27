@@ -114,23 +114,23 @@ const meta: Meta<MatSlideToggle> = {
         defaultValue: { summary: '-' },
       },
     },
-    defaultColor: {
-      control: 'text',
-      description:
-        'Used to set the aria-describedby attribute on the underlying input element.',
-      table: {
-        category: 'INPUTS',
-        defaultValue: { summary: '-' },
-      },
-    },
-    defaultTabIndex: {
-      control: 'number',
-      description: 'abindex to which to fall back to if no value is set.',
-      table: {
-        category: 'INPUTS',
-        defaultValue: { summary: '-' },
-      },
-    },
+    // defaultColor: {
+    //   control: 'text',
+    //   description:
+    //     'Used to set the aria-describedby attribute on the underlying input element.',
+    //   table: {
+    //     category: 'INPUTS',
+    //     defaultValue: { summary: '-' },
+    //   },
+    // },
+    // defaultTabIndex: {
+    //   control: 'number',
+    //   description: 'abindex to which to fall back to if no value is set.',
+    //   table: {
+    //     category: 'INPUTS',
+    //     defaultValue: { summary: '-' },
+    //   },
+    // },
     defaults: {
       control: 'number',
       description: '',
@@ -197,7 +197,7 @@ export const Default: Story = {
     name: 'Slide Toggle',
     required: false,
     buttonId: 'button id',
-    defaultColor: 'primary',
+    // defaultColor: 'primary',
     inputId: 'input id',
   },
 };

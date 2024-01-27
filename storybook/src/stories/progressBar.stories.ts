@@ -46,14 +46,6 @@ const meta: Meta<MatProgressBar> = {
         defaultValue: { summary: '0' },
       },
     },
-    defaultColor: {
-      control: 'text',
-      description: 'Default color to fall back to if no value is set.',
-      table: {
-        category: 'INPUTS',
-        defaultValue: { summary: '-' },
-      },
-    },
     animationEnd: {
       action:'animationEnd',
       control: 'object',
