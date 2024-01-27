@@ -14,6 +14,9 @@ const meta: Meta<MatChip> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     disabled: {
@@ -22,6 +25,9 @@ const meta: Meta<MatChip> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     ariaDescription: {
@@ -30,6 +36,9 @@ const meta: Meta<MatChip> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     ariaLabel: {
@@ -38,6 +47,9 @@ const meta: Meta<MatChip> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     disableRipple: {
@@ -46,6 +58,9 @@ const meta: Meta<MatChip> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     highlighted: {
@@ -54,6 +69,9 @@ const meta: Meta<MatChip> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     id: {
@@ -63,6 +81,9 @@ const meta: Meta<MatChip> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     removable: {
@@ -72,6 +93,9 @@ const meta: Meta<MatChip> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'boolean',
+        },
       },
     },
     role: {
@@ -80,6 +104,9 @@ const meta: Meta<MatChip> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'string',
+        },
       },
     },
     value: {
@@ -89,6 +116,9 @@ const meta: Meta<MatChip> = {
       table: {
         category: 'INPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'any',
+        },
       },
     },
     destroyed: {
@@ -97,6 +127,9 @@ const meta: Meta<MatChip> = {
       table: {
         category: 'OUTPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'Eventemiter',
+        },
       },
     },
     removed: {
@@ -105,6 +138,9 @@ const meta: Meta<MatChip> = {
       table: {
         category: 'OUTPUTS',
         defaultValue: { summary: '-' },
+        type: {
+          summary: 'Eventemiter',
+        },
       },
     }
   },
@@ -115,9 +151,7 @@ const meta: Meta<MatChip> = {
   ],
   render: (args: MatChip) => ({
     props: args,
-    template: `<mat-chip-option selected ${argsToTemplate(
-      args
-    )}>One fish</mat-chip-option>`,
+    template: `<mat-chip-option selected ${argsToTemplate(args)}>One fish</mat-chip-option>`,
   }),
 };
 
