@@ -1,10 +1,8 @@
-name: Build and Publish storybook to GitHub Pages
-
 on:
   push:
     branches:
-      - "main"
-      
+      - "main" # change to the branch you wish to deploy from
+
 permissions:
   contents: read
   pages: write
@@ -12,10 +10,7 @@ permissions:
 
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.build-publish.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - id: build-publish
-        uses: bitovi/github-actions-storybook-to-github-pages@v1.0.0
+    - id: build-publish
+      uses: bitovi/github-actions-storybook-to-github-pages@v1.0.2
