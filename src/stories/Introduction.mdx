@@ -3,148 +3,205 @@ import { Meta } from "@storybook/addon-docs";
 <Meta title="Overview/Introduction" />
 
 <html>
-  <style>
-    {`
+  <head>
+    <style>
+      {`
+      .css-k7lbue {
+        padding: 0;
+      }
+      .css-qa4clq {
+        max-width: none;
+      }
+      .body {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+      }
+      .header-body {
+        text-align: center;
+        height: 400px;
+        overflow: hidden;
+        background-color: #3F51B5;
+        background-image: url('./angular.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 60% 90px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      }
 
-.css-k7lbue{
-padding:0;
-}
-.css-qa4clq{
-max-width: none;
-}
-.body{
-display: flex;
-flex-direction: column;
-}  
-.header{
-}
-.header-body{
-text-align: center;
-MIN-HEIGHT: 400px;
-background-color: #3F51B5;
-display: flex;
-justify-content: center;
-align-items: center;
-}
+      .text {
+        display: flex;
+        flex-direction: column;
+      }
+      .title {
+        color: white;
+        font-weight: bolder;
+        font-size: 56px;
+        font-family: sans-serif;
+      }
+      .sub-title {
+        font-size: 20px;
+        color: white;
+        font-weight: 100;
+        margin-top: 20px;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        overflow: hidden;
+      }
+      .row {
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        overflow-x: auto;
+        max-width: 100%;
+      }
+      .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 25px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        transition: transform 0.3s, background-color 0.3s;
+        height: 300px;
+        width: 300px;
+      }
+      .col:hover {
+        transform: scale(1.1);
+        background-color: rgba(0, 0, 0, .04);
+      }
+      .col-title {
+        font-size: 20px;
+        margin-bottom: 30px;
+        color: #3F51B5;
+        font-weight: bold;
+        font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+      }
+      .col-content {
+        font-size: 16px;
+        margin-bottom: 20px;
+        color: #0000008a;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+      }
+      .hr {
+        display: block;
+        margin: 0;
+        border-top-style: solid;
+        border-top-color: rgba(0, 0, 0, .12);
+        border-top-width: 1px;
+      }
+      .benefits {
+        color: #3F51B5;
+        font-size: 25px;
+        font-weight: 400;
+      }
+      .section{
+        margin: 30px 30px 0px 30px;
+      }
+      .section-content{
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: rgba(0, 0, 0, 0.87);
+        line-height: 24px;
+        font-weight: 400;
+        font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+      }
+      .section-head{
+        font-size: 20px;
+        margin-top: 20px;
+      }
+      @media screen and (max-width: 1100px) {
+        .content {
+          height: 100%;
+          overflow: none;
+        }
+        .row {
+          flex-direction: column;
+          padding: 20px 30px;
+        }
+        .col {
+          width: 100%;
+          margin-bottom: 20px;
+          width: 550px;
+          height: 250px;
+        }
+        .header-body {
+          background-image: none;
+          }
+      }
+      `}
+    </style>
 
-.text{
-display: flex;
-flex-direction: column;
-}
-.title{
-color: white;
-font-weight: bolder;
-font-size: 56px;
-font-family: sans-serif;
-}
-.sub-title{
-font-size: 20px;
-color: white;
-font-weight: 100;
-margin-top: 20px;
-}
-.col{
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 25px;
-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-transition: transform 0.3s, background-color 0.3s;
-height: 300px;
-width: 300px;
-}
-.content{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-}
-.row{
-padding: 40px 60px;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 30px;
-overflow: hidden;
-
-}
-.col:hover{
-transform: scale(1.1);
-background-color: rgba(0,0,0,.04);
-}
-.col-title{
-font-size: 20px;
-margin-bottom: 30px;
-color: #0000008a;
-font-weight: bold;
-font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
-}
-.col-content{
-font-size: 16px;
-margin-bottom: 20px;
-color: #0000008a;
-line-height: 24px;
-font-weight: 400;
-font-family: Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
-}
-.hr{
-display: block;
-margin: 0;
-border-top-style: solid;
-border-top-color: rgba(0, 0, 0, .12);
-border-top-width: 1px;
-margin: 0px 30px;
-}
-.benefits{
-color: rgba(0, 0, 0, 0.54);
-font-size: 25px;
-font-weight: 400;
-margin: 30px 30px 0px 30px;
-}
-`}
-
-  </style>
+  </head>
   <body class="body">
-    <div class="header-body">
-        <div class="text">
-                 <div class="title">Angular Material</div>
-      <span class="sub-title">Storybook for Material Design System</span>
-        </div>
+    <header> 
+         <div class="header-body">
+      <div class="text">
+        <div class="title">Angular Material</div>
+        <span class="sub-title">Storybook for Material Design System</span>
+      </div>
     </div>
+</header>
+
+    <div class="section">
+    <div class="benefits">Why Storybook?</div>
+    <hr class="hr" />
+    <div class="section-head"><b>The Problem</b></div>
+    <div class="section-content">The web’s universality is pushing more complexity into the frontend. It began with responsive web design, which turned every user interface from one to 10, 100, 1000 different user interfaces. Over time, additional requirements piled on like devices, browsers, accessibility, performance, and async states.</div>
+    <div class="section-content">Component-driven tools like React, Vue, and Angular help break down complex UIs into simple components but they’re not silver bullets. As frontends grow, the number of components swells. Mature projects can contain hundreds of components that yield thousands of discrete variations.</div>
+    <div class="section-content">To complicate matters further, those UIs are painful to debug because they’re entangled in business logic, interactive states, and app context.</div>
+    <div  class="section-content">The breadth of modern frontends overwhelm existing workflows. Developers must consider countless UI variations, yet aren’t equipped to develop or organize them all. You end up in a situation where UIs are tougher to build, less satisfying to work on, and brittle.</div>
+
+    <div class="section-head"><b>Solution</b> </div>
+    <div  class="section-content">Every piece of UI is now a component. The superpower of components is that you don't need to spin up the whole app just to see how they render. You can render a specific variation in isolation by passing in props, mocking data, or faking events.</div>
+    <div class="section-content"> Storybook is packaged as a small, development-only, workshop that lives alongside your app. It provides an isolated iframe to render components without interference from app business logic and context. That helps you focus development on each variation of a component, even the hard-to-reach edge cases.</div>
+    </div>
+    <div class="section">
     <div class="benefits">Benefits</div>
-    <hr class="hr"/>
+    <hr class="hr" />
     <div class="content">
-        <div class="row">
-            <div class="col">
-                <div class="col-title"> Develop UIs that are more durable</div>
-                <div class="col-content">Isolate components and pages and track their use cases as stories. Verify hard-to-reach edge cases of UI.</div>
-                <div class="col-content">Use addons to mock everything a component needs—context, API requests, device features, etc.</div>
-            </div>
-            <div class="col">
-                <div class="col-title"> Test UIs with less effort and no flakes</div>
-                <div class="col-content">Stories are a pragmatic, reproducible way of tracking UI states. Use them to spot-test the UI during development.</div>
-                <div class="col-content">Storybook offers built-in workflows for automated Accessibility, Interaction, and Visual testing. Or use stories as test cases by importing them into other JavaScript testing tools.</div>
-            </div>
-            <div class="col">
-                <div class="col-title"> Document UI for your team to reuse</div>
-                <div class="col-content">Storybook is the single source of truth for your UI. Stories index all your components and their various states, making it easy for your team to find and reuse existing UI patterns.</div>
-                <div class="col-content">Storybook also auto-generates documentation from those stories.</div>
-            </div>
+      <div class="row">
+        <div class="col">
+          <div class="col-title">Develop UIs that are more durable</div>
+          <div class="col-content">Isolate components and pages and track their use cases as stories. Verify hard-to-reach edge cases of UI.</div>
+          <div class="col-content">Use addons to mock everything a component needs—context, API requests, device features, etc.</div>
         </div>
-        <div class="row">
-            <div class="col">
-                <div class="col-title"> Share how the UI actually works</div>
-                <div class="col-content">Stories show how UIs actually work, not just a picture of how they're supposed to work. That keeps everyone aligned on what's currently in production.</div>
-                <div class="col-content">Publish Storybook to get sign-off from teammates. Or embed them in wikis, Markdown, and Figma to streamline collaboration.</div>
-            </div>
-            <div class="col">
-                <div class="col-title">Automate UI workflows</div>
-                <div class="col-content">torybook is compatible with your continuous integration workflow. </div>
-                <div class="col-content"> Add it as a CI step to automate user interface testing, review implementation with teammates, and get signoff from stakeholders.</div>
-            </div>
+        <div class="col">
+          <div class="col-title">Test UIs with less effort and no flakes</div>
+          <div class="col-content">Stories are a pragmatic, reproducible way of tracking UI states. Use them to spot-test the UI during development.</div>
+          <div class="col-content">Storybook offers built-in workflows for automated Accessibility, Interaction, and Visual testing. Or use stories as test cases by importing them into other JavaScript testing tools.</div>
         </div>
+        <div class="col">
+          <div class="col-title">Document UI for your team to reuse</div>
+          <div class="col-content">Storybook is the single source of truth for your UI. Stories index all your components and their various states, making it easy for your team to find and reuse existing UI patterns.</div>
+          <div class="col-content">Storybook also auto-generates documentation from those stories.</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="col-title">Share how the UI actually works</div>
+          <div class="col-content">Stories show how UIs actually work, not just a picture of how they're supposed to work. That keeps everyone aligned on what's currently in production.</div>
+          <div class="col-content">Publish Storybook to get sign-off from teammates. Or embed them in wikis, Markdown, and Figma to streamline collaboration.</div>
+        </div>
+        <div class="col">
+          <div class="col-title">Automate UI workflows</div>
+          <div class="col-content">Storybook is compatible with your continuous integration workflow.</div>
+          <div class="col-content">Add it as a CI step to automate user interface testing, review implementation with teammates, and get signoff from stakeholders.</div>
+        </div>
+      </div>
     </div>
-    <hr class="hr"/>
+    </div>
+
   </body>
 </html>
