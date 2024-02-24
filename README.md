@@ -40,7 +40,7 @@ Button | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_s
 Badge | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
 SideBar | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
 Slider | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
-
+Tooltip | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
 ---
 
 ## Key Features
