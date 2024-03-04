@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Components/Slide Toggle Accent smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-slide-toggle class="mat-mdc-slide-toggle mat-accent mat-mdc-slide-toggle-checked"
                     ng-reflect-color="accent"
                     ng-reflect-checked="true"
@@ -13,7 +13,10 @@ exports[`Components/Slide Toggle Accent smoke-test 1`] = `
                     ng-reflect-required="false"
                     id="slide toggle storybook"
   >
-    <div class="mdc-form-field">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field"
+         ng-reflect-label-position="after"
+    >
       <button role="switch"
               type="button"
               class="mdc-switch mdc-switch--selected mdc-switch--checked"
@@ -42,12 +45,14 @@ exports[`Components/Slide Toggle Accent smoke-test 1`] = `
             </div>
             <div class="mdc-switch__icons">
               <svg viewbox="0 0 24 24"
+                   aria-hidden="true"
                    class="mdc-switch__icon mdc-switch__icon--on"
               >
                 <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z">
                 </path>
               </svg>
               <svg viewbox="0 0 24 24"
+                   aria-hidden="true"
                    class="mdc-switch__icon mdc-switch__icon--off"
               >
                 <path d="M20 13H4v-2h16v2z">
@@ -57,7 +62,8 @@ exports[`Components/Slide Toggle Accent smoke-test 1`] = `
           </div>
         </div>
       </button>
-      <label for="slide toggle storybook-button"
+      <label class="mdc-label"
+             for="slide toggle storybook-button"
              id="mat-mdc-slide-toggle-3-label"
       >
         Slide me!
@@ -68,7 +74,7 @@ exports[`Components/Slide Toggle Accent smoke-test 1`] = `
 `;
 
 exports[`Components/Slide Toggle Checked smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-slide-toggle class="mat-mdc-slide-toggle mat-primary"
                     ng-reflect-color="primary"
                     ng-reflect-checked="false"
@@ -80,7 +86,10 @@ exports[`Components/Slide Toggle Checked smoke-test 1`] = `
                     ng-reflect-required="false"
                     id="slide toggle storybook"
   >
-    <div class="mdc-form-field">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field"
+         ng-reflect-label-position="after"
+    >
       <button role="switch"
               type="button"
               class="mdc-switch mdc-switch--unselected"
@@ -109,12 +118,14 @@ exports[`Components/Slide Toggle Checked smoke-test 1`] = `
             </div>
             <div class="mdc-switch__icons">
               <svg viewbox="0 0 24 24"
+                   aria-hidden="true"
                    class="mdc-switch__icon mdc-switch__icon--on"
               >
                 <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z">
                 </path>
               </svg>
               <svg viewbox="0 0 24 24"
+                   aria-hidden="true"
                    class="mdc-switch__icon mdc-switch__icon--off"
               >
                 <path d="M20 13H4v-2h16v2z">
@@ -124,7 +135,8 @@ exports[`Components/Slide Toggle Checked smoke-test 1`] = `
           </div>
         </div>
       </button>
-      <label for="slide toggle storybook-button"
+      <label class="mdc-label"
+             for="slide toggle storybook-button"
              id="mat-mdc-slide-toggle-5-label"
       >
         Slide me!
@@ -135,7 +147,7 @@ exports[`Components/Slide Toggle Checked smoke-test 1`] = `
 `;
 
 exports[`Components/Slide Toggle Default smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-slide-toggle class="mat-mdc-slide-toggle mat-primary mat-mdc-slide-toggle-checked"
                     ng-reflect-color="primary"
                     ng-reflect-checked="true"
@@ -147,7 +159,10 @@ exports[`Components/Slide Toggle Default smoke-test 1`] = `
                     ng-reflect-required="false"
                     id="slide toggle storybook"
   >
-    <div class="mdc-form-field">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field"
+         ng-reflect-label-position="after"
+    >
       <button role="switch"
               type="button"
               class="mdc-switch mdc-switch--selected mdc-switch--checked"
@@ -176,12 +191,14 @@ exports[`Components/Slide Toggle Default smoke-test 1`] = `
             </div>
             <div class="mdc-switch__icons">
               <svg viewbox="0 0 24 24"
+                   aria-hidden="true"
                    class="mdc-switch__icon mdc-switch__icon--on"
               >
                 <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z">
                 </path>
               </svg>
               <svg viewbox="0 0 24 24"
+                   aria-hidden="true"
                    class="mdc-switch__icon mdc-switch__icon--off"
               >
                 <path d="M20 13H4v-2h16v2z">
@@ -191,7 +208,8 @@ exports[`Components/Slide Toggle Default smoke-test 1`] = `
           </div>
         </div>
       </button>
-      <label for="slide toggle storybook-button"
+      <label class="mdc-label"
+             for="slide toggle storybook-button"
              id="mat-mdc-slide-toggle-1-label"
       >
         Slide me!
@@ -202,7 +220,7 @@ exports[`Components/Slide Toggle Default smoke-test 1`] = `
 `;
 
 exports[`Components/Slide Toggle Disable smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-slide-toggle class="mat-mdc-slide-toggle mat-primary mat-mdc-slide-toggle-checked"
                     ng-reflect-color="primary"
                     ng-reflect-checked="true"
@@ -214,7 +232,10 @@ exports[`Components/Slide Toggle Disable smoke-test 1`] = `
                     ng-reflect-required="false"
                     id="slide toggle storybook"
   >
-    <div class="mdc-form-field">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field"
+         ng-reflect-label-position="after"
+    >
       <button role="switch"
               type="button"
               class="mdc-switch mdc-switch--selected mdc-switch--checked mdc-switch--disabled"
@@ -244,12 +265,14 @@ exports[`Components/Slide Toggle Disable smoke-test 1`] = `
             </div>
             <div class="mdc-switch__icons">
               <svg viewbox="0 0 24 24"
+                   aria-hidden="true"
                    class="mdc-switch__icon mdc-switch__icon--on"
               >
                 <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z">
                 </path>
               </svg>
               <svg viewbox="0 0 24 24"
+                   aria-hidden="true"
                    class="mdc-switch__icon mdc-switch__icon--off"
               >
                 <path d="M20 13H4v-2h16v2z">
@@ -259,7 +282,8 @@ exports[`Components/Slide Toggle Disable smoke-test 1`] = `
           </div>
         </div>
       </button>
-      <label for="slide toggle storybook-button"
+      <label class="mdc-label"
+             for="slide toggle storybook-button"
              id="mat-mdc-slide-toggle-7-label"
       >
         Slide me!
@@ -270,7 +294,7 @@ exports[`Components/Slide Toggle Disable smoke-test 1`] = `
 `;
 
 exports[`Components/Slide Toggle DisableRipple smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-slide-toggle class="mat-mdc-slide-toggle mat-primary mat-mdc-slide-toggle-checked"
                     ng-reflect-color="primary"
                     ng-reflect-checked="true"
@@ -282,7 +306,10 @@ exports[`Components/Slide Toggle DisableRipple smoke-test 1`] = `
                     ng-reflect-required="false"
                     id="slide toggle storybook"
   >
-    <div class="mdc-form-field">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field"
+         ng-reflect-label-position="after"
+    >
       <button role="switch"
               type="button"
               class="mdc-switch mdc-switch--selected mdc-switch--checked"
@@ -311,12 +338,14 @@ exports[`Components/Slide Toggle DisableRipple smoke-test 1`] = `
             </div>
             <div class="mdc-switch__icons">
               <svg viewbox="0 0 24 24"
+                   aria-hidden="true"
                    class="mdc-switch__icon mdc-switch__icon--on"
               >
                 <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z">
                 </path>
               </svg>
               <svg viewbox="0 0 24 24"
+                   aria-hidden="true"
                    class="mdc-switch__icon mdc-switch__icon--off"
               >
                 <path d="M20 13H4v-2h16v2z">
@@ -326,7 +355,8 @@ exports[`Components/Slide Toggle DisableRipple smoke-test 1`] = `
           </div>
         </div>
       </button>
-      <label for="slide toggle storybook-button"
+      <label class="mdc-label"
+             for="slide toggle storybook-button"
              id="mat-mdc-slide-toggle-6-label"
       >
         Slide me!
@@ -337,7 +367,7 @@ exports[`Components/Slide Toggle DisableRipple smoke-test 1`] = `
 `;
 
 exports[`Components/Slide Toggle PositionBefore smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-slide-toggle class="mat-mdc-slide-toggle mat-primary mat-mdc-slide-toggle-checked"
                     ng-reflect-color="primary"
                     ng-reflect-checked="true"
@@ -349,7 +379,10 @@ exports[`Components/Slide Toggle PositionBefore smoke-test 1`] = `
                     ng-reflect-required="false"
                     id="slide toggle storybook"
   >
-    <div class="mdc-form-field mdc-form-field--align-end">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field mdc-form-field--align-end"
+         ng-reflect-label-position="before"
+    >
       <button role="switch"
               type="button"
               class="mdc-switch mdc-switch--selected mdc-switch--checked"
@@ -378,12 +411,14 @@ exports[`Components/Slide Toggle PositionBefore smoke-test 1`] = `
             </div>
             <div class="mdc-switch__icons">
               <svg viewbox="0 0 24 24"
+                   aria-hidden="true"
                    class="mdc-switch__icon mdc-switch__icon--on"
               >
                 <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z">
                 </path>
               </svg>
               <svg viewbox="0 0 24 24"
+                   aria-hidden="true"
                    class="mdc-switch__icon mdc-switch__icon--off"
               >
                 <path d="M20 13H4v-2h16v2z">
@@ -393,7 +428,8 @@ exports[`Components/Slide Toggle PositionBefore smoke-test 1`] = `
           </div>
         </div>
       </button>
-      <label for="slide toggle storybook-button"
+      <label class="mdc-label"
+             for="slide toggle storybook-button"
              id="mat-mdc-slide-toggle-4-label"
       >
         Slide me!
@@ -404,7 +440,7 @@ exports[`Components/Slide Toggle PositionBefore smoke-test 1`] = `
 `;
 
 exports[`Components/Slide Toggle Warn smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-slide-toggle class="mat-mdc-slide-toggle mat-warn mat-mdc-slide-toggle-checked"
                     ng-reflect-color="warn"
                     ng-reflect-checked="true"
@@ -416,7 +452,10 @@ exports[`Components/Slide Toggle Warn smoke-test 1`] = `
                     ng-reflect-required="false"
                     id="slide toggle storybook"
   >
-    <div class="mdc-form-field">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field"
+         ng-reflect-label-position="after"
+    >
       <button role="switch"
               type="button"
               class="mdc-switch mdc-switch--selected mdc-switch--checked"
@@ -445,12 +484,14 @@ exports[`Components/Slide Toggle Warn smoke-test 1`] = `
             </div>
             <div class="mdc-switch__icons">
               <svg viewbox="0 0 24 24"
+                   aria-hidden="true"
                    class="mdc-switch__icon mdc-switch__icon--on"
               >
                 <path d="M19.69,5.23L8.96,15.96l-4.23-4.23L2.96,13.5l6,6L21.46,7L19.69,5.23z">
                 </path>
               </svg>
               <svg viewbox="0 0 24 24"
+                   aria-hidden="true"
                    class="mdc-switch__icon mdc-switch__icon--off"
               >
                 <path d="M20 13H4v-2h16v2z">
@@ -460,7 +501,8 @@ exports[`Components/Slide Toggle Warn smoke-test 1`] = `
           </div>
         </div>
       </button>
-      <label for="slide toggle storybook-button"
+      <label class="mdc-label"
+             for="slide toggle storybook-button"
              id="mat-mdc-slide-toggle-2-label"
       >
         Slide me!

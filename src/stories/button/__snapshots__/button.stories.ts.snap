@@ -1,11 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Components/Button Disabled smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-button
-          class="mdc-button mat-mdc-button mat-accent mat-mdc-button-base"
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
+          class="mdc-button mat-mdc-button mat-accent mat-mdc-button-disabled mat-mdc-button-base"
           ng-reflect-color="accent"
+          mat-ripple-loader-disabled
           ng-reflect-disabled="true"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
           disabled="true"
   >
@@ -15,12 +19,6 @@ exports[`Components/Button Disabled smoke-test 1`] = `
       Button
     </span>
     <span class="mat-mdc-focus-indicator">
-    </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="true"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
     </span>
     <span class="mat-mdc-button-touch-target">
     </span>
@@ -29,11 +27,14 @@ exports[`Components/Button Disabled smoke-test 1`] = `
 `;
 
 exports[`Components/Button MatFlatButtonAccent smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-flat-button
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
           class="mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-accent mat-mdc-button-base"
           ng-reflect-color="accent"
           ng-reflect-disabled="false"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
   >
     <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
@@ -42,12 +43,6 @@ exports[`Components/Button MatFlatButtonAccent smoke-test 1`] = `
       Button
     </span>
     <span class="mat-mdc-focus-indicator">
-    </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="false"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
     </span>
     <span class="mat-mdc-button-touch-target">
     </span>
@@ -56,11 +51,15 @@ exports[`Components/Button MatFlatButtonAccent smoke-test 1`] = `
 `;
 
 exports[`Components/Button MatFlatButtonDisabled smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-flat-button
-          class="mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-accent mat-mdc-button-base"
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
+          class="mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-accent mat-mdc-button-disabled mat-mdc-button-base"
           ng-reflect-color="accent"
+          mat-ripple-loader-disabled
           ng-reflect-disabled="true"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
           disabled="true"
   >
@@ -70,12 +69,6 @@ exports[`Components/Button MatFlatButtonDisabled smoke-test 1`] = `
       Button
     </span>
     <span class="mat-mdc-focus-indicator">
-    </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="true"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
     </span>
     <span class="mat-mdc-button-touch-target">
     </span>
@@ -84,11 +77,14 @@ exports[`Components/Button MatFlatButtonDisabled smoke-test 1`] = `
 `;
 
 exports[`Components/Button MatFlatButtonPrimary smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-flat-button
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
           class="mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-primary mat-mdc-button-base"
           ng-reflect-color="primary"
           ng-reflect-disabled="false"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
   >
     <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
@@ -97,12 +93,6 @@ exports[`Components/Button MatFlatButtonPrimary smoke-test 1`] = `
       Button
     </span>
     <span class="mat-mdc-focus-indicator">
-    </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="false"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
     </span>
     <span class="mat-mdc-button-touch-target">
     </span>
@@ -111,11 +101,14 @@ exports[`Components/Button MatFlatButtonPrimary smoke-test 1`] = `
 `;
 
 exports[`Components/Button MatFlatButtonWarn smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-flat-button
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
           class="mdc-button mdc-button--unelevated mat-mdc-unelevated-button mat-warn mat-mdc-button-base"
           ng-reflect-color="warn"
           ng-reflect-disabled="false"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
   >
     <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
@@ -124,12 +117,6 @@ exports[`Components/Button MatFlatButtonWarn smoke-test 1`] = `
       Button
     </span>
     <span class="mat-mdc-focus-indicator">
-    </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="false"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
     </span>
     <span class="mat-mdc-button-touch-target">
     </span>
@@ -138,11 +125,15 @@ exports[`Components/Button MatFlatButtonWarn smoke-test 1`] = `
 `;
 
 exports[`Components/Button MatRaisedButtonDisabled smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-raised-button
-          class="mdc-button mdc-button--raised mat-mdc-raised-button mat-accent mat-mdc-button-base"
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
+          class="mdc-button mdc-button--raised mat-mdc-raised-button mat-accent mat-mdc-button-disabled mat-mdc-button-base"
           ng-reflect-color="accent"
+          mat-ripple-loader-disabled
           ng-reflect-disabled="true"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
           disabled="true"
   >
@@ -152,12 +143,6 @@ exports[`Components/Button MatRaisedButtonDisabled smoke-test 1`] = `
       Button
     </span>
     <span class="mat-mdc-focus-indicator">
-    </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="true"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
     </span>
     <span class="mat-mdc-button-touch-target">
     </span>
@@ -166,11 +151,14 @@ exports[`Components/Button MatRaisedButtonDisabled smoke-test 1`] = `
 `;
 
 exports[`Components/Button MatStrokedButtonAccent smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-stroked-button
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
           class="mdc-button mdc-button--outlined mat-mdc-outlined-button mat-accent mat-mdc-button-base"
           ng-reflect-color="accent"
           ng-reflect-disabled="false"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
   >
     <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
@@ -180,12 +168,6 @@ exports[`Components/Button MatStrokedButtonAccent smoke-test 1`] = `
     </span>
     <span class="mat-mdc-focus-indicator">
     </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="false"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
-    </span>
     <span class="mat-mdc-button-touch-target">
     </span>
   </button>
@@ -193,11 +175,15 @@ exports[`Components/Button MatStrokedButtonAccent smoke-test 1`] = `
 `;
 
 exports[`Components/Button MatStrokedButtonDisabled smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-stroked-button
-          class="mdc-button mdc-button--outlined mat-mdc-outlined-button mat-accent mat-mdc-button-base"
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
+          class="mdc-button mdc-button--outlined mat-mdc-outlined-button mat-accent mat-mdc-button-disabled mat-mdc-button-base"
           ng-reflect-color="accent"
+          mat-ripple-loader-disabled
           ng-reflect-disabled="true"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
           disabled="true"
   >
@@ -208,12 +194,6 @@ exports[`Components/Button MatStrokedButtonDisabled smoke-test 1`] = `
     </span>
     <span class="mat-mdc-focus-indicator">
     </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="true"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
-    </span>
     <span class="mat-mdc-button-touch-target">
     </span>
   </button>
@@ -221,11 +201,14 @@ exports[`Components/Button MatStrokedButtonDisabled smoke-test 1`] = `
 `;
 
 exports[`Components/Button MatStrokedButtonPrimary smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-stroked-button
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
           class="mdc-button mdc-button--outlined mat-mdc-outlined-button mat-primary mat-mdc-button-base"
           ng-reflect-color="primary"
           ng-reflect-disabled="false"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
   >
     <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
@@ -234,12 +217,6 @@ exports[`Components/Button MatStrokedButtonPrimary smoke-test 1`] = `
       Button
     </span>
     <span class="mat-mdc-focus-indicator">
-    </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="false"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
     </span>
     <span class="mat-mdc-button-touch-target">
     </span>
@@ -248,11 +225,14 @@ exports[`Components/Button MatStrokedButtonPrimary smoke-test 1`] = `
 `;
 
 exports[`Components/Button MatStrokedButtonWarn smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-stroked-button
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
           class="mdc-button mdc-button--outlined mat-mdc-outlined-button mat-warn mat-mdc-button-base"
           ng-reflect-color="warn"
           ng-reflect-disabled="false"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
   >
     <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
@@ -261,12 +241,6 @@ exports[`Components/Button MatStrokedButtonWarn smoke-test 1`] = `
       Button
     </span>
     <span class="mat-mdc-focus-indicator">
-    </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="false"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
     </span>
     <span class="mat-mdc-button-touch-target">
     </span>
@@ -275,11 +249,14 @@ exports[`Components/Button MatStrokedButtonWarn smoke-test 1`] = `
 `;
 
 exports[`Components/Button Primary smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-button
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
           class="mdc-button mat-mdc-button mat-primary mat-mdc-button-base"
           ng-reflect-color="primary"
           ng-reflect-disabled="false"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
   >
     <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
@@ -288,12 +265,6 @@ exports[`Components/Button Primary smoke-test 1`] = `
       Button
     </span>
     <span class="mat-mdc-focus-indicator">
-    </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="false"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
     </span>
     <span class="mat-mdc-button-touch-target">
     </span>
@@ -302,11 +273,14 @@ exports[`Components/Button Primary smoke-test 1`] = `
 `;
 
 exports[`Components/Button Warn smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-button
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
           class="mdc-button mat-mdc-button mat-warn mat-mdc-button-base"
           ng-reflect-color="warn"
           ng-reflect-disabled="false"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
   >
     <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
@@ -315,12 +289,6 @@ exports[`Components/Button Warn smoke-test 1`] = `
       Button
     </span>
     <span class="mat-mdc-focus-indicator">
-    </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="false"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
     </span>
     <span class="mat-mdc-button-touch-target">
     </span>
@@ -329,11 +297,14 @@ exports[`Components/Button Warn smoke-test 1`] = `
 `;
 
 exports[`Components/Button accent smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-button
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
           class="mdc-button mat-mdc-button mat-accent mat-mdc-button-base"
           ng-reflect-color="accent"
           ng-reflect-disabled="false"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
   >
     <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
@@ -342,12 +313,6 @@ exports[`Components/Button accent smoke-test 1`] = `
       Button
     </span>
     <span class="mat-mdc-focus-indicator">
-    </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="false"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
     </span>
     <span class="mat-mdc-button-touch-target">
     </span>
@@ -356,11 +321,14 @@ exports[`Components/Button accent smoke-test 1`] = `
 `;
 
 exports[`Components/Button matRaisedButtonAccent smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-raised-button
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
           class="mdc-button mdc-button--raised mat-mdc-raised-button mat-accent mat-mdc-button-base"
           ng-reflect-color="accent"
           ng-reflect-disabled="false"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
   >
     <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
@@ -369,12 +337,6 @@ exports[`Components/Button matRaisedButtonAccent smoke-test 1`] = `
       Button
     </span>
     <span class="mat-mdc-focus-indicator">
-    </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="false"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
     </span>
     <span class="mat-mdc-button-touch-target">
     </span>
@@ -383,11 +345,14 @@ exports[`Components/Button matRaisedButtonAccent smoke-test 1`] = `
 `;
 
 exports[`Components/Button matRaisedButtonPrimary smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-raised-button
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
           class="mdc-button mdc-button--raised mat-mdc-raised-button mat-primary mat-mdc-button-base"
           ng-reflect-color="primary"
           ng-reflect-disabled="false"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
   >
     <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
@@ -396,12 +361,6 @@ exports[`Components/Button matRaisedButtonPrimary smoke-test 1`] = `
       Button
     </span>
     <span class="mat-mdc-focus-indicator">
-    </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="false"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
     </span>
     <span class="mat-mdc-button-touch-target">
     </span>
@@ -410,11 +369,14 @@ exports[`Components/Button matRaisedButtonPrimary smoke-test 1`] = `
 `;
 
 exports[`Components/Button matRaisedButtonWarn smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <button mat-raised-button
+          mat-ripple-loader-uninitialized
+          mat-ripple-loader-class-name="mat-mdc-button-ripple"
           class="mdc-button mdc-button--raised mat-mdc-raised-button mat-warn mat-mdc-button-base"
           ng-reflect-color="warn"
           ng-reflect-disabled="false"
+          ng-reflect-disabled-interactive="false"
           ng-reflect-disable-ripple="false"
   >
     <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
@@ -423,12 +385,6 @@ exports[`Components/Button matRaisedButtonWarn smoke-test 1`] = `
       Button
     </span>
     <span class="mat-mdc-focus-indicator">
-    </span>
-    <span matripple
-          class="mat-ripple mat-mdc-button-ripple"
-          ng-reflect-disabled="false"
-          ng-reflect-trigger="[object HTMLButtonElement]"
-    >
     </span>
     <span class="mat-mdc-button-touch-target">
     </span>

@@ -1,0 +1,669 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/Sidenav AutoFocus smoke-test 1`] = `
+<storybook-root _nghost-ng-c650243922
+                ng-version="17.2.2"
+>
+  <mat-drawer-container _ngcontent-ng-c650243922
+                        autosize
+                        class="mat-drawer-container sidebar"
+                        ng-reflect-autosize
+  >
+    <div class="mat-drawer-backdrop ng-star-inserted">
+    </div>
+    <div tabindex="0"
+         class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer _ngcontent-ng-c650243922
+                tabindex="-1"
+                class="mat-drawer ng-tns-c3519248442-0 ng-trigger ng-trigger-transform mat-drawer-over ng-star-inserted"
+                style="padding: 20px; box-shadow: none; visibility: hidden;"
+                ng-reflect-mode="over"
+                ng-reflect-opened="false"
+                ng-reflect-auto-focus="true"
+                ng-reflect-disable-close="false"
+                ng-reflect-position="start"
+    >
+      <div cdkscrollable
+           class="mat-drawer-inner-container ng-tns-c3519248442-0"
+      >
+        <p _ngcontent-ng-c650243922
+           class="ng-tns-c3519248442-0"
+        >
+          Auto-resizing sidenav
+        </p>
+        <button _ngcontent-ng-c650243922
+                mat-raised-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mdc-button--raised mat-mdc-raised-button ng-tns-c3519248442-0 mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle extra text
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer>
+    <div tabindex="0"
+         class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer-content class="mat-drawer-content ng-star-inserted">
+      <div _ngcontent-ng-c650243922
+           class="sidebar-button"
+      >
+        <button _ngcontent-ng-c650243922
+                type="button"
+                mat-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle sidenav
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer-content>
+  </mat-drawer-container>
+</storybook-root>
+`;
+
+exports[`Components/Sidenav Basic smoke-test 1`] = `
+<storybook-root _nghost-ng-c650243922
+                ng-version="17.2.2"
+>
+  <mat-drawer-container _ngcontent-ng-c650243922
+                        autosize
+                        class="mat-drawer-container sidebar"
+                        ng-reflect-autosize
+  >
+    <div class="mat-drawer-backdrop ng-star-inserted">
+    </div>
+    <div tabindex="0"
+         class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer _ngcontent-ng-c650243922
+                tabindex="-1"
+                class="mat-drawer ng-tns-c3519248442-0 ng-trigger ng-trigger-transform mat-drawer-over ng-star-inserted"
+                style="padding: 20px; box-shadow: none; visibility: hidden;"
+                ng-reflect-mode="over"
+                ng-reflect-opened="false"
+                ng-reflect-auto-focus="false"
+                ng-reflect-disable-close="false"
+                ng-reflect-position="start"
+    >
+      <div cdkscrollable
+           class="mat-drawer-inner-container ng-tns-c3519248442-0"
+      >
+        <p _ngcontent-ng-c650243922
+           class="ng-tns-c3519248442-0"
+        >
+          Auto-resizing sidenav
+        </p>
+        <button _ngcontent-ng-c650243922
+                mat-raised-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mdc-button--raised mat-mdc-raised-button ng-tns-c3519248442-0 mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle extra text
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer>
+    <div tabindex="0"
+         class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer-content class="mat-drawer-content ng-star-inserted">
+      <div _ngcontent-ng-c650243922
+           class="sidebar-button"
+      >
+        <button _ngcontent-ng-c650243922
+                type="button"
+                mat-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle sidenav
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer-content>
+  </mat-drawer-container>
+</storybook-root>
+`;
+
+exports[`Components/Sidenav DisableClose smoke-test 1`] = `
+<storybook-root _nghost-ng-c650243922
+                ng-version="17.2.2"
+>
+  <mat-drawer-container _ngcontent-ng-c650243922
+                        autosize
+                        class="mat-drawer-container sidebar"
+                        ng-reflect-autosize
+  >
+    <div class="mat-drawer-backdrop ng-star-inserted">
+    </div>
+    <div tabindex="0"
+         class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer _ngcontent-ng-c650243922
+                tabindex="-1"
+                class="mat-drawer ng-tns-c3519248442-0 ng-trigger ng-trigger-transform mat-drawer-over ng-star-inserted"
+                style="padding: 20px; box-shadow: none; visibility: hidden;"
+                ng-reflect-mode="over"
+                ng-reflect-opened="false"
+                ng-reflect-auto-focus="false"
+                ng-reflect-disable-close="true"
+                ng-reflect-position="start"
+    >
+      <div cdkscrollable
+           class="mat-drawer-inner-container ng-tns-c3519248442-0"
+      >
+        <p _ngcontent-ng-c650243922
+           class="ng-tns-c3519248442-0"
+        >
+          Auto-resizing sidenav
+        </p>
+        <button _ngcontent-ng-c650243922
+                mat-raised-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mdc-button--raised mat-mdc-raised-button ng-tns-c3519248442-0 mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle extra text
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer>
+    <div tabindex="0"
+         class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer-content class="mat-drawer-content ng-star-inserted">
+      <div _ngcontent-ng-c650243922
+           class="sidebar-button"
+      >
+        <button _ngcontent-ng-c650243922
+                type="button"
+                mat-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle sidenav
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer-content>
+  </mat-drawer-container>
+</storybook-root>
+`;
+
+exports[`Components/Sidenav FixedInViewport smoke-test 1`] = `
+<storybook-root _nghost-ng-c650243922
+                ng-version="17.2.2"
+>
+  <mat-drawer-container _ngcontent-ng-c650243922
+                        autosize
+                        class="mat-drawer-container sidebar"
+                        ng-reflect-autosize
+  >
+    <div class="mat-drawer-backdrop ng-star-inserted">
+    </div>
+    <div tabindex="0"
+         class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer _ngcontent-ng-c650243922
+                tabindex="-1"
+                class="mat-drawer ng-tns-c3519248442-0 ng-trigger ng-trigger-transform mat-drawer-over ng-star-inserted"
+                style="padding: 20px; box-shadow: none; visibility: hidden;"
+                ng-reflect-mode="over"
+                ng-reflect-opened="false"
+                ng-reflect-auto-focus="false"
+                ng-reflect-disable-close="false"
+                ng-reflect-position="start"
+    >
+      <div cdkscrollable
+           class="mat-drawer-inner-container ng-tns-c3519248442-0"
+      >
+        <p _ngcontent-ng-c650243922
+           class="ng-tns-c3519248442-0"
+        >
+          Auto-resizing sidenav
+        </p>
+        <button _ngcontent-ng-c650243922
+                mat-raised-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mdc-button--raised mat-mdc-raised-button ng-tns-c3519248442-0 mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle extra text
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer>
+    <div tabindex="0"
+         class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer-content class="mat-drawer-content ng-star-inserted">
+      <div _ngcontent-ng-c650243922
+           class="sidebar-button"
+      >
+        <button _ngcontent-ng-c650243922
+                type="button"
+                mat-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle sidenav
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer-content>
+  </mat-drawer-container>
+</storybook-root>
+`;
+
+exports[`Components/Sidenav ModePush smoke-test 1`] = `
+<storybook-root _nghost-ng-c650243922
+                ng-version="17.2.2"
+>
+  <mat-drawer-container _ngcontent-ng-c650243922
+                        autosize
+                        class="mat-drawer-container sidebar"
+                        ng-reflect-autosize
+  >
+    <div class="mat-drawer-backdrop ng-star-inserted">
+    </div>
+    <div tabindex="0"
+         class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer _ngcontent-ng-c650243922
+                tabindex="-1"
+                class="mat-drawer ng-tns-c3519248442-0 ng-trigger ng-trigger-transform mat-drawer-push ng-star-inserted"
+                style="padding: 20px; box-shadow: none; visibility: hidden;"
+                ng-reflect-mode="push"
+                ng-reflect-opened="false"
+                ng-reflect-auto-focus="false"
+                ng-reflect-disable-close="false"
+                ng-reflect-position="start"
+    >
+      <div cdkscrollable
+           class="mat-drawer-inner-container ng-tns-c3519248442-0"
+      >
+        <p _ngcontent-ng-c650243922
+           class="ng-tns-c3519248442-0"
+        >
+          Auto-resizing sidenav
+        </p>
+        <button _ngcontent-ng-c650243922
+                mat-raised-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mdc-button--raised mat-mdc-raised-button ng-tns-c3519248442-0 mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle extra text
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer>
+    <div tabindex="0"
+         class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer-content class="mat-drawer-content ng-star-inserted">
+      <div _ngcontent-ng-c650243922
+           class="sidebar-button"
+      >
+        <button _ngcontent-ng-c650243922
+                type="button"
+                mat-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle sidenav
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer-content>
+  </mat-drawer-container>
+</storybook-root>
+`;
+
+exports[`Components/Sidenav Open smoke-test 1`] = `
+<storybook-root _nghost-ng-c650243922
+                ng-version="17.2.2"
+>
+  <mat-drawer-container _ngcontent-ng-c650243922
+                        autosize
+                        class="mat-drawer-container sidebar mat-drawer-container-has-open"
+                        ng-reflect-autosize
+  >
+    <div class="mat-drawer-backdrop mat-drawer-shown ng-star-inserted">
+    </div>
+    <div tabindex="0"
+         class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer _ngcontent-ng-c650243922
+                tabindex="-1"
+                class="mat-drawer ng-tns-c3519248442-0 ng-trigger ng-trigger-transform mat-drawer-over mat-drawer-opened ng-star-inserted"
+                style="padding: 20px; transform: none; visibility: visible;"
+                ng-reflect-mode="over"
+                ng-reflect-opened="true"
+                ng-reflect-auto-focus="false"
+                ng-reflect-disable-close="false"
+                ng-reflect-position="start"
+    >
+      <div cdkscrollable
+           class="mat-drawer-inner-container ng-tns-c3519248442-0"
+      >
+        <p _ngcontent-ng-c650243922
+           class="ng-tns-c3519248442-0"
+        >
+          Auto-resizing sidenav
+        </p>
+        <button _ngcontent-ng-c650243922
+                mat-raised-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mdc-button--raised mat-mdc-raised-button ng-tns-c3519248442-0 mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle extra text
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer>
+    <div tabindex="0"
+         class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer-content class="mat-drawer-content ng-star-inserted">
+      <div _ngcontent-ng-c650243922
+           class="sidebar-button"
+      >
+        <button _ngcontent-ng-c650243922
+                type="button"
+                mat-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle sidenav
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer-content>
+  </mat-drawer-container>
+</storybook-root>
+`;
+
+exports[`Components/Sidenav PositionEnd smoke-test 1`] = `
+<storybook-root _nghost-ng-c650243922
+                ng-version="17.2.2"
+>
+  <mat-drawer-container _ngcontent-ng-c650243922
+                        autosize
+                        class="mat-drawer-container sidebar"
+                        ng-reflect-autosize
+  >
+    <div class="mat-drawer-backdrop ng-star-inserted">
+    </div>
+    <mat-drawer-content class="mat-drawer-content ng-star-inserted">
+      <div _ngcontent-ng-c650243922
+           class="sidebar-button"
+      >
+        <button _ngcontent-ng-c650243922
+                type="button"
+                mat-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle sidenav
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer-content>
+    <div tabindex="0"
+         class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer _ngcontent-ng-c650243922
+                tabindex="-1"
+                class="mat-drawer ng-tns-c3519248442-0 ng-trigger ng-trigger-transform mat-drawer-end mat-drawer-over ng-star-inserted"
+                style="padding: 20px; box-shadow: none; visibility: hidden;"
+                ng-reflect-mode="over"
+                ng-reflect-opened="false"
+                ng-reflect-auto-focus="false"
+                ng-reflect-disable-close="false"
+                ng-reflect-position="end"
+    >
+      <div cdkscrollable
+           class="mat-drawer-inner-container ng-tns-c3519248442-0"
+      >
+        <p _ngcontent-ng-c650243922
+           class="ng-tns-c3519248442-0"
+        >
+          Auto-resizing sidenav
+        </p>
+        <button _ngcontent-ng-c650243922
+                mat-raised-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mdc-button--raised mat-mdc-raised-button ng-tns-c3519248442-0 mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle extra text
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer>
+    <div tabindex="0"
+         class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+  </mat-drawer-container>
+</storybook-root>
+`;
+
+exports[`Components/Sidenav Warn smoke-test 1`] = `
+<storybook-root _nghost-ng-c650243922
+                ng-version="17.2.2"
+>
+  <mat-drawer-container _ngcontent-ng-c650243922
+                        autosize
+                        class="mat-drawer-container sidebar"
+                        ng-reflect-autosize
+  >
+    <div class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer _ngcontent-ng-c650243922
+                tabindex="-1"
+                class="mat-drawer ng-tns-c3519248442-0 ng-trigger ng-trigger-transform mat-drawer-side ng-star-inserted"
+                style="padding: 20px; box-shadow: none; visibility: hidden;"
+                ng-reflect-mode="side"
+                ng-reflect-opened="false"
+                ng-reflect-auto-focus="false"
+                ng-reflect-disable-close="false"
+                ng-reflect-position="start"
+    >
+      <div cdkscrollable
+           class="mat-drawer-inner-container ng-tns-c3519248442-0"
+      >
+        <p _ngcontent-ng-c650243922
+           class="ng-tns-c3519248442-0"
+        >
+          Auto-resizing sidenav
+        </p>
+        <button _ngcontent-ng-c650243922
+                mat-raised-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mdc-button--raised mat-mdc-raised-button ng-tns-c3519248442-0 mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle extra text
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer>
+    <div class="cdk-visually-hidden cdk-focus-trap-anchor"
+         aria-hidden="true"
+    >
+    </div>
+    <mat-drawer-content class="mat-drawer-content ng-star-inserted">
+      <div _ngcontent-ng-c650243922
+           class="sidebar-button"
+      >
+        <button _ngcontent-ng-c650243922
+                type="button"
+                mat-button
+                mat-ripple-loader-uninitialized
+                mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                class="mdc-button mat-mdc-button mat-unthemed mat-mdc-button-base"
+        >
+          <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+          </span>
+          <span class="mdc-button__label">
+            Toggle sidenav
+          </span>
+          <span class="mat-mdc-focus-indicator">
+          </span>
+          <span class="mat-mdc-button-touch-target">
+          </span>
+        </button>
+      </div>
+    </mat-drawer-content>
+  </mat-drawer-container>
+</storybook-root>
+`;

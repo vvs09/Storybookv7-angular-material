@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Components/Checkbox Checked smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-checkbox class="mat-mdc-checkbox mat-accent mat-mdc-checkbox-checked"
                 ng-reflect-color="accent"
                 ng-reflect-disabled="false"
@@ -15,7 +15,10 @@ exports[`Components/Checkbox Checked smoke-test 1`] = `
                 ng-reflect-value="checkbox1"
                 id="1"
   >
-    <div class="mdc-form-field">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field"
+         ng-reflect-label-position="after"
+    >
       <div class="mdc-checkbox">
         <div class="mat-mdc-checkbox-touch-target">
         </div>
@@ -51,7 +54,9 @@ exports[`Components/Checkbox Checked smoke-test 1`] = `
         >
         </div>
       </div>
-      <label for="1-input">
+      <label class="mdc-label"
+             for="1-input"
+      >
         Checkbox
       </label>
     </div>
@@ -60,7 +65,7 @@ exports[`Components/Checkbox Checked smoke-test 1`] = `
 `;
 
 exports[`Components/Checkbox Default smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-checkbox class="mat-mdc-checkbox mat-accent"
                 ng-reflect-color="accent"
                 ng-reflect-disabled="false"
@@ -74,7 +79,10 @@ exports[`Components/Checkbox Default smoke-test 1`] = `
                 ng-reflect-value="checkbox1"
                 id="1"
   >
-    <div class="mdc-form-field">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field"
+         ng-reflect-label-position="after"
+    >
       <div class="mdc-checkbox">
         <div class="mat-mdc-checkbox-touch-target">
         </div>
@@ -110,7 +118,9 @@ exports[`Components/Checkbox Default smoke-test 1`] = `
         >
         </div>
       </div>
-      <label for="1-input">
+      <label class="mdc-label"
+             for="1-input"
+      >
         Checkbox
       </label>
     </div>
@@ -119,7 +129,7 @@ exports[`Components/Checkbox Default smoke-test 1`] = `
 `;
 
 exports[`Components/Checkbox Disabled smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-checkbox class="mat-mdc-checkbox mat-accent mdc-checkbox--disabled mat-mdc-checkbox-disabled"
                 ng-reflect-color="accent"
                 ng-reflect-disabled="true"
@@ -133,7 +143,10 @@ exports[`Components/Checkbox Disabled smoke-test 1`] = `
                 ng-reflect-value="checkbox1"
                 id="1"
   >
-    <div class="mdc-form-field">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field"
+         ng-reflect-label-position="after"
+    >
       <div class="mdc-checkbox">
         <div class="mat-mdc-checkbox-touch-target">
         </div>
@@ -170,7 +183,9 @@ exports[`Components/Checkbox Disabled smoke-test 1`] = `
         >
         </div>
       </div>
-      <label for="1-input">
+      <label class="mdc-label"
+             for="1-input"
+      >
         Checkbox
       </label>
     </div>
@@ -179,7 +194,7 @@ exports[`Components/Checkbox Disabled smoke-test 1`] = `
 `;
 
 exports[`Components/Checkbox Indeterminate smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-checkbox class="mat-mdc-checkbox mat-accent"
                 ng-reflect-color="accent"
                 ng-reflect-disabled="false"
@@ -193,7 +208,10 @@ exports[`Components/Checkbox Indeterminate smoke-test 1`] = `
                 ng-reflect-value="checkbox1"
                 id="1"
   >
-    <div class="mdc-form-field">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field"
+         ng-reflect-label-position="after"
+    >
       <div class="mdc-checkbox">
         <div class="mat-mdc-checkbox-touch-target">
         </div>
@@ -201,6 +219,7 @@ exports[`Components/Checkbox Indeterminate smoke-test 1`] = `
                class="mdc-checkbox__native-control"
                id="1-input"
                tabindex="0"
+               aria-checked="mixed"
                name="label checkbox"
                value="checkbox1"
         >
@@ -229,7 +248,9 @@ exports[`Components/Checkbox Indeterminate smoke-test 1`] = `
         >
         </div>
       </div>
-      <label for="1-input">
+      <label class="mdc-label"
+             for="1-input"
+      >
         Checkbox
       </label>
     </div>
@@ -238,7 +259,7 @@ exports[`Components/Checkbox Indeterminate smoke-test 1`] = `
 `;
 
 exports[`Components/Checkbox LabelPosition smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-checkbox class="mat-mdc-checkbox mat-accent"
                 ng-reflect-color="accent"
                 ng-reflect-disabled="false"
@@ -252,7 +273,10 @@ exports[`Components/Checkbox LabelPosition smoke-test 1`] = `
                 ng-reflect-value="checkbox1"
                 id="1"
   >
-    <div class="mdc-form-field mdc-form-field--align-end">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field mdc-form-field--align-end"
+         ng-reflect-label-position="before"
+    >
       <div class="mdc-checkbox">
         <div class="mat-mdc-checkbox-touch-target">
         </div>
@@ -288,7 +312,9 @@ exports[`Components/Checkbox LabelPosition smoke-test 1`] = `
         >
         </div>
       </div>
-      <label for="1-input">
+      <label class="mdc-label"
+             for="1-input"
+      >
         Checkbox
       </label>
     </div>
@@ -297,7 +323,7 @@ exports[`Components/Checkbox LabelPosition smoke-test 1`] = `
 `;
 
 exports[`Components/Checkbox Primary smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-checkbox class="mat-mdc-checkbox mat-primary"
                 ng-reflect-color="primary"
                 ng-reflect-disabled="false"
@@ -311,7 +337,10 @@ exports[`Components/Checkbox Primary smoke-test 1`] = `
                 ng-reflect-value="checkbox1"
                 id="1"
   >
-    <div class="mdc-form-field">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field"
+         ng-reflect-label-position="after"
+    >
       <div class="mdc-checkbox">
         <div class="mat-mdc-checkbox-touch-target">
         </div>
@@ -347,7 +376,9 @@ exports[`Components/Checkbox Primary smoke-test 1`] = `
         >
         </div>
       </div>
-      <label for="1-input">
+      <label class="mdc-label"
+             for="1-input"
+      >
         Checkbox
       </label>
     </div>
@@ -356,7 +387,7 @@ exports[`Components/Checkbox Primary smoke-test 1`] = `
 `;
 
 exports[`Components/Checkbox Required smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-checkbox class="mat-mdc-checkbox mat-accent"
                 ng-reflect-color="accent"
                 ng-reflect-disabled="false"
@@ -370,7 +401,10 @@ exports[`Components/Checkbox Required smoke-test 1`] = `
                 ng-reflect-value="checkbox1"
                 id="1"
   >
-    <div class="mdc-form-field">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field"
+         ng-reflect-label-position="after"
+    >
       <div class="mdc-checkbox">
         <div class="mat-mdc-checkbox-touch-target">
         </div>
@@ -407,7 +441,9 @@ exports[`Components/Checkbox Required smoke-test 1`] = `
         >
         </div>
       </div>
-      <label for="1-input">
+      <label class="mdc-label"
+             for="1-input"
+      >
         Checkbox
       </label>
     </div>
@@ -416,7 +452,7 @@ exports[`Components/Checkbox Required smoke-test 1`] = `
 `;
 
 exports[`Components/Checkbox Warn smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-checkbox class="mat-mdc-checkbox mat-warn"
                 ng-reflect-color="warn"
                 ng-reflect-disabled="false"
@@ -430,7 +466,10 @@ exports[`Components/Checkbox Warn smoke-test 1`] = `
                 ng-reflect-value="checkbox1"
                 id="1"
   >
-    <div class="mdc-form-field">
+    <div mat-internal-form-field
+         class="mdc-form-field mat-internal-form-field"
+         ng-reflect-label-position="after"
+    >
       <div class="mdc-checkbox">
         <div class="mat-mdc-checkbox-touch-target">
         </div>
@@ -466,7 +505,9 @@ exports[`Components/Checkbox Warn smoke-test 1`] = `
         >
         </div>
       </div>
-      <label for="1-input">
+      <label class="mdc-label"
+             for="1-input"
+      >
         Checkbox
       </label>
     </div>

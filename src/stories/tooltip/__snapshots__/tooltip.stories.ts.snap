@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/Tooltip Basic smoke-test 1`] = `
+<storybook-root _nghost-ng-c3197468757
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c3197468757
+       cdkscrollable
+       class="example-container"
+  >
+    <button _ngcontent-ng-c3197468757
+            mat-raised-button
+            class="mat-mdc-tooltip-trigger example-button mdc-button mdc-button--raised mat-mdc-raised-button mat-unthemed mat-mdc-button-base"
+            mat-ripple-loader-uninitialized
+            mat-ripple-loader-class-name="mat-mdc-button-ripple"
+            ng-reflect-disabled="false"
+            aria-describedby="cdk-describedby-message-ng-1-2"
+            cdk-describedby-host="ng-1"
+    >
+      <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+      </span>
+      <span class="mdc-button__label">
+        Tooltip
+      </span>
+      <span class="mat-mdc-focus-indicator">
+      </span>
+      <span class="mat-mdc-button-touch-target">
+      </span>
+    </button>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Tooltip PositionAbove smoke-test 1`] = `
+<storybook-root _nghost-ng-c3197468757
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c3197468757
+       cdkscrollable
+       class="example-container"
+  >
+    <button _ngcontent-ng-c3197468757
+            mat-raised-button
+            class="mat-mdc-tooltip-trigger example-button mdc-button mdc-button--raised mat-mdc-raised-button mat-unthemed mat-mdc-button-base"
+            mat-ripple-loader-uninitialized
+            mat-ripple-loader-class-name="mat-mdc-button-ripple"
+            ng-reflect-disabled="false"
+            aria-describedby="cdk-describedby-message-ng-10-11"
+            cdk-describedby-host="ng-10"
+    >
+      <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+      </span>
+      <span class="mdc-button__label">
+        Tooltip
+      </span>
+      <span class="mat-mdc-focus-indicator">
+      </span>
+      <span class="mat-mdc-button-touch-target">
+      </span>
+    </button>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Tooltip PositionAfter smoke-test 1`] = `
+<storybook-root _nghost-ng-c3197468757
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c3197468757
+       cdkscrollable
+       class="example-container"
+  >
+    <button _ngcontent-ng-c3197468757
+            mat-raised-button
+            class="mat-mdc-tooltip-trigger example-button mdc-button mdc-button--raised mat-mdc-raised-button mat-unthemed mat-mdc-button-base"
+            mat-ripple-loader-uninitialized
+            mat-ripple-loader-class-name="mat-mdc-button-ripple"
+            ng-reflect-disabled="false"
+            aria-describedby="cdk-describedby-message-ng-13-14"
+            cdk-describedby-host="ng-13"
+    >
+      <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+      </span>
+      <span class="mdc-button__label">
+        Tooltip
+      </span>
+      <span class="mat-mdc-focus-indicator">
+      </span>
+      <span class="mat-mdc-button-touch-target">
+      </span>
+    </button>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Tooltip PositionBefore smoke-test 1`] = `
+<storybook-root _nghost-ng-c3197468757
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c3197468757
+       cdkscrollable
+       class="example-container"
+  >
+    <button _ngcontent-ng-c3197468757
+            mat-raised-button
+            class="mat-mdc-tooltip-trigger example-button mdc-button mdc-button--raised mat-mdc-raised-button mat-unthemed mat-mdc-button-base"
+            mat-ripple-loader-uninitialized
+            mat-ripple-loader-class-name="mat-mdc-button-ripple"
+            ng-reflect-disabled="false"
+            aria-describedby="cdk-describedby-message-ng-16-17"
+            cdk-describedby-host="ng-16"
+    >
+      <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+      </span>
+      <span class="mdc-button__label">
+        Tooltip
+      </span>
+      <span class="mat-mdc-focus-indicator">
+      </span>
+      <span class="mat-mdc-button-touch-target">
+      </span>
+    </button>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Tooltip PositionLeft smoke-test 1`] = `
+<storybook-root _nghost-ng-c3197468757
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c3197468757
+       cdkscrollable
+       class="example-container"
+  >
+    <button _ngcontent-ng-c3197468757
+            mat-raised-button
+            class="mat-mdc-tooltip-trigger example-button mdc-button mdc-button--raised mat-mdc-raised-button mat-unthemed mat-mdc-button-base"
+            mat-ripple-loader-uninitialized
+            mat-ripple-loader-class-name="mat-mdc-button-ripple"
+            ng-reflect-disabled="false"
+            aria-describedby="cdk-describedby-message-ng-19-20"
+            cdk-describedby-host="ng-19"
+    >
+      <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+      </span>
+      <span class="mdc-button__label">
+        Tooltip
+      </span>
+      <span class="mat-mdc-focus-indicator">
+      </span>
+      <span class="mat-mdc-button-touch-target">
+      </span>
+    </button>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Tooltip PositionRight smoke-test 1`] = `
+<storybook-root _nghost-ng-c3197468757
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c3197468757
+       cdkscrollable
+       class="example-container"
+  >
+    <button _ngcontent-ng-c3197468757
+            mat-raised-button
+            class="mat-mdc-tooltip-trigger example-button mdc-button mdc-button--raised mat-mdc-raised-button mat-unthemed mat-mdc-button-base"
+            mat-ripple-loader-uninitialized
+            mat-ripple-loader-class-name="mat-mdc-button-ripple"
+            ng-reflect-disabled="false"
+            aria-describedby="cdk-describedby-message-ng-22-23"
+            cdk-describedby-host="ng-22"
+    >
+      <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+      </span>
+      <span class="mdc-button__label">
+        Tooltip
+      </span>
+      <span class="mat-mdc-focus-indicator">
+      </span>
+      <span class="mat-mdc-button-touch-target">
+      </span>
+    </button>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Tooltip hideDelay smoke-test 1`] = `
+<storybook-root _nghost-ng-c3197468757
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c3197468757
+       cdkscrollable
+       class="example-container"
+  >
+    <button _ngcontent-ng-c3197468757
+            mat-raised-button
+            class="mat-mdc-tooltip-trigger example-button mdc-button mdc-button--raised mat-mdc-raised-button mat-unthemed mat-mdc-button-base"
+            mat-ripple-loader-uninitialized
+            mat-ripple-loader-class-name="mat-mdc-button-ripple"
+            ng-reflect-disabled="false"
+            aria-describedby="cdk-describedby-message-ng-4-5"
+            cdk-describedby-host="ng-4"
+    >
+      <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+      </span>
+      <span class="mdc-button__label">
+        Tooltip
+      </span>
+      <span class="mat-mdc-focus-indicator">
+      </span>
+      <span class="mat-mdc-button-touch-target">
+      </span>
+    </button>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Tooltip showDelay smoke-test 1`] = `
+<storybook-root _nghost-ng-c3197468757
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c3197468757
+       cdkscrollable
+       class="example-container"
+  >
+    <button _ngcontent-ng-c3197468757
+            mat-raised-button
+            class="mat-mdc-tooltip-trigger example-button mdc-button mdc-button--raised mat-mdc-raised-button mat-unthemed mat-mdc-button-base"
+            mat-ripple-loader-uninitialized
+            mat-ripple-loader-class-name="mat-mdc-button-ripple"
+            ng-reflect-disabled="false"
+            aria-describedby="cdk-describedby-message-ng-7-8"
+            cdk-describedby-host="ng-7"
+    >
+      <span class="mat-mdc-button-persistent-ripple mdc-button__ripple">
+      </span>
+      <span class="mdc-button__label">
+        Tooltip
+      </span>
+      <span class="mat-mdc-focus-indicator">
+      </span>
+      <span class="mat-mdc-button-touch-target">
+      </span>
+    </button>
+  </div>
+</storybook-root>
+`;
