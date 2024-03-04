@@ -1,0 +1,510 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/Slider Accent smoke-test 1`] = `
+<storybook-root _nghost-ng-c1837470598
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c1837470598
+       class="example-label-container"
+  >
+  </div>
+  <mat-slider _ngcontent-ng-c1837470598
+              class="mat-mdc-slider mdc-slider example-margin mat-accent mdc-slider--discrete"
+              ng-reflect-disabled="false"
+              ng-reflect-show-tick-marks="false"
+              ng-reflect-discrete="true"
+              ng-reflect-max="100"
+              ng-reflect-min="0"
+              ng-reflect-step="1"
+              ng-reflect-color="accent"
+              ng-reflect-disable-ripple="false"
+  >
+    <input _ngcontent-ng-c1837470598
+           type="range"
+           matsliderthumb
+           class="mdc-slider__input"
+           step="1"
+           min="0"
+           max="100"
+           aria-valuetext="0"
+           style="padding: 0px 16px; width: calc(100% + 10px); left: -21px;"
+    >
+    <div class="mdc-slider__track">
+      <div class="mdc-slider__track--inactive">
+      </div>
+      <div class="mdc-slider__track--active">
+        <div class="mdc-slider__track--active_fill"
+             style="left: 0px; right: auto; transform-origin: left center; transform: scaleX(0.0267857);"
+        >
+        </div>
+      </div>
+    </div>
+    <mat-slider-visual-thumb class="mdc-slider__thumb mat-mdc-slider-visual-thumb mdc-slider__thumb--short-value"
+                             ng-reflect-discrete="true"
+                             ng-reflect-thumb-position="2"
+                             ng-reflect-value-indicator-text="0"
+                             style="transform: translateX(3px);"
+    >
+      <div class="mdc-slider__value-indicator-container">
+        <div class="mdc-slider__value-indicator">
+          <span class="mdc-slider__value-indicator-text">
+            0
+          </span>
+        </div>
+      </div>
+      <div class="mdc-slider__thumb-knob">
+      </div>
+      <div matripple
+           class="mat-ripple mat-mdc-focus-indicator"
+           ng-reflect-disabled="true"
+      >
+      </div>
+    </mat-slider-visual-thumb>
+  </mat-slider>
+</storybook-root>
+`;
+
+exports[`Components/Slider Basic smoke-test 1`] = `
+<storybook-root _nghost-ng-c1837470598
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c1837470598
+       class="example-label-container"
+  >
+  </div>
+  <mat-slider _ngcontent-ng-c1837470598
+              class="mat-mdc-slider mdc-slider example-margin mat-primary mdc-slider--discrete"
+              ng-reflect-disabled="false"
+              ng-reflect-show-tick-marks="false"
+              ng-reflect-discrete="true"
+              ng-reflect-max="100"
+              ng-reflect-min="0"
+              ng-reflect-step="1"
+              ng-reflect-color="primary"
+              ng-reflect-disable-ripple="false"
+  >
+    <input _ngcontent-ng-c1837470598
+           type="range"
+           matsliderthumb
+           class="mdc-slider__input"
+           step="1"
+           min="0"
+           max="100"
+           aria-valuetext="0"
+           style="padding: 0px 16px; width: calc(100% + 10px); left: -21px;"
+    >
+    <div class="mdc-slider__track">
+      <div class="mdc-slider__track--inactive">
+      </div>
+      <div class="mdc-slider__track--active">
+        <div class="mdc-slider__track--active_fill"
+             style="left: 0px; right: auto; transform-origin: left center; transform: scaleX(0.0267857);"
+        >
+        </div>
+      </div>
+    </div>
+    <mat-slider-visual-thumb class="mdc-slider__thumb mat-mdc-slider-visual-thumb mdc-slider__thumb--short-value"
+                             ng-reflect-discrete="true"
+                             ng-reflect-thumb-position="2"
+                             ng-reflect-value-indicator-text="0"
+                             style="transform: translateX(3px);"
+    >
+      <div class="mdc-slider__value-indicator-container">
+        <div class="mdc-slider__value-indicator">
+          <span class="mdc-slider__value-indicator-text">
+            0
+          </span>
+        </div>
+      </div>
+      <div class="mdc-slider__thumb-knob">
+      </div>
+      <div matripple
+           class="mat-ripple mat-mdc-focus-indicator"
+           ng-reflect-disabled="true"
+      >
+      </div>
+    </mat-slider-visual-thumb>
+  </mat-slider>
+</storybook-root>
+`;
+
+exports[`Components/Slider Disabled smoke-test 1`] = `
+<storybook-root _nghost-ng-c1837470598
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c1837470598
+       class="example-label-container"
+  >
+  </div>
+  <mat-slider _ngcontent-ng-c1837470598
+              class="mat-mdc-slider mdc-slider example-margin mat-primary mdc-slider--disabled mdc-slider--discrete"
+              ng-reflect-disabled="true"
+              ng-reflect-show-tick-marks="false"
+              ng-reflect-discrete="true"
+              ng-reflect-max="100"
+              ng-reflect-min="0"
+              ng-reflect-step="1"
+              ng-reflect-color="primary"
+              ng-reflect-disable-ripple="false"
+  >
+    <input _ngcontent-ng-c1837470598
+           type="range"
+           matsliderthumb
+           class="mdc-slider__input"
+           disabled
+           step="1"
+           min="0"
+           max="100"
+           aria-valuetext="0"
+           style="padding: 0px 16px; width: calc(100% + 10px); left: -21px;"
+    >
+    <div class="mdc-slider__track">
+      <div class="mdc-slider__track--inactive">
+      </div>
+      <div class="mdc-slider__track--active">
+        <div class="mdc-slider__track--active_fill"
+             style="left: 0px; right: auto; transform-origin: left center; transform: scaleX(0.0267857);"
+        >
+        </div>
+      </div>
+    </div>
+    <mat-slider-visual-thumb class="mdc-slider__thumb mat-mdc-slider-visual-thumb mdc-slider__thumb--short-value"
+                             ng-reflect-discrete="true"
+                             ng-reflect-thumb-position="2"
+                             ng-reflect-value-indicator-text="0"
+                             style="transform: translateX(3px);"
+    >
+      <div class="mdc-slider__value-indicator-container">
+        <div class="mdc-slider__value-indicator">
+          <span class="mdc-slider__value-indicator-text">
+            0
+          </span>
+        </div>
+      </div>
+      <div class="mdc-slider__thumb-knob">
+      </div>
+      <div matripple
+           class="mat-ripple mat-mdc-focus-indicator"
+           ng-reflect-disabled="true"
+      >
+      </div>
+    </mat-slider-visual-thumb>
+  </mat-slider>
+</storybook-root>
+`;
+
+exports[`Components/Slider Discrete smoke-test 1`] = `
+<storybook-root _nghost-ng-c1837470598
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c1837470598
+       class="example-label-container"
+  >
+  </div>
+  <mat-slider _ngcontent-ng-c1837470598
+              class="mat-mdc-slider mdc-slider example-margin mat-primary"
+              ng-reflect-disabled="false"
+              ng-reflect-show-tick-marks="false"
+              ng-reflect-discrete="false"
+              ng-reflect-max="100"
+              ng-reflect-min="0"
+              ng-reflect-step="1"
+              ng-reflect-color="primary"
+              ng-reflect-disable-ripple="false"
+  >
+    <input _ngcontent-ng-c1837470598
+           type="range"
+           matsliderthumb
+           class="mdc-slider__input"
+           step="1"
+           min="0"
+           max="100"
+           aria-valuetext="0"
+           style="padding: 0px 16px; width: calc(100% + 10px); left: -21px;"
+    >
+    <div class="mdc-slider__track">
+      <div class="mdc-slider__track--inactive">
+      </div>
+      <div class="mdc-slider__track--active">
+        <div class="mdc-slider__track--active_fill"
+             style="left: 0px; right: auto; transform-origin: left center; transform: scaleX(0.0267857);"
+        >
+        </div>
+      </div>
+    </div>
+    <mat-slider-visual-thumb class="mdc-slider__thumb mat-mdc-slider-visual-thumb"
+                             ng-reflect-discrete="false"
+                             ng-reflect-thumb-position="2"
+                             ng-reflect-value-indicator-text
+                             style="transform: translateX(3px);"
+    >
+      <div class="mdc-slider__thumb-knob">
+      </div>
+      <div matripple
+           class="mat-ripple mat-mdc-focus-indicator"
+           ng-reflect-disabled="true"
+      >
+      </div>
+    </mat-slider-visual-thumb>
+  </mat-slider>
+</storybook-root>
+`;
+
+exports[`Components/Slider Limits smoke-test 1`] = `
+<storybook-root _nghost-ng-c1837470598
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c1837470598
+       class="example-label-container"
+  >
+  </div>
+  <mat-slider _ngcontent-ng-c1837470598
+              class="mat-mdc-slider mdc-slider example-margin mat-primary mdc-slider--discrete"
+              ng-reflect-disabled="false"
+              ng-reflect-show-tick-marks="false"
+              ng-reflect-discrete="true"
+              ng-reflect-max="1000"
+              ng-reflect-min="0"
+              ng-reflect-step="1"
+              ng-reflect-color="primary"
+              ng-reflect-disable-ripple="false"
+  >
+    <input _ngcontent-ng-c1837470598
+           type="range"
+           matsliderthumb
+           class="mdc-slider__input"
+           step="1"
+           min="0"
+           max="1000"
+           aria-valuetext="0"
+           style="padding: 0px 16px; width: calc(100% + 10px); left: -21px;"
+    >
+    <div class="mdc-slider__track">
+      <div class="mdc-slider__track--inactive">
+      </div>
+      <div class="mdc-slider__track--active">
+        <div class="mdc-slider__track--active_fill"
+             style="left: 0px; right: auto; transform-origin: left center; transform: scaleX(0.0267857);"
+        >
+        </div>
+      </div>
+    </div>
+    <mat-slider-visual-thumb class="mdc-slider__thumb mat-mdc-slider-visual-thumb mdc-slider__thumb--short-value"
+                             ng-reflect-discrete="true"
+                             ng-reflect-thumb-position="2"
+                             ng-reflect-value-indicator-text="0"
+                             style="transform: translateX(3px);"
+    >
+      <div class="mdc-slider__value-indicator-container">
+        <div class="mdc-slider__value-indicator">
+          <span class="mdc-slider__value-indicator-text">
+            0
+          </span>
+        </div>
+      </div>
+      <div class="mdc-slider__thumb-knob">
+      </div>
+      <div matripple
+           class="mat-ripple mat-mdc-focus-indicator"
+           ng-reflect-disabled="true"
+      >
+      </div>
+    </mat-slider-visual-thumb>
+  </mat-slider>
+</storybook-root>
+`;
+
+exports[`Components/Slider ShowTickMarks smoke-test 1`] = `
+<storybook-root _nghost-ng-c1837470598
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c1837470598
+       class="example-label-container"
+  >
+  </div>
+  <mat-slider _ngcontent-ng-c1837470598
+              class="mat-mdc-slider mdc-slider example-margin mat-primary mdc-slider--tick-marks"
+              ng-reflect-disabled="false"
+              ng-reflect-show-tick-marks="true"
+              ng-reflect-discrete="false"
+              ng-reflect-max="1000"
+              ng-reflect-min="0"
+              ng-reflect-step="1000"
+              ng-reflect-color="primary"
+              ng-reflect-disable-ripple="false"
+  >
+    <input _ngcontent-ng-c1837470598
+           type="range"
+           matsliderthumb
+           class="mdc-slider__input"
+           step="1000"
+           min="0"
+           max="1000"
+           aria-valuetext="0"
+           style="padding: 0px 16px; width: calc(100% + 10px); left: -21px;"
+    >
+    <div class="mdc-slider__track">
+      <div class="mdc-slider__track--inactive">
+      </div>
+      <div class="mdc-slider__track--active">
+        <div class="mdc-slider__track--active_fill"
+             style="left: 0px; right: auto; transform-origin: left center; transform: scaleX(0.0267857);"
+        >
+        </div>
+      </div>
+      <div class="mdc-slider__tick-marks">
+        <div class="mdc-slider__tick-mark--inactive"
+             style="transform: translateX(0px);"
+        >
+        </div>
+        <div class="mdc-slider__tick-mark--inactive"
+             style="transform: translateX(106px);"
+        >
+        </div>
+      </div>
+    </div>
+    <mat-slider-visual-thumb class="mdc-slider__thumb mat-mdc-slider-visual-thumb"
+                             ng-reflect-discrete="false"
+                             ng-reflect-thumb-position="2"
+                             ng-reflect-value-indicator-text
+                             style="transform: translateX(3px);"
+    >
+      <div class="mdc-slider__thumb-knob">
+      </div>
+      <div matripple
+           class="mat-ripple mat-mdc-focus-indicator"
+           ng-reflect-disabled="true"
+      >
+      </div>
+    </mat-slider-visual-thumb>
+  </mat-slider>
+</storybook-root>
+`;
+
+exports[`Components/Slider Step smoke-test 1`] = `
+<storybook-root _nghost-ng-c1837470598
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c1837470598
+       class="example-label-container"
+  >
+  </div>
+  <mat-slider _ngcontent-ng-c1837470598
+              class="mat-mdc-slider mdc-slider example-margin mat-primary mdc-slider--discrete"
+              ng-reflect-disabled="false"
+              ng-reflect-show-tick-marks="false"
+              ng-reflect-discrete="true"
+              ng-reflect-max="100"
+              ng-reflect-min="0"
+              ng-reflect-step="60"
+              ng-reflect-color="primary"
+              ng-reflect-disable-ripple="false"
+  >
+    <input _ngcontent-ng-c1837470598
+           type="range"
+           matsliderthumb
+           class="mdc-slider__input"
+           step="60"
+           min="0"
+           max="100"
+           aria-valuetext="0"
+           style="padding: 0px 16px; width: calc(100% + 10px); left: -21px;"
+    >
+    <div class="mdc-slider__track">
+      <div class="mdc-slider__track--inactive">
+      </div>
+      <div class="mdc-slider__track--active">
+        <div class="mdc-slider__track--active_fill"
+             style="left: 0px; right: auto; transform-origin: left center; transform: scaleX(0.0267857);"
+        >
+        </div>
+      </div>
+    </div>
+    <mat-slider-visual-thumb class="mdc-slider__thumb mat-mdc-slider-visual-thumb mdc-slider__thumb--short-value"
+                             ng-reflect-discrete="true"
+                             ng-reflect-thumb-position="2"
+                             ng-reflect-value-indicator-text="0"
+                             style="transform: translateX(3px);"
+    >
+      <div class="mdc-slider__value-indicator-container">
+        <div class="mdc-slider__value-indicator">
+          <span class="mdc-slider__value-indicator-text">
+            0
+          </span>
+        </div>
+      </div>
+      <div class="mdc-slider__thumb-knob">
+      </div>
+      <div matripple
+           class="mat-ripple mat-mdc-focus-indicator"
+           ng-reflect-disabled="true"
+      >
+      </div>
+    </mat-slider-visual-thumb>
+  </mat-slider>
+</storybook-root>
+`;
+
+exports[`Components/Slider Warn smoke-test 1`] = `
+<storybook-root _nghost-ng-c1837470598
+                ng-version="17.2.2"
+>
+  <div _ngcontent-ng-c1837470598
+       class="example-label-container"
+  >
+  </div>
+  <mat-slider _ngcontent-ng-c1837470598
+              class="mat-mdc-slider mdc-slider example-margin mat-warn mdc-slider--discrete"
+              ng-reflect-disabled="false"
+              ng-reflect-show-tick-marks="false"
+              ng-reflect-discrete="true"
+              ng-reflect-max="100"
+              ng-reflect-min="0"
+              ng-reflect-step="1"
+              ng-reflect-color="warn"
+              ng-reflect-disable-ripple="false"
+  >
+    <input _ngcontent-ng-c1837470598
+           type="range"
+           matsliderthumb
+           class="mdc-slider__input"
+           step="1"
+           min="0"
+           max="100"
+           aria-valuetext="0"
+           style="padding: 0px 16px; width: calc(100% + 10px); left: -21px;"
+    >
+    <div class="mdc-slider__track">
+      <div class="mdc-slider__track--inactive">
+      </div>
+      <div class="mdc-slider__track--active">
+        <div class="mdc-slider__track--active_fill"
+             style="left: 0px; right: auto; transform-origin: left center; transform: scaleX(0.0267857);"
+        >
+        </div>
+      </div>
+    </div>
+    <mat-slider-visual-thumb class="mdc-slider__thumb mat-mdc-slider-visual-thumb mdc-slider__thumb--short-value"
+                             ng-reflect-discrete="true"
+                             ng-reflect-thumb-position="2"
+                             ng-reflect-value-indicator-text="0"
+                             style="transform: translateX(3px);"
+    >
+      <div class="mdc-slider__value-indicator-container">
+        <div class="mdc-slider__value-indicator">
+          <span class="mdc-slider__value-indicator-text">
+            0
+          </span>
+        </div>
+      </div>
+      <div class="mdc-slider__thumb-knob">
+      </div>
+      <div matripple
+           class="mat-ripple mat-mdc-focus-indicator"
+           ng-reflect-disabled="true"
+      >
+      </div>
+    </mat-slider-visual-thumb>
+  </mat-slider>
+</storybook-root>
+`;

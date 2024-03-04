@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Components/Progress Bar Default smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-progress-bar role="progressbar"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -42,7 +42,7 @@ exports[`Components/Progress Bar Default smoke-test 1`] = `
 `;
 
 exports[`Components/Progress Bar DeterminateProgressBar smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-progress-bar role="progressbar"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -83,7 +83,7 @@ exports[`Components/Progress Bar DeterminateProgressBar smoke-test 1`] = `
 `;
 
 exports[`Components/Progress Bar IndeterminateProgressBar smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-progress-bar role="progressbar"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -123,7 +123,7 @@ exports[`Components/Progress Bar IndeterminateProgressBar smoke-test 1`] = `
 `;
 
 exports[`Components/Progress Bar PrimaryProgressBar smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-progress-bar role="progressbar"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -163,7 +163,7 @@ exports[`Components/Progress Bar PrimaryProgressBar smoke-test 1`] = `
 `;
 
 exports[`Components/Progress Bar QueryProgressBar smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-progress-bar role="progressbar"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -203,7 +203,7 @@ exports[`Components/Progress Bar QueryProgressBar smoke-test 1`] = `
 `;
 
 exports[`Components/Progress Bar WarnProgressBar smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-progress-bar role="progressbar"
                     aria-valuemin="0"
                     aria-valuemax="100"

@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components/Badge Disabled smoke-test 1`] = `
+<storybook-root ng-version="17.2.2">
+  <div matbadge
+       class="mat-badge mat-badge-above mat-badge-after mat-badge-accent mat-badge-small mat-badge-disabled"
+       style="display: inline;"
+       ng-reflect-content
+  >
+    Text with a badge
+    <span id="mat-badge-content-3"
+          aria-hidden="true"
+          class="mat-badge-content mat-badge-active"
+    >
+      8
+      <span class="cdk-visually-hidden">
+        badge
+      </span>
+    </span>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Badge Position smoke-test 1`] = `
+<storybook-root ng-version="17.2.2">
+  <div matbadge
+       class="mat-badge mat-badge-above mat-badge-accent mat-badge-before mat-badge-small"
+       style="display: inline;"
+       ng-reflect-content
+  >
+    Text with a badge
+    <span id="mat-badge-content-6"
+          aria-hidden="true"
+          class="mat-badge-content mat-badge-active"
+    >
+      8
+      <span class="cdk-visually-hidden">
+        badge
+      </span>
+    </span>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Badge Primary smoke-test 1`] = `
+<storybook-root ng-version="17.2.2">
+  <div matbadge
+       class="mat-badge mat-badge-above mat-badge-after mat-badge-primary mat-badge-small"
+       style="display: inline;"
+       ng-reflect-content
+  >
+    Text with a badge
+    <span id="mat-badge-content-1"
+          aria-hidden="true"
+          class="mat-badge-content mat-badge-active"
+    >
+      8
+      <span class="cdk-visually-hidden">
+        badge
+      </span>
+    </span>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Badge Size smoke-test 1`] = `
+<storybook-root ng-version="17.2.2">
+  <div matbadge
+       class="mat-badge mat-badge-above mat-badge-after mat-badge-accent mat-badge-large"
+       style="display: inline;"
+       ng-reflect-content
+  >
+    Text with a badge
+    <span id="mat-badge-content-7"
+          aria-hidden="true"
+          class="mat-badge-content mat-badge-active"
+    >
+      8
+      <span class="cdk-visually-hidden">
+        badge
+      </span>
+    </span>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Badge Warn smoke-test 1`] = `
+<storybook-root ng-version="17.2.2">
+  <div matbadge
+       class="mat-badge mat-badge-above mat-badge-after mat-badge-warn mat-badge-small"
+       style="display: inline;"
+       ng-reflect-content
+  >
+    Text with a badge
+    <span id="mat-badge-content-2"
+          aria-hidden="true"
+          class="mat-badge-content mat-badge-active"
+    >
+      8
+      <span class="cdk-visually-hidden">
+        badge
+      </span>
+    </span>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Badge accent smoke-test 1`] = `
+<storybook-root ng-version="17.2.2">
+  <div matbadge
+       class="mat-badge mat-badge-above mat-badge-after mat-badge-accent mat-badge-small"
+       style="display: inline;"
+       ng-reflect-content
+  >
+    Text with a badge
+    <span id="mat-badge-content-0"
+          aria-hidden="true"
+          class="mat-badge-content mat-badge-active"
+    >
+      8
+      <span class="cdk-visually-hidden">
+        badge
+      </span>
+    </span>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Badge content smoke-test 1`] = `
+<storybook-root ng-version="17.2.2">
+  <div matbadge
+       class="mat-badge mat-badge-above mat-badge-after mat-badge-accent mat-badge-small"
+       style="display: inline;"
+       ng-reflect-content
+  >
+    Text with a badge
+    <span id="mat-badge-content-5"
+          aria-hidden="true"
+          class="mat-badge-content mat-badge-active"
+    >
+      67
+      <span class="cdk-visually-hidden">
+        badge
+      </span>
+    </span>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Badge hidden smoke-test 1`] = `
+<storybook-root ng-version="17.2.2">
+  <div matbadge
+       class="mat-badge mat-badge-above mat-badge-after mat-badge-hidden mat-badge-accent mat-badge-small"
+       style="display: inline;"
+       ng-reflect-content
+       hidden
+  >
+    Text with a badge
+    <span id="mat-badge-content-8"
+          aria-hidden="true"
+          class="mat-badge-content mat-badge-active"
+    >
+      8
+      <span class="cdk-visually-hidden">
+        badge
+      </span>
+    </span>
+  </div>
+</storybook-root>
+`;
+
+exports[`Components/Badge overlap smoke-test 1`] = `
+<storybook-root ng-version="17.2.2">
+  <div matbadge
+       class="mat-badge mat-badge-overlap mat-badge-above mat-badge-after mat-badge-accent mat-badge-small"
+       style="display: inline;"
+       ng-reflect-content
+  >
+    Text with a badge
+    <span id="mat-badge-content-4"
+          aria-hidden="true"
+          class="mat-badge-content mat-badge-active"
+    >
+      8
+      <span class="cdk-visually-hidden">
+        badge
+      </span>
+    </span>
+  </div>
+</storybook-root>
+`;

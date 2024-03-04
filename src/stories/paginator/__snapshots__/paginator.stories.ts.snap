@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Components/Paginator ColorThemePrimary smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-paginator role="group"
                  class="mat-mdc-paginator"
                  ng-reflect-page-size="10"
@@ -21,32 +21,29 @@ exports[`Components/Paginator ColorThemePrimary smoke-test 1`] = `
           >
             Items per page:
           </div>
-          <mat-form-field class="mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c13-0 mat-mdc-form-field-type-mat-select mat-form-field-appearance-outline mat-primary ng-star-inserted"
+          <mat-form-field class="mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c2608167813-0 mat-mdc-form-field-type-mat-select mat-form-field-appearance-outline mat-primary ng-star-inserted"
                           ng-reflect-appearance="outline"
                           ng-reflect-color="primary"
           >
-            <div class="mat-mdc-text-field-wrapper mdc-text-field ng-tns-c13-0 mdc-text-field--outlined mdc-text-field--no-label">
-              <div class="mat-mdc-form-field-flex ng-tns-c13-0">
+            <div class="mat-mdc-text-field-wrapper mdc-text-field ng-tns-c2608167813-0 mdc-text-field--outlined mdc-text-field--no-label">
+              <div class="mat-mdc-form-field-flex ng-tns-c2608167813-0">
                 <div matformfieldnotchedoutline
-                     class="mdc-notched-outline ng-tns-c13-0 mdc-notched-outline--no-label ng-star-inserted mdc-notched-outline--notched"
+                     class="mdc-notched-outline ng-tns-c2608167813-0 mdc-notched-outline--no-label ng-star-inserted mdc-notched-outline--notched"
                      ng-reflect-open="true"
-                     ng-reflect-label-width="0"
                 >
                   <div class="mdc-notched-outline__leading">
                   </div>
-                  <div class="mdc-notched-outline__notch"
-                       style="width: 0px;"
-                  >
+                  <div class="mdc-notched-outline__notch">
                   </div>
                   <div class="mdc-notched-outline__trailing">
                   </div>
                 </div>
-                <div class="mat-mdc-form-field-infix ng-tns-c13-0">
+                <div class="mat-mdc-form-field-infix ng-tns-c2608167813-0">
                   <mat-select role="combobox"
                               aria-autocomplete="none"
                               aria-haspopup="listbox"
                               hidesingleselectionindicator
-                              class="mat-mdc-select ng-tns-c14-1 ng-tns-c13-0 ng-star-inserted"
+                              class="mat-mdc-select ng-tns-c2643520907-1 ng-tns-c2608167813-0 ng-star-inserted"
                               ng-reflect-hide-single-selection-indicator
                               ng-reflect-value="10"
                               ng-reflect-disabled="false"
@@ -61,30 +58,28 @@ exports[`Components/Paginator ColorThemePrimary smoke-test 1`] = `
                               aria-invalid="false"
                   >
                     <div cdk-overlay-origin
-                         class="mat-mdc-select-trigger ng-tns-c14-1"
+                         class="mat-mdc-select-trigger ng-tns-c2643520907-1"
                     >
-                      <div class="mat-mdc-select-value ng-tns-c14-1"
-                           ng-reflect-ng-switch="false"
+                      <div class="mat-mdc-select-value ng-tns-c2643520907-1"
                            id="mat-select-value-3"
                       >
-                        <span class="mat-mdc-select-value-text ng-tns-c14-1 ng-star-inserted"
-                              ng-reflect-ng-switch="false"
-                        >
-                          <span class="mat-mdc-select-min-line ng-tns-c14-1 ng-star-inserted">
+                        <span class="mat-mdc-select-value-text ng-tns-c2643520907-1 ng-star-inserted">
+                          <span class="mat-mdc-select-min-line ng-tns-c2643520907-1 ng-star-inserted">
                             10
                           </span>
                         </span>
                       </div>
-                      <div class="mat-mdc-select-arrow-wrapper ng-tns-c14-1">
-                        <div class="mat-mdc-select-arrow ng-tns-c14-1">
+                      <div class="mat-mdc-select-arrow-wrapper ng-tns-c2643520907-1">
+                        <div class="mat-mdc-select-arrow ng-tns-c2643520907-1">
                           <svg viewbox="0 0 24 24"
                                width="24px"
                                height="24px"
                                focusable="false"
-                               class="ng-tns-c14-1"
+                               aria-hidden="true"
+                               class="ng-tns-c2643520907-1"
                           >
                             <path d="M7 10l5 5 5-5z"
-                                  class="ng-tns-c14-1"
+                                  class="ng-tns-c2643520907-1"
                             >
                             </path>
                           </svg>
@@ -95,13 +90,11 @@ exports[`Components/Paginator ColorThemePrimary smoke-test 1`] = `
                 </div>
               </div>
             </div>
-            <div class="mat-mdc-form-field-subscript-wrapper mat-mdc-form-field-bottom-align ng-tns-c13-0"
-                 ng-reflect-ng-switch="hint"
-            >
-              <div class="mat-mdc-form-field-hint-wrapper ng-tns-c13-0 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
+            <div class="mat-mdc-form-field-subscript-wrapper mat-mdc-form-field-bottom-align ng-tns-c2608167813-0">
+              <div class="mat-mdc-form-field-hint-wrapper ng-tns-c2608167813-0 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
                    style="opacity: 1; transform: translateY(0%);"
               >
-                <div class="mat-mdc-form-field-hint-spacer ng-tns-c13-0">
+                <div class="mat-mdc-form-field-hint-spacer ng-tns-c2608167813-0">
                 </div>
               </div>
             </div>
@@ -115,10 +108,14 @@ exports[`Components/Paginator ColorThemePrimary smoke-test 1`] = `
           </div>
           <button mat-icon-button
                   type="button"
-                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-first mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted"
+                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-first mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled ng-star-inserted"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="First page"
                   ng-reflect-disabled="true"
                   ng-reflect-position="above"
+                  mat-ripple-loader-disabled
                   aria-label="First page"
                   disabled="true"
           >
@@ -126,6 +123,7 @@ exports[`Components/Paginator ColorThemePrimary smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M18.41 16.59L13.82 12l4.59-4.59L17 6l-6 6 6 6zM6 6h2v12H6z">
@@ -133,22 +131,19 @@ exports[`Components/Paginator ColorThemePrimary smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="true"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
-                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Previous page"
                   ng-reflect-disabled="true"
                   ng-reflect-position="above"
+                  mat-ripple-loader-disabled
                   aria-label="Previous page"
                   disabled="true"
           >
@@ -156,6 +151,7 @@ exports[`Components/Paginator ColorThemePrimary smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z">
@@ -163,19 +159,15 @@ exports[`Components/Paginator ColorThemePrimary smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="true"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
                   class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-next mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Next page"
                   ng-reflect-disabled="false"
                   ng-reflect-position="above"
@@ -185,6 +177,7 @@ exports[`Components/Paginator ColorThemePrimary smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z">
@@ -192,19 +185,15 @@ exports[`Components/Paginator ColorThemePrimary smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="false"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
                   class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-last mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Last page"
                   ng-reflect-disabled="false"
                   ng-reflect-position="above"
@@ -214,19 +203,13 @@ exports[`Components/Paginator ColorThemePrimary smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M5.59 7.41L10.18 12l-4.59 4.59L7 18l6-6-6-6zM16 6h2v12h-2z">
               </path>
             </svg>
             <span class="mat-mdc-focus-indicator">
-            </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="false"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
             </span>
             <span class="mat-mdc-button-touch-target">
             </span>
@@ -239,7 +222,7 @@ exports[`Components/Paginator ColorThemePrimary smoke-test 1`] = `
 `;
 
 exports[`Components/Paginator Default smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-paginator role="group"
                  class="mat-mdc-paginator"
                  ng-reflect-page-size="10"
@@ -258,31 +241,28 @@ exports[`Components/Paginator Default smoke-test 1`] = `
           >
             Items per page:
           </div>
-          <mat-form-field class="mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c13-0 mat-mdc-form-field-type-mat-select mat-form-field-appearance-outline mat-primary ng-star-inserted"
+          <mat-form-field class="mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c2608167813-0 mat-mdc-form-field-type-mat-select mat-form-field-appearance-outline mat-primary ng-star-inserted"
                           ng-reflect-appearance="outline"
           >
-            <div class="mat-mdc-text-field-wrapper mdc-text-field ng-tns-c13-0 mdc-text-field--outlined mdc-text-field--no-label">
-              <div class="mat-mdc-form-field-flex ng-tns-c13-0">
+            <div class="mat-mdc-text-field-wrapper mdc-text-field ng-tns-c2608167813-0 mdc-text-field--outlined mdc-text-field--no-label">
+              <div class="mat-mdc-form-field-flex ng-tns-c2608167813-0">
                 <div matformfieldnotchedoutline
-                     class="mdc-notched-outline ng-tns-c13-0 mdc-notched-outline--no-label ng-star-inserted mdc-notched-outline--notched"
+                     class="mdc-notched-outline ng-tns-c2608167813-0 mdc-notched-outline--no-label ng-star-inserted mdc-notched-outline--notched"
                      ng-reflect-open="true"
-                     ng-reflect-label-width="0"
                 >
                   <div class="mdc-notched-outline__leading">
                   </div>
-                  <div class="mdc-notched-outline__notch"
-                       style="width: 0px;"
-                  >
+                  <div class="mdc-notched-outline__notch">
                   </div>
                   <div class="mdc-notched-outline__trailing">
                   </div>
                 </div>
-                <div class="mat-mdc-form-field-infix ng-tns-c13-0">
+                <div class="mat-mdc-form-field-infix ng-tns-c2608167813-0">
                   <mat-select role="combobox"
                               aria-autocomplete="none"
                               aria-haspopup="listbox"
                               hidesingleselectionindicator
-                              class="mat-mdc-select ng-tns-c14-1 ng-tns-c13-0 ng-star-inserted"
+                              class="mat-mdc-select ng-tns-c2643520907-1 ng-tns-c2608167813-0 ng-star-inserted"
                               ng-reflect-hide-single-selection-indicator
                               ng-reflect-value="10"
                               ng-reflect-disabled="false"
@@ -297,30 +277,28 @@ exports[`Components/Paginator Default smoke-test 1`] = `
                               aria-invalid="false"
                   >
                     <div cdk-overlay-origin
-                         class="mat-mdc-select-trigger ng-tns-c14-1"
+                         class="mat-mdc-select-trigger ng-tns-c2643520907-1"
                     >
-                      <div class="mat-mdc-select-value ng-tns-c14-1"
-                           ng-reflect-ng-switch="false"
+                      <div class="mat-mdc-select-value ng-tns-c2643520907-1"
                            id="mat-select-value-1"
                       >
-                        <span class="mat-mdc-select-value-text ng-tns-c14-1 ng-star-inserted"
-                              ng-reflect-ng-switch="false"
-                        >
-                          <span class="mat-mdc-select-min-line ng-tns-c14-1 ng-star-inserted">
+                        <span class="mat-mdc-select-value-text ng-tns-c2643520907-1 ng-star-inserted">
+                          <span class="mat-mdc-select-min-line ng-tns-c2643520907-1 ng-star-inserted">
                             10
                           </span>
                         </span>
                       </div>
-                      <div class="mat-mdc-select-arrow-wrapper ng-tns-c14-1">
-                        <div class="mat-mdc-select-arrow ng-tns-c14-1">
+                      <div class="mat-mdc-select-arrow-wrapper ng-tns-c2643520907-1">
+                        <div class="mat-mdc-select-arrow ng-tns-c2643520907-1">
                           <svg viewbox="0 0 24 24"
                                width="24px"
                                height="24px"
                                focusable="false"
-                               class="ng-tns-c14-1"
+                               aria-hidden="true"
+                               class="ng-tns-c2643520907-1"
                           >
                             <path d="M7 10l5 5 5-5z"
-                                  class="ng-tns-c14-1"
+                                  class="ng-tns-c2643520907-1"
                             >
                             </path>
                           </svg>
@@ -331,13 +309,11 @@ exports[`Components/Paginator Default smoke-test 1`] = `
                 </div>
               </div>
             </div>
-            <div class="mat-mdc-form-field-subscript-wrapper mat-mdc-form-field-bottom-align ng-tns-c13-0"
-                 ng-reflect-ng-switch="hint"
-            >
-              <div class="mat-mdc-form-field-hint-wrapper ng-tns-c13-0 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
+            <div class="mat-mdc-form-field-subscript-wrapper mat-mdc-form-field-bottom-align ng-tns-c2608167813-0">
+              <div class="mat-mdc-form-field-hint-wrapper ng-tns-c2608167813-0 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
                    style="opacity: 1; transform: translateY(0%);"
               >
-                <div class="mat-mdc-form-field-hint-spacer ng-tns-c13-0">
+                <div class="mat-mdc-form-field-hint-spacer ng-tns-c2608167813-0">
                 </div>
               </div>
             </div>
@@ -351,10 +327,14 @@ exports[`Components/Paginator Default smoke-test 1`] = `
           </div>
           <button mat-icon-button
                   type="button"
-                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-first mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted"
+                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-first mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled ng-star-inserted"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="First page"
                   ng-reflect-disabled="true"
                   ng-reflect-position="above"
+                  mat-ripple-loader-disabled
                   aria-label="First page"
                   disabled="true"
           >
@@ -362,6 +342,7 @@ exports[`Components/Paginator Default smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M18.41 16.59L13.82 12l4.59-4.59L17 6l-6 6 6 6zM6 6h2v12H6z">
@@ -369,22 +350,19 @@ exports[`Components/Paginator Default smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="true"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
-                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Previous page"
                   ng-reflect-disabled="true"
                   ng-reflect-position="above"
+                  mat-ripple-loader-disabled
                   aria-label="Previous page"
                   disabled="true"
           >
@@ -392,6 +370,7 @@ exports[`Components/Paginator Default smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z">
@@ -399,19 +378,15 @@ exports[`Components/Paginator Default smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="true"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
                   class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-next mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Next page"
                   ng-reflect-disabled="false"
                   ng-reflect-position="above"
@@ -421,6 +396,7 @@ exports[`Components/Paginator Default smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z">
@@ -428,19 +404,15 @@ exports[`Components/Paginator Default smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="false"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
                   class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-last mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Last page"
                   ng-reflect-disabled="false"
                   ng-reflect-position="above"
@@ -450,19 +422,13 @@ exports[`Components/Paginator Default smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M5.59 7.41L10.18 12l-4.59 4.59L7 18l6-6-6-6zM16 6h2v12h-2z">
               </path>
             </svg>
             <span class="mat-mdc-focus-indicator">
-            </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="false"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
             </span>
             <span class="mat-mdc-button-touch-target">
             </span>
@@ -475,7 +441,7 @@ exports[`Components/Paginator Default smoke-test 1`] = `
 `;
 
 exports[`Components/Paginator Disabled smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-paginator role="group"
                  class="mat-mdc-paginator"
                  ng-reflect-page-size="10"
@@ -494,31 +460,28 @@ exports[`Components/Paginator Disabled smoke-test 1`] = `
           >
             Items per page:
           </div>
-          <mat-form-field class="mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c13-0 mat-mdc-form-field-type-mat-select mat-form-field-disabled mat-form-field-appearance-outline mat-primary ng-star-inserted"
+          <mat-form-field class="mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c2608167813-0 mat-mdc-form-field-type-mat-select mat-form-field-disabled mat-form-field-appearance-outline mat-primary ng-star-inserted"
                           ng-reflect-appearance="outline"
           >
-            <div class="mat-mdc-text-field-wrapper mdc-text-field ng-tns-c13-0 mdc-text-field--outlined mdc-text-field--no-label mdc-text-field--disabled">
-              <div class="mat-mdc-form-field-flex ng-tns-c13-0">
+            <div class="mat-mdc-text-field-wrapper mdc-text-field ng-tns-c2608167813-0 mdc-text-field--outlined mdc-text-field--no-label mdc-text-field--disabled">
+              <div class="mat-mdc-form-field-flex ng-tns-c2608167813-0">
                 <div matformfieldnotchedoutline
-                     class="mdc-notched-outline ng-tns-c13-0 mdc-notched-outline--no-label ng-star-inserted mdc-notched-outline--notched"
+                     class="mdc-notched-outline ng-tns-c2608167813-0 mdc-notched-outline--no-label ng-star-inserted mdc-notched-outline--notched"
                      ng-reflect-open="true"
-                     ng-reflect-label-width="0"
                 >
                   <div class="mdc-notched-outline__leading">
                   </div>
-                  <div class="mdc-notched-outline__notch"
-                       style="width: 0px;"
-                  >
+                  <div class="mdc-notched-outline__notch">
                   </div>
                   <div class="mdc-notched-outline__trailing">
                   </div>
                 </div>
-                <div class="mat-mdc-form-field-infix ng-tns-c13-0">
+                <div class="mat-mdc-form-field-infix ng-tns-c2608167813-0">
                   <mat-select role="combobox"
                               aria-autocomplete="none"
                               aria-haspopup="listbox"
                               hidesingleselectionindicator
-                              class="mat-mdc-select ng-tns-c14-1 ng-tns-c13-0 mat-mdc-select-disabled ng-star-inserted"
+                              class="mat-mdc-select ng-tns-c2643520907-1 ng-tns-c2608167813-0 mat-mdc-select-disabled ng-star-inserted"
                               ng-reflect-hide-single-selection-indicator
                               ng-reflect-value="10"
                               ng-reflect-disabled="true"
@@ -533,30 +496,28 @@ exports[`Components/Paginator Disabled smoke-test 1`] = `
                               aria-invalid="false"
                   >
                     <div cdk-overlay-origin
-                         class="mat-mdc-select-trigger ng-tns-c14-1"
+                         class="mat-mdc-select-trigger ng-tns-c2643520907-1"
                     >
-                      <div class="mat-mdc-select-value ng-tns-c14-1"
-                           ng-reflect-ng-switch="false"
+                      <div class="mat-mdc-select-value ng-tns-c2643520907-1"
                            id="mat-select-value-9"
                       >
-                        <span class="mat-mdc-select-value-text ng-tns-c14-1 ng-star-inserted"
-                              ng-reflect-ng-switch="false"
-                        >
-                          <span class="mat-mdc-select-min-line ng-tns-c14-1 ng-star-inserted">
+                        <span class="mat-mdc-select-value-text ng-tns-c2643520907-1 ng-star-inserted">
+                          <span class="mat-mdc-select-min-line ng-tns-c2643520907-1 ng-star-inserted">
                             10
                           </span>
                         </span>
                       </div>
-                      <div class="mat-mdc-select-arrow-wrapper ng-tns-c14-1">
-                        <div class="mat-mdc-select-arrow ng-tns-c14-1">
+                      <div class="mat-mdc-select-arrow-wrapper ng-tns-c2643520907-1">
+                        <div class="mat-mdc-select-arrow ng-tns-c2643520907-1">
                           <svg viewbox="0 0 24 24"
                                width="24px"
                                height="24px"
                                focusable="false"
-                               class="ng-tns-c14-1"
+                               aria-hidden="true"
+                               class="ng-tns-c2643520907-1"
                           >
                             <path d="M7 10l5 5 5-5z"
-                                  class="ng-tns-c14-1"
+                                  class="ng-tns-c2643520907-1"
                             >
                             </path>
                           </svg>
@@ -567,13 +528,11 @@ exports[`Components/Paginator Disabled smoke-test 1`] = `
                 </div>
               </div>
             </div>
-            <div class="mat-mdc-form-field-subscript-wrapper mat-mdc-form-field-bottom-align ng-tns-c13-0"
-                 ng-reflect-ng-switch="hint"
-            >
-              <div class="mat-mdc-form-field-hint-wrapper ng-tns-c13-0 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
+            <div class="mat-mdc-form-field-subscript-wrapper mat-mdc-form-field-bottom-align ng-tns-c2608167813-0">
+              <div class="mat-mdc-form-field-hint-wrapper ng-tns-c2608167813-0 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
                    style="opacity: 1; transform: translateY(0%);"
               >
-                <div class="mat-mdc-form-field-hint-spacer ng-tns-c13-0">
+                <div class="mat-mdc-form-field-hint-spacer ng-tns-c2608167813-0">
                 </div>
               </div>
             </div>
@@ -587,10 +546,14 @@ exports[`Components/Paginator Disabled smoke-test 1`] = `
           </div>
           <button mat-icon-button
                   type="button"
-                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-first mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted"
+                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-first mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled ng-star-inserted"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="First page"
                   ng-reflect-disabled="true"
                   ng-reflect-position="above"
+                  mat-ripple-loader-disabled
                   aria-label="First page"
                   disabled="true"
           >
@@ -598,6 +561,7 @@ exports[`Components/Paginator Disabled smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M18.41 16.59L13.82 12l4.59-4.59L17 6l-6 6 6 6zM6 6h2v12H6z">
@@ -605,22 +569,19 @@ exports[`Components/Paginator Disabled smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="true"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
-                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Previous page"
                   ng-reflect-disabled="true"
                   ng-reflect-position="above"
+                  mat-ripple-loader-disabled
                   aria-label="Previous page"
                   disabled="true"
           >
@@ -628,6 +589,7 @@ exports[`Components/Paginator Disabled smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z">
@@ -635,22 +597,19 @@ exports[`Components/Paginator Disabled smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="true"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
-                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-next mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-next mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Next page"
                   ng-reflect-disabled="true"
                   ng-reflect-position="above"
+                  mat-ripple-loader-disabled
                   aria-label="Next page"
                   disabled="true"
           >
@@ -658,6 +617,7 @@ exports[`Components/Paginator Disabled smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z">
@@ -665,22 +625,19 @@ exports[`Components/Paginator Disabled smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="true"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
-                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-last mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted"
+                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-last mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled ng-star-inserted"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Last page"
                   ng-reflect-disabled="true"
                   ng-reflect-position="above"
+                  mat-ripple-loader-disabled
                   aria-label="Last page"
                   disabled="true"
           >
@@ -688,19 +645,13 @@ exports[`Components/Paginator Disabled smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M5.59 7.41L10.18 12l-4.59 4.59L7 18l6-6-6-6zM16 6h2v12h-2z">
               </path>
             </svg>
             <span class="mat-mdc-focus-indicator">
-            </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="true"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
             </span>
             <span class="mat-mdc-button-touch-target">
             </span>
@@ -713,7 +664,7 @@ exports[`Components/Paginator Disabled smoke-test 1`] = `
 `;
 
 exports[`Components/Paginator HidePageSize smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-paginator role="group"
                  class="mat-mdc-paginator"
                  ng-reflect-page-size="10"
@@ -734,10 +685,14 @@ exports[`Components/Paginator HidePageSize smoke-test 1`] = `
           </div>
           <button mat-icon-button
                   type="button"
-                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-first mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-first mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="First page"
                   ng-reflect-disabled="true"
                   ng-reflect-position="above"
+                  mat-ripple-loader-disabled
                   aria-label="First page"
                   disabled="true"
           >
@@ -745,6 +700,7 @@ exports[`Components/Paginator HidePageSize smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M18.41 16.59L13.82 12l4.59-4.59L17 6l-6 6 6 6zM6 6h2v12H6z">
@@ -752,22 +708,19 @@ exports[`Components/Paginator HidePageSize smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="true"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
-                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Previous page"
                   ng-reflect-disabled="true"
                   ng-reflect-position="above"
+                  mat-ripple-loader-disabled
                   aria-label="Previous page"
                   disabled="true"
           >
@@ -775,6 +728,7 @@ exports[`Components/Paginator HidePageSize smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z">
@@ -782,19 +736,15 @@ exports[`Components/Paginator HidePageSize smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="true"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
                   class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-next mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Next page"
                   ng-reflect-disabled="false"
                   ng-reflect-position="above"
@@ -804,6 +754,7 @@ exports[`Components/Paginator HidePageSize smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z">
@@ -811,19 +762,15 @@ exports[`Components/Paginator HidePageSize smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="false"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
                   class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-last mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Last page"
                   ng-reflect-disabled="false"
                   ng-reflect-position="above"
@@ -833,19 +780,13 @@ exports[`Components/Paginator HidePageSize smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M5.59 7.41L10.18 12l-4.59 4.59L7 18l6-6-6-6zM16 6h2v12h-2z">
               </path>
             </svg>
             <span class="mat-mdc-focus-indicator">
-            </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="false"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
             </span>
             <span class="mat-mdc-button-touch-target">
             </span>
@@ -858,7 +799,7 @@ exports[`Components/Paginator HidePageSize smoke-test 1`] = `
 `;
 
 exports[`Components/Paginator PageIndex smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-paginator role="group"
                  class="mat-mdc-paginator"
                  ng-reflect-page-size="10"
@@ -877,31 +818,28 @@ exports[`Components/Paginator PageIndex smoke-test 1`] = `
           >
             Items per page:
           </div>
-          <mat-form-field class="mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c13-0 mat-mdc-form-field-type-mat-select mat-form-field-appearance-outline mat-primary ng-star-inserted"
+          <mat-form-field class="mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c2608167813-0 mat-mdc-form-field-type-mat-select mat-form-field-appearance-outline mat-primary ng-star-inserted"
                           ng-reflect-appearance="outline"
           >
-            <div class="mat-mdc-text-field-wrapper mdc-text-field ng-tns-c13-0 mdc-text-field--outlined mdc-text-field--no-label">
-              <div class="mat-mdc-form-field-flex ng-tns-c13-0">
+            <div class="mat-mdc-text-field-wrapper mdc-text-field ng-tns-c2608167813-0 mdc-text-field--outlined mdc-text-field--no-label">
+              <div class="mat-mdc-form-field-flex ng-tns-c2608167813-0">
                 <div matformfieldnotchedoutline
-                     class="mdc-notched-outline ng-tns-c13-0 mdc-notched-outline--no-label ng-star-inserted mdc-notched-outline--notched"
+                     class="mdc-notched-outline ng-tns-c2608167813-0 mdc-notched-outline--no-label ng-star-inserted mdc-notched-outline--notched"
                      ng-reflect-open="true"
-                     ng-reflect-label-width="0"
                 >
                   <div class="mdc-notched-outline__leading">
                   </div>
-                  <div class="mdc-notched-outline__notch"
-                       style="width: 0px;"
-                  >
+                  <div class="mdc-notched-outline__notch">
                   </div>
                   <div class="mdc-notched-outline__trailing">
                   </div>
                 </div>
-                <div class="mat-mdc-form-field-infix ng-tns-c13-0">
+                <div class="mat-mdc-form-field-infix ng-tns-c2608167813-0">
                   <mat-select role="combobox"
                               aria-autocomplete="none"
                               aria-haspopup="listbox"
                               hidesingleselectionindicator
-                              class="mat-mdc-select ng-tns-c14-1 ng-tns-c13-0 ng-star-inserted"
+                              class="mat-mdc-select ng-tns-c2643520907-1 ng-tns-c2608167813-0 ng-star-inserted"
                               ng-reflect-hide-single-selection-indicator
                               ng-reflect-value="10"
                               ng-reflect-disabled="false"
@@ -916,30 +854,28 @@ exports[`Components/Paginator PageIndex smoke-test 1`] = `
                               aria-invalid="false"
                   >
                     <div cdk-overlay-origin
-                         class="mat-mdc-select-trigger ng-tns-c14-1"
+                         class="mat-mdc-select-trigger ng-tns-c2643520907-1"
                     >
-                      <div class="mat-mdc-select-value ng-tns-c14-1"
-                           ng-reflect-ng-switch="false"
+                      <div class="mat-mdc-select-value ng-tns-c2643520907-1"
                            id="mat-select-value-5"
                       >
-                        <span class="mat-mdc-select-value-text ng-tns-c14-1 ng-star-inserted"
-                              ng-reflect-ng-switch="false"
-                        >
-                          <span class="mat-mdc-select-min-line ng-tns-c14-1 ng-star-inserted">
+                        <span class="mat-mdc-select-value-text ng-tns-c2643520907-1 ng-star-inserted">
+                          <span class="mat-mdc-select-min-line ng-tns-c2643520907-1 ng-star-inserted">
                             10
                           </span>
                         </span>
                       </div>
-                      <div class="mat-mdc-select-arrow-wrapper ng-tns-c14-1">
-                        <div class="mat-mdc-select-arrow ng-tns-c14-1">
+                      <div class="mat-mdc-select-arrow-wrapper ng-tns-c2643520907-1">
+                        <div class="mat-mdc-select-arrow ng-tns-c2643520907-1">
                           <svg viewbox="0 0 24 24"
                                width="24px"
                                height="24px"
                                focusable="false"
-                               class="ng-tns-c14-1"
+                               aria-hidden="true"
+                               class="ng-tns-c2643520907-1"
                           >
                             <path d="M7 10l5 5 5-5z"
-                                  class="ng-tns-c14-1"
+                                  class="ng-tns-c2643520907-1"
                             >
                             </path>
                           </svg>
@@ -950,13 +886,11 @@ exports[`Components/Paginator PageIndex smoke-test 1`] = `
                 </div>
               </div>
             </div>
-            <div class="mat-mdc-form-field-subscript-wrapper mat-mdc-form-field-bottom-align ng-tns-c13-0"
-                 ng-reflect-ng-switch="hint"
-            >
-              <div class="mat-mdc-form-field-hint-wrapper ng-tns-c13-0 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
+            <div class="mat-mdc-form-field-subscript-wrapper mat-mdc-form-field-bottom-align ng-tns-c2608167813-0">
+              <div class="mat-mdc-form-field-hint-wrapper ng-tns-c2608167813-0 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
                    style="opacity: 1; transform: translateY(0%);"
               >
-                <div class="mat-mdc-form-field-hint-spacer ng-tns-c13-0">
+                <div class="mat-mdc-form-field-hint-spacer ng-tns-c2608167813-0">
                 </div>
               </div>
             </div>
@@ -971,6 +905,9 @@ exports[`Components/Paginator PageIndex smoke-test 1`] = `
           <button mat-icon-button
                   type="button"
                   class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-first mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="First page"
                   ng-reflect-disabled="false"
                   ng-reflect-position="above"
@@ -980,6 +917,7 @@ exports[`Components/Paginator PageIndex smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M18.41 16.59L13.82 12l4.59-4.59L17 6l-6 6 6 6zM6 6h2v12H6z">
@@ -987,19 +925,15 @@ exports[`Components/Paginator PageIndex smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="false"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
                   class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Previous page"
                   ng-reflect-disabled="false"
                   ng-reflect-position="above"
@@ -1009,6 +943,7 @@ exports[`Components/Paginator PageIndex smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z">
@@ -1016,19 +951,15 @@ exports[`Components/Paginator PageIndex smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="false"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
                   class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-next mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Next page"
                   ng-reflect-disabled="false"
                   ng-reflect-position="above"
@@ -1038,6 +969,7 @@ exports[`Components/Paginator PageIndex smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z">
@@ -1045,19 +977,15 @@ exports[`Components/Paginator PageIndex smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="false"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
                   class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-last mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Last page"
                   ng-reflect-disabled="false"
                   ng-reflect-position="above"
@@ -1067,19 +995,13 @@ exports[`Components/Paginator PageIndex smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M5.59 7.41L10.18 12l-4.59 4.59L7 18l6-6-6-6zM16 6h2v12h-2z">
               </path>
             </svg>
             <span class="mat-mdc-focus-indicator">
-            </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="false"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
             </span>
             <span class="mat-mdc-button-touch-target">
             </span>
@@ -1092,7 +1014,7 @@ exports[`Components/Paginator PageIndex smoke-test 1`] = `
 `;
 
 exports[`Components/Paginator SelectConfig smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-paginator role="group"
                  class="mat-mdc-paginator"
                  ng-reflect-page-size="10"
@@ -1112,31 +1034,28 @@ exports[`Components/Paginator SelectConfig smoke-test 1`] = `
           >
             Items per page:
           </div>
-          <mat-form-field class="mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c13-0 mat-mdc-form-field-type-mat-select mat-form-field-appearance-outline mat-primary ng-star-inserted"
+          <mat-form-field class="mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c2608167813-0 mat-mdc-form-field-type-mat-select mat-form-field-appearance-outline mat-primary ng-star-inserted"
                           ng-reflect-appearance="outline"
           >
-            <div class="mat-mdc-text-field-wrapper mdc-text-field ng-tns-c13-0 mdc-text-field--outlined mdc-text-field--no-label">
-              <div class="mat-mdc-form-field-flex ng-tns-c13-0">
+            <div class="mat-mdc-text-field-wrapper mdc-text-field ng-tns-c2608167813-0 mdc-text-field--outlined mdc-text-field--no-label">
+              <div class="mat-mdc-form-field-flex ng-tns-c2608167813-0">
                 <div matformfieldnotchedoutline
-                     class="mdc-notched-outline ng-tns-c13-0 mdc-notched-outline--no-label ng-star-inserted mdc-notched-outline--notched"
+                     class="mdc-notched-outline ng-tns-c2608167813-0 mdc-notched-outline--no-label ng-star-inserted mdc-notched-outline--notched"
                      ng-reflect-open="true"
-                     ng-reflect-label-width="0"
                 >
                   <div class="mdc-notched-outline__leading">
                   </div>
-                  <div class="mdc-notched-outline__notch"
-                       style="width: 0px;"
-                  >
+                  <div class="mdc-notched-outline__notch">
                   </div>
                   <div class="mdc-notched-outline__trailing">
                   </div>
                 </div>
-                <div class="mat-mdc-form-field-infix ng-tns-c13-0">
+                <div class="mat-mdc-form-field-infix ng-tns-c2608167813-0">
                   <mat-select role="combobox"
                               aria-autocomplete="none"
                               aria-haspopup="listbox"
                               hidesingleselectionindicator
-                              class="mat-mdc-select ng-tns-c14-1 ng-tns-c13-0 ng-star-inserted"
+                              class="mat-mdc-select ng-tns-c2643520907-1 ng-tns-c2608167813-0 ng-star-inserted"
                               ng-reflect-hide-single-selection-indicator
                               ng-reflect-value="10"
                               ng-reflect-disabled="false"
@@ -1152,30 +1071,28 @@ exports[`Components/Paginator SelectConfig smoke-test 1`] = `
                               aria-invalid="false"
                   >
                     <div cdk-overlay-origin
-                         class="mat-mdc-select-trigger ng-tns-c14-1"
+                         class="mat-mdc-select-trigger ng-tns-c2643520907-1"
                     >
-                      <div class="mat-mdc-select-value ng-tns-c14-1"
-                           ng-reflect-ng-switch="false"
+                      <div class="mat-mdc-select-value ng-tns-c2643520907-1"
                            id="mat-select-value-11"
                       >
-                        <span class="mat-mdc-select-value-text ng-tns-c14-1 ng-star-inserted"
-                              ng-reflect-ng-switch="false"
-                        >
-                          <span class="mat-mdc-select-min-line ng-tns-c14-1 ng-star-inserted">
+                        <span class="mat-mdc-select-value-text ng-tns-c2643520907-1 ng-star-inserted">
+                          <span class="mat-mdc-select-min-line ng-tns-c2643520907-1 ng-star-inserted">
                             10
                           </span>
                         </span>
                       </div>
-                      <div class="mat-mdc-select-arrow-wrapper ng-tns-c14-1">
-                        <div class="mat-mdc-select-arrow ng-tns-c14-1">
+                      <div class="mat-mdc-select-arrow-wrapper ng-tns-c2643520907-1">
+                        <div class="mat-mdc-select-arrow ng-tns-c2643520907-1">
                           <svg viewbox="0 0 24 24"
                                width="24px"
                                height="24px"
                                focusable="false"
-                               class="ng-tns-c14-1"
+                               aria-hidden="true"
+                               class="ng-tns-c2643520907-1"
                           >
                             <path d="M7 10l5 5 5-5z"
-                                  class="ng-tns-c14-1"
+                                  class="ng-tns-c2643520907-1"
                             >
                             </path>
                           </svg>
@@ -1186,13 +1103,11 @@ exports[`Components/Paginator SelectConfig smoke-test 1`] = `
                 </div>
               </div>
             </div>
-            <div class="mat-mdc-form-field-subscript-wrapper mat-mdc-form-field-bottom-align ng-tns-c13-0"
-                 ng-reflect-ng-switch="hint"
-            >
-              <div class="mat-mdc-form-field-hint-wrapper ng-tns-c13-0 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
+            <div class="mat-mdc-form-field-subscript-wrapper mat-mdc-form-field-bottom-align ng-tns-c2608167813-0">
+              <div class="mat-mdc-form-field-hint-wrapper ng-tns-c2608167813-0 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
                    style="opacity: 1; transform: translateY(0%);"
               >
-                <div class="mat-mdc-form-field-hint-spacer ng-tns-c13-0">
+                <div class="mat-mdc-form-field-hint-spacer ng-tns-c2608167813-0">
                 </div>
               </div>
             </div>
@@ -1206,10 +1121,14 @@ exports[`Components/Paginator SelectConfig smoke-test 1`] = `
           </div>
           <button mat-icon-button
                   type="button"
-                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-first mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted"
+                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-first mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled ng-star-inserted"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="First page"
                   ng-reflect-disabled="true"
                   ng-reflect-position="above"
+                  mat-ripple-loader-disabled
                   aria-label="First page"
                   disabled="true"
           >
@@ -1217,6 +1136,7 @@ exports[`Components/Paginator SelectConfig smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M18.41 16.59L13.82 12l4.59-4.59L17 6l-6 6 6 6zM6 6h2v12H6z">
@@ -1224,22 +1144,19 @@ exports[`Components/Paginator SelectConfig smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="true"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
-                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Previous page"
                   ng-reflect-disabled="true"
                   ng-reflect-position="above"
+                  mat-ripple-loader-disabled
                   aria-label="Previous page"
                   disabled="true"
           >
@@ -1247,6 +1164,7 @@ exports[`Components/Paginator SelectConfig smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z">
@@ -1254,19 +1172,15 @@ exports[`Components/Paginator SelectConfig smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="true"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
                   class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-next mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Next page"
                   ng-reflect-disabled="false"
                   ng-reflect-position="above"
@@ -1276,6 +1190,7 @@ exports[`Components/Paginator SelectConfig smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z">
@@ -1283,19 +1198,15 @@ exports[`Components/Paginator SelectConfig smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="false"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
                   class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-last mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Last page"
                   ng-reflect-disabled="false"
                   ng-reflect-position="above"
@@ -1305,19 +1216,13 @@ exports[`Components/Paginator SelectConfig smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M5.59 7.41L10.18 12l-4.59 4.59L7 18l6-6-6-6zM16 6h2v12h-2z">
               </path>
             </svg>
             <span class="mat-mdc-focus-indicator">
-            </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="false"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
             </span>
             <span class="mat-mdc-button-touch-target">
             </span>
@@ -1330,7 +1235,7 @@ exports[`Components/Paginator SelectConfig smoke-test 1`] = `
 `;
 
 exports[`Components/Paginator ShowFirstLastButtons smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-paginator role="group"
                  class="mat-mdc-paginator"
                  ng-reflect-page-size="10"
@@ -1349,31 +1254,28 @@ exports[`Components/Paginator ShowFirstLastButtons smoke-test 1`] = `
           >
             Items per page:
           </div>
-          <mat-form-field class="mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c13-0 mat-mdc-form-field-type-mat-select mat-form-field-appearance-outline mat-primary ng-star-inserted"
+          <mat-form-field class="mat-mdc-form-field mat-mdc-paginator-page-size-select ng-tns-c2608167813-0 mat-mdc-form-field-type-mat-select mat-form-field-appearance-outline mat-primary ng-star-inserted"
                           ng-reflect-appearance="outline"
           >
-            <div class="mat-mdc-text-field-wrapper mdc-text-field ng-tns-c13-0 mdc-text-field--outlined mdc-text-field--no-label">
-              <div class="mat-mdc-form-field-flex ng-tns-c13-0">
+            <div class="mat-mdc-text-field-wrapper mdc-text-field ng-tns-c2608167813-0 mdc-text-field--outlined mdc-text-field--no-label">
+              <div class="mat-mdc-form-field-flex ng-tns-c2608167813-0">
                 <div matformfieldnotchedoutline
-                     class="mdc-notched-outline ng-tns-c13-0 mdc-notched-outline--no-label ng-star-inserted mdc-notched-outline--notched"
+                     class="mdc-notched-outline ng-tns-c2608167813-0 mdc-notched-outline--no-label ng-star-inserted mdc-notched-outline--notched"
                      ng-reflect-open="true"
-                     ng-reflect-label-width="0"
                 >
                   <div class="mdc-notched-outline__leading">
                   </div>
-                  <div class="mdc-notched-outline__notch"
-                       style="width: 0px;"
-                  >
+                  <div class="mdc-notched-outline__notch">
                   </div>
                   <div class="mdc-notched-outline__trailing">
                   </div>
                 </div>
-                <div class="mat-mdc-form-field-infix ng-tns-c13-0">
+                <div class="mat-mdc-form-field-infix ng-tns-c2608167813-0">
                   <mat-select role="combobox"
                               aria-autocomplete="none"
                               aria-haspopup="listbox"
                               hidesingleselectionindicator
-                              class="mat-mdc-select ng-tns-c14-1 ng-tns-c13-0 ng-star-inserted"
+                              class="mat-mdc-select ng-tns-c2643520907-1 ng-tns-c2608167813-0 ng-star-inserted"
                               ng-reflect-hide-single-selection-indicator
                               ng-reflect-value="10"
                               ng-reflect-disabled="false"
@@ -1388,30 +1290,28 @@ exports[`Components/Paginator ShowFirstLastButtons smoke-test 1`] = `
                               aria-invalid="false"
                   >
                     <div cdk-overlay-origin
-                         class="mat-mdc-select-trigger ng-tns-c14-1"
+                         class="mat-mdc-select-trigger ng-tns-c2643520907-1"
                     >
-                      <div class="mat-mdc-select-value ng-tns-c14-1"
-                           ng-reflect-ng-switch="false"
+                      <div class="mat-mdc-select-value ng-tns-c2643520907-1"
                            id="mat-select-value-7"
                       >
-                        <span class="mat-mdc-select-value-text ng-tns-c14-1 ng-star-inserted"
-                              ng-reflect-ng-switch="false"
-                        >
-                          <span class="mat-mdc-select-min-line ng-tns-c14-1 ng-star-inserted">
+                        <span class="mat-mdc-select-value-text ng-tns-c2643520907-1 ng-star-inserted">
+                          <span class="mat-mdc-select-min-line ng-tns-c2643520907-1 ng-star-inserted">
                             10
                           </span>
                         </span>
                       </div>
-                      <div class="mat-mdc-select-arrow-wrapper ng-tns-c14-1">
-                        <div class="mat-mdc-select-arrow ng-tns-c14-1">
+                      <div class="mat-mdc-select-arrow-wrapper ng-tns-c2643520907-1">
+                        <div class="mat-mdc-select-arrow ng-tns-c2643520907-1">
                           <svg viewbox="0 0 24 24"
                                width="24px"
                                height="24px"
                                focusable="false"
-                               class="ng-tns-c14-1"
+                               aria-hidden="true"
+                               class="ng-tns-c2643520907-1"
                           >
                             <path d="M7 10l5 5 5-5z"
-                                  class="ng-tns-c14-1"
+                                  class="ng-tns-c2643520907-1"
                             >
                             </path>
                           </svg>
@@ -1422,13 +1322,11 @@ exports[`Components/Paginator ShowFirstLastButtons smoke-test 1`] = `
                 </div>
               </div>
             </div>
-            <div class="mat-mdc-form-field-subscript-wrapper mat-mdc-form-field-bottom-align ng-tns-c13-0"
-                 ng-reflect-ng-switch="hint"
-            >
-              <div class="mat-mdc-form-field-hint-wrapper ng-tns-c13-0 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
+            <div class="mat-mdc-form-field-subscript-wrapper mat-mdc-form-field-bottom-align ng-tns-c2608167813-0">
+              <div class="mat-mdc-form-field-hint-wrapper ng-tns-c2608167813-0 ng-trigger ng-trigger-transitionMessages ng-star-inserted"
                    style="opacity: 1; transform: translateY(0%);"
               >
-                <div class="mat-mdc-form-field-hint-spacer ng-tns-c13-0">
+                <div class="mat-mdc-form-field-hint-spacer ng-tns-c2608167813-0">
                 </div>
               </div>
             </div>
@@ -1442,10 +1340,14 @@ exports[`Components/Paginator ShowFirstLastButtons smoke-test 1`] = `
           </div>
           <button mat-icon-button
                   type="button"
-                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-previous mdc-icon-button mat-mdc-icon-button mat-mdc-button-disabled mat-unthemed mat-mdc-button-base mat-mdc-tooltip-disabled"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Previous page"
                   ng-reflect-disabled="true"
                   ng-reflect-position="above"
+                  mat-ripple-loader-disabled
                   aria-label="Previous page"
                   disabled="true"
           >
@@ -1453,6 +1355,7 @@ exports[`Components/Paginator ShowFirstLastButtons smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z">
@@ -1460,19 +1363,15 @@ exports[`Components/Paginator ShowFirstLastButtons smoke-test 1`] = `
             </svg>
             <span class="mat-mdc-focus-indicator">
             </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="true"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
-            </span>
             <span class="mat-mdc-button-touch-target">
             </span>
           </button>
           <button mat-icon-button
                   type="button"
                   class="mat-mdc-tooltip-trigger mat-mdc-paginator-navigation-next mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base"
+                  mat-ripple-loader-uninitialized
+                  mat-ripple-loader-class-name="mat-mdc-button-ripple"
+                  mat-ripple-loader-centered
                   ng-reflect-message="Next page"
                   ng-reflect-disabled="false"
                   ng-reflect-position="above"
@@ -1482,19 +1381,13 @@ exports[`Components/Paginator ShowFirstLastButtons smoke-test 1`] = `
             </span>
             <svg viewbox="0 0 24 24"
                  focusable="false"
+                 aria-hidden="true"
                  class="mat-mdc-paginator-icon"
             >
               <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z">
               </path>
             </svg>
             <span class="mat-mdc-focus-indicator">
-            </span>
-            <span matripple
-                  class="mat-ripple mat-mdc-button-ripple"
-                  ng-reflect-disabled="false"
-                  ng-reflect-centered="true"
-                  ng-reflect-trigger="[object HTMLButtonElement]"
-            >
             </span>
             <span class="mat-mdc-button-touch-target">
             </span>

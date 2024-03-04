@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Components/Progress Spinner Accent smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-progress-spinner role="progressbar"
                         tabindex="-1"
                         aria-label="spinner"
@@ -13,7 +13,7 @@ exports[`Components/Progress Spinner Accent smoke-test 1`] = `
                         aria-valuemin="0"
                         aria-valuemax="100"
                         mode="indeterminate"
-                        style="width: 80px; height: 80px;"
+                        style="width: 80px; height: 80px; --mdc-circular-progress-size: 80px; --mdc-circular-progress-active-indicator-width: 80px;"
   >
     <div aria-hidden="true"
          class="mdc-circular-progress__determinate-container"
@@ -85,7 +85,7 @@ exports[`Components/Progress Spinner Accent smoke-test 1`] = `
 `;
 
 exports[`Components/Progress Spinner Default smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-progress-spinner role="progressbar"
                         tabindex="-1"
                         aria-label="spinner"
@@ -97,7 +97,7 @@ exports[`Components/Progress Spinner Default smoke-test 1`] = `
                         aria-valuemin="0"
                         aria-valuemax="100"
                         mode="indeterminate"
-                        style="width: 80px; height: 80px;"
+                        style="width: 80px; height: 80px; --mdc-circular-progress-size: 80px; --mdc-circular-progress-active-indicator-width: 80px;"
   >
     <div aria-hidden="true"
          class="mdc-circular-progress__determinate-container"
@@ -169,7 +169,7 @@ exports[`Components/Progress Spinner Default smoke-test 1`] = `
 `;
 
 exports[`Components/Progress Spinner Diameter smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-progress-spinner role="progressbar"
                         tabindex="-1"
                         aria-label="spinner"
@@ -181,7 +181,7 @@ exports[`Components/Progress Spinner Diameter smoke-test 1`] = `
                         aria-valuemin="0"
                         aria-valuemax="100"
                         mode="indeterminate"
-                        style="width: 100px; height: 100px;"
+                        style="width: 100px; height: 100px; --mdc-circular-progress-size: 100px; --mdc-circular-progress-active-indicator-width: 100px;"
   >
     <div aria-hidden="true"
          class="mdc-circular-progress__determinate-container"
@@ -253,7 +253,7 @@ exports[`Components/Progress Spinner Diameter smoke-test 1`] = `
 `;
 
 exports[`Components/Progress Spinner StrokeWidth smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-progress-spinner role="progressbar"
                         tabindex="-1"
                         aria-label="spinner"
@@ -265,7 +265,7 @@ exports[`Components/Progress Spinner StrokeWidth smoke-test 1`] = `
                         aria-valuemin="0"
                         aria-valuemax="100"
                         mode="indeterminate"
-                        style="width: 80px; height: 80px;"
+                        style="width: 80px; height: 80px; --mdc-circular-progress-size: 80px; --mdc-circular-progress-active-indicator-width: 80px;"
   >
     <div aria-hidden="true"
          class="mdc-circular-progress__determinate-container"
@@ -337,7 +337,7 @@ exports[`Components/Progress Spinner StrokeWidth smoke-test 1`] = `
 `;
 
 exports[`Components/Progress Spinner Warn smoke-test 1`] = `
-<storybook-root ng-version="15.2.10">
+<storybook-root ng-version="17.2.2">
   <mat-progress-spinner role="progressbar"
                         tabindex="-1"
                         aria-label="spinner"
@@ -349,7 +349,7 @@ exports[`Components/Progress Spinner Warn smoke-test 1`] = `
                         aria-valuemin="0"
                         aria-valuemax="100"
                         mode="indeterminate"
-                        style="width: 80px; height: 80px;"
+                        style="width: 80px; height: 80px; --mdc-circular-progress-size: 80px; --mdc-circular-progress-active-indicator-width: 80px;"
   >
     <div aria-hidden="true"
          class="mdc-circular-progress__determinate-container"
