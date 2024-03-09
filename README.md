@@ -41,6 +41,7 @@ Badge | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_sq
 SideBar | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
 Slider | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
 Tooltip | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
+Dialog | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
 ---
 
 ## Key Features
