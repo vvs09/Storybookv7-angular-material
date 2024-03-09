@@ -1,8 +1,7 @@
 # Angular Material Storybook
 A [Storybook](https://storybook.js.org) for angular material components.
 
-Based on [Angular material v17](https://material.angular.io/). Built on storybook 7 and angular material 17.
-
+Based on [Angular material v17](https://material.angular.io/).
 View the Storybook [here](https://vvs09.github.io/Storybookv7-angular-material/?path=/docs/overview-introduction--docs).
 
 ### Setup Guide:
