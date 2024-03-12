@@ -23,7 +23,7 @@ const meta: Meta<MatSlider> = {
       ],
     }),
   ],
-  render: (args: MatSlider) => ({
+  render: (args) => ({
     props: args,
     styles: [
       `

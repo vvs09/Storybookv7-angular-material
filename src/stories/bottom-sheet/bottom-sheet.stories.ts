@@ -23,13 +23,13 @@ const meta: Meta<MatBottomSheet & { bottomSheetConfig: object }> = {
     }),
     injectInjectorToProps(),
   ],
-  render: (args: MatBottomSheet & { bottomSheetConfig: object }) => ({
+  render: ({bottomSheetConfig,...args}) => ({
     props: {
       ...args,
       openBottomSheet: (injector: Injector) => {
         injector
           .get(MatBottomSheet)
-          .open(BottomSheetComponent, args.bottomSheetConfig);
+          .open(BottomSheetComponent, bottomSheetConfig);
       },
     },
     template: `

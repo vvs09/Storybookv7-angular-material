@@ -16,7 +16,7 @@ const meta: Meta<MatCheckbox> = {
       imports: [ReactiveFormsModule, FormsModule, MatCheckboxModule],
     }),
   ],
-  render: (args: MatCheckbox) => ({
+  render: (args) => ({
     props: args,
     template: ` <mat-checkbox ${argsToTemplate(args)}>Checkbox</mat-checkbox>`,
   }),

@@ -15,7 +15,7 @@ const meta: Meta<MatChip> = {
       imports: [MatChipsModule],
     }),
   ],
-  render: (args: MatChip) => ({
+  render: (args) => ({
     props: args,
     template: `<mat-chip-option selected ${argsToTemplate(
       args

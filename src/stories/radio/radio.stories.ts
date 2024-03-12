@@ -16,7 +16,7 @@ const meta: Meta<MatRadioButton> = {
       imports: [ReactiveFormsModule, FormsModule, MatRadioModule],
     }),
   ],
-  render: (args: MatRadioButton) => ({
+  render: (args) => ({
     props: args,
     template: `<mat-radio-button ${argsToTemplate(
       args

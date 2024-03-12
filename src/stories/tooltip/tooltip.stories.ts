@@ -21,7 +21,7 @@ const meta: Meta<MatTooltip> = {
       ],
     }),
   ],
-  render: (args: MatTooltip) => ({
+  render: (args) => ({
     props: args,
     styles: [
       `

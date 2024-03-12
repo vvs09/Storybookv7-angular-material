@@ -18,7 +18,7 @@ const meta: Meta<MatProgressSpinner> = {
       imports: [MatProgressSpinnerModule],
     }),
   ],
-  render: (args: MatProgressSpinner) => ({
+  render: (args) => ({
     props: args,
     template: `<mat-progress-spinner aria-label="spinner" ${argsToTemplate(
       args

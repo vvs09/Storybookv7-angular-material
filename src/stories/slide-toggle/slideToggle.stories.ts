@@ -18,7 +18,7 @@ const meta: Meta<MatSlideToggle> = {
       imports: [MatSlideToggleModule],
     }),
   ],
-  render: (args: MatSlideToggle) => ({
+  render: (args) => ({
     props: args,
     template: `<mat-slide-toggle ${argsToTemplate(
       args

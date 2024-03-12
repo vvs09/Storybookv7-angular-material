@@ -16,7 +16,7 @@ const meta: Meta<MatSidenav> = {
       imports: [MatSidenavModule, MatButtonModule],
     }),
   ],
-  render: (args: MatSidenav) => ({
+  render: (args) => ({
     props: args,
     styles: [
       `

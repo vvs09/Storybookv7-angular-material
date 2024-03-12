@@ -15,7 +15,7 @@ const meta: Meta<MatPaginator> = {
       imports: [MatPaginatorModule],
     }),
   ],
-  render: (args: MatPaginator) => ({
+  render: (args) => ({
     props: args,
     template: `<mat-paginator ${argsToTemplate(args)}> </mat-paginator>`,
   }),

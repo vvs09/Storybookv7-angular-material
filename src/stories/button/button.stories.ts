@@ -15,7 +15,7 @@ const meta: Meta<MatButton & { label: string; buttonType: string }> = {
       imports: [MatButtonModule],
     }),
   ],
-  render: (args: MatButton & { label: string; buttonType: string }) => ({
+  render: (args) => ({
     props: args,
     template: `
     <button  *ngIf="buttonType === 'mat-button'" mat-button  ${argsToTemplate(

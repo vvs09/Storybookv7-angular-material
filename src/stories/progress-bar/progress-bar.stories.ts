@@ -18,7 +18,7 @@ const meta: Meta<MatProgressBar> = {
       imports: [MatProgressBarModule],
     }),
   ],
-  render: (args: MatProgressBar) => ({
+  render: (args) => ({
     props: args,
     template: `<mat-progress-bar ${argsToTemplate(args)} ></mat-progress-bar>`,
   }),
