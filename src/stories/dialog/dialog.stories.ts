@@ -20,11 +20,11 @@ const meta: Meta<MatDialog & { dialogConfig: object }> = {
     }),
     injectInjectorToProps(),
   ],
-  render: (args: MatDialog & { dialogConfig: object }) => ({
+  render: ({dialogConfig,...args}) => ({
     props: {
       ...args,
       openDialog: (injector: Injector) => {
-        injector.get(MatDialog).open(DialogComponent, args.dialogConfig);
+        injector.get(MatDialog).open(DialogComponent, dialogConfig);
       },
     },
     template: `

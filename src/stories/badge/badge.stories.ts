@@ -15,10 +15,10 @@ const meta: Meta<MatBadge & { label: string }> = {
       imports: [MatBadgeModule, MatButtonModule, MatIconModule],
     }),
   ],
-  render: (args: MatBadge & { label: string }) => ({
+  render:({label,...args}) => ({
     props: args,
     template: `
-    <div matBadge style="display:inline" ${argsToTemplate(args)}>{{label}}</div>
+    <div matBadge style="display:inline" ${argsToTemplate(args)}>${label}</div>
    `,
   }),
 };
