@@ -11,8 +11,6 @@ const config: StorybookConfig = {
     "@storybook/addon-interactions",
     '@storybook/addon-a11y',
     '@storybook/addon-storysource',
-    'storybook-dark-mode',
-    "@storybook/addon-mdx-gfm"
   ],
   framework: {
     name: "@storybook/angular",
