@@ -42,6 +42,7 @@ Slider | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_s
 Tooltip | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
 Dialog | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
 Bottom Sheet | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
+Snackbar | :white_check_mark: | :white_check_mark:| :white_check_mark:|:negative_squared_cross_mark:| :white_check_mark:
 ---
 
 ## Key Features
