@@ -11,6 +11,7 @@ const config: StorybookConfig = {
     "@storybook/addon-interactions",
     '@storybook/addon-a11y',
     '@storybook/addon-storysource',
+    "@chromatic-com/storybook"
   ],
   framework: {
     name: "@storybook/angular",
