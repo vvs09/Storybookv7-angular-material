@@ -6,7 +6,7 @@ import { injectInjectorToProps } from '../../../.storybook/inject-injector-to-pr
 import { DialogComponent } from 'src/app/dialog/dialog.component';
 import { MatButtonModule } from '@angular/material/button';
 
-const meta: Meta<MatDialog & { dialogConfig: object }> = {
+const meta = {
   title: 'Components/Dialog',
   component: MatDialog,
   tags: ['autodocs'],
@@ -20,7 +20,7 @@ const meta: Meta<MatDialog & { dialogConfig: object }> = {
     }),
     injectInjectorToProps(),
   ],
-  render: ({dialogConfig,...args}) => ({
+  render: ({ dialogConfig, ...args }: any) => ({
     props: {
       ...args,
       openDialog: (injector: Injector) => {

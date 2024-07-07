@@ -4,7 +4,7 @@ import { MatSidenavModule, MatSidenav } from '@angular/material/sidenav';
 import { MatButtonModule } from '@angular/material/button';
 import { sideBarArgTypes } from './sidebar-argtypes';
 
-const meta: Meta<MatSidenav> = {
+const meta = {
   title: 'Components/Sidenav',
   component: MatSidenav,
   tags: ['autodocs'],
@@ -16,7 +16,7 @@ const meta: Meta<MatSidenav> = {
       imports: [MatSidenavModule, MatButtonModule],
     }),
   ],
-  render: (args) => ({
+  render: (args:any) => ({
     props: args,
     styles: [
       `

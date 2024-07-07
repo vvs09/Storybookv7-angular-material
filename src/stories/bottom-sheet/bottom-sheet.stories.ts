@@ -9,7 +9,7 @@ import {
 } from '@angular/material/bottom-sheet';
 import { BottomSheetComponent } from 'src/app/bottom-sheet/bottom-sheet.component';
 
-const meta: Meta<MatBottomSheet & { bottomSheetConfig: object }> = {
+const meta = {
   title: 'Components/BottomSheet',
   component: MatBottomSheet,
   tags: ['autodocs'],
@@ -23,7 +23,7 @@ const meta: Meta<MatBottomSheet & { bottomSheetConfig: object }> = {
     }),
     injectInjectorToProps(),
   ],
-  render: ({bottomSheetConfig,...args}) => ({
+  render: ({ bottomSheetConfig, ...args }: any) => ({
     props: {
       ...args,
       openBottomSheet: (injector: Injector) => {

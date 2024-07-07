@@ -17,9 +17,7 @@ const config: StorybookConfig = {
     name: "@storybook/angular",
     options: {},
   },
-  docs: {
-    autodocs: "tag",
-  },
+  docs: {},
   staticDirs:['./public']
 };
 export default config;

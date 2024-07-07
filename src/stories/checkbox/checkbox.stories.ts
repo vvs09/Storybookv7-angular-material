@@ -4,7 +4,7 @@ import { MatCheckboxModule, MatCheckbox } from '@angular/material/checkbox';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { checkboxArgTypes } from './checbox-argtypes';
 
-const meta: Meta<MatCheckbox> = {
+const meta = {
   title: 'Components/Checkbox',
   component: MatCheckbox,
   tags: ['autodocs'],
@@ -16,7 +16,7 @@ const meta: Meta<MatCheckbox> = {
       imports: [ReactiveFormsModule, FormsModule, MatCheckboxModule],
     }),
   ],
-  render: (args) => ({
+  render: (args:any) => ({
     props: args,
     template: ` <mat-checkbox ${argsToTemplate(args)}>Checkbox</mat-checkbox>`,
   }),

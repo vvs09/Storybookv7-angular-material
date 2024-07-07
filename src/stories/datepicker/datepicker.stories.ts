@@ -6,7 +6,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {provideNativeDateAdapter} from '@angular/material/core';
 import { datepickerArgTypes } from './datepicker-argtypes';
 
-const meta: Meta = {
+const meta = {
   title: 'Components/Datepicker',
   component: MatDatepickerInput,
   tags: ['autodocs'],
@@ -19,7 +19,7 @@ const meta: Meta = {
       providers:[provideNativeDateAdapter()]
     }),
   ],
-  render: (args) => ({
+  render: (args:any) => ({
     props: args,
     template: 
     `

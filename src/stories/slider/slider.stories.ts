@@ -8,7 +8,7 @@ import {
 import { sliderArgTypes } from './slider-argtypes';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-const meta: Meta<MatSlider> = {
+const meta = {
   title: 'Components/Slider',
   component: MatSlider,
   tags: ['autodocs'],
@@ -23,7 +23,7 @@ const meta: Meta<MatSlider> = {
       ],
     }),
   ],
-  render: (args) => ({
+  render: (args:any) => ({
     props: args,
     styles: [
       `

@@ -3,7 +3,7 @@ import { argsToTemplate, moduleMetadata } from '@storybook/angular';
 import { MatButtonModule, MatButton } from '@angular/material/button';
 import { buttonArgTypes } from './button-argtypes';
 
-const meta: Meta<MatButton & { label: string; buttonType: string }> = {
+const meta= {
   title: 'Components/Button',
   component: MatButton,
   tags: ['autodocs'],
@@ -15,7 +15,7 @@ const meta: Meta<MatButton & { label: string; buttonType: string }> = {
       imports: [MatButtonModule],
     }),
   ],
-  render: (args) => ({
+  render: (args:any) => ({
     props: args,
     template: `
     <button  *ngIf="buttonType === 'mat-button'" mat-button  ${argsToTemplate(

@@ -3,7 +3,7 @@ import { argsToTemplate, moduleMetadata } from '@storybook/angular';
 import { MatChipsModule, MatChip } from '@angular/material/chips';
 import { chipsArgTypes } from './chips-argstypes';
 
-const meta: Meta<MatChip> = {
+const meta = {
   title: 'Components/Chips',
   component: MatChip,
   tags: ['autodocs'],
@@ -15,7 +15,7 @@ const meta: Meta<MatChip> = {
       imports: [MatChipsModule],
     }),
   ],
-  render: (args) => ({
+  render: (args:any) => ({
     props: args,
     template: `<mat-chip-option selected ${argsToTemplate(
       args

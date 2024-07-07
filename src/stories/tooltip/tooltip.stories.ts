@@ -6,7 +6,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { tooltipArgTypes } from './tooltip-argtypes';
 
-const meta: Meta<MatTooltip> = {
+const meta = {
   title: 'Components/Tooltip',
   component: MatTooltip,
   tags: ['autodocs'],
@@ -21,7 +21,7 @@ const meta: Meta<MatTooltip> = {
       ],
     }),
   ],
-  render: (args) => ({
+  render: (args:any) => ({
     props: args,
     styles: [
       `

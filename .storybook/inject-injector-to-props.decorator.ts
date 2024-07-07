@@ -1,8 +1,7 @@
 import {APP_INITIALIZER, Injector} from '@angular/core'
 import{DecoratorFunction} from '@storybook/csf'
-import{AngularRenderer} from '@storybook/angular'
 
-export function injectInjectorToProps<TArgs = unknown>(): DecoratorFunction<AngularRenderer, TArgs> {
+export function injectInjectorToProps<TArgs = unknown>(): DecoratorFunction<any, TArgs> {
     return (storyFn) => {
       const story = storyFn();
   
