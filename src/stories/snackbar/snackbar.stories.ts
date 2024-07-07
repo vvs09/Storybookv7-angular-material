@@ -7,7 +7,7 @@ import { MatSnackBarModule, MatSnackBar } from '@angular/material/snack-bar';
 
 import { SnackbarComponent } from 'src/app/snackbar/snackbar.component';
 
-const meta: Meta<MatSnackBar & { snackbarConfig: object }> = {
+const meta = {
   title: 'Components/Snackbar',
   component: MatSnackBar,
   tags: ['autodocs'],
@@ -21,7 +21,7 @@ const meta: Meta<MatSnackBar & { snackbarConfig: object }> = {
     }),
     injectInjectorToProps(),
   ],
-  render: ({ snackbarConfig, ...args }) => ({
+  render: ({ snackbarConfig, ...args }: any) => ({
     props: {
       ...args,
       openSnackBar: (injector: Injector) => {

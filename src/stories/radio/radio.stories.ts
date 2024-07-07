@@ -4,7 +4,7 @@ import { MatRadioModule, MatRadioButton } from '@angular/material/radio';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { radioArgTypes } from './radio-argtypes';
 
-const meta: Meta<MatRadioButton> = {
+const meta= {
   title: 'Components/Radio button',
   component: MatRadioButton,
   tags: ['autodocs'],
@@ -16,7 +16,7 @@ const meta: Meta<MatRadioButton> = {
       imports: [ReactiveFormsModule, FormsModule, MatRadioModule],
     }),
   ],
-  render: (args) => ({
+  render: (args:any) => ({
     props: args,
     template: `<mat-radio-button ${argsToTemplate(
       args

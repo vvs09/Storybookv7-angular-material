@@ -5,17 +5,17 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { badgeArgTypes } from './badge-argtypes';
 
-const meta: Meta<MatBadge & { label: string }> = {
+const meta = {
   title: 'Components/Badge',
   component: MatBadge,
   tags: ['autodocs'],
-  argTypes:badgeArgTypes,
+  argTypes: { ...badgeArgTypes },
   decorators: [
     moduleMetadata({
       imports: [MatBadgeModule, MatButtonModule, MatIconModule],
     }),
   ],
-  render:({label,...args}) => ({
+  render: ({ label, ...args }:any) => ({
     props: args,
     template: `
     <div matBadge style="display:inline" ${argsToTemplate(args)}>${label}</div>

@@ -6,7 +6,7 @@ import {
 } from '@angular/material/progress-bar';
 import { progressBarargTypes } from './progress-bar-argtypes';
 
-const meta: Meta<MatProgressBar> = {
+const meta = {
   title: 'Components/Progress Bar',
   component: MatProgressBar,
   tags: ['autodocs'],
@@ -18,7 +18,7 @@ const meta: Meta<MatProgressBar> = {
       imports: [MatProgressBarModule],
     }),
   ],
-  render: (args) => ({
+  render: (args:any) => ({
     props: args,
     template: `<mat-progress-bar ${argsToTemplate(args)} ></mat-progress-bar>`,
   }),

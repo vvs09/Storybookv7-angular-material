@@ -3,7 +3,7 @@ import { argsToTemplate, moduleMetadata } from '@storybook/angular';
 import { MatPaginatorModule, MatPaginator } from '@angular/material/paginator';
 import { paginatorArgTypes } from './paginator-argtypes';
 
-const meta: Meta<MatPaginator> = {
+const meta = {
   title: 'Components/Paginator',
   component: MatPaginator,
   tags: ['autodocs'],
@@ -15,7 +15,7 @@ const meta: Meta<MatPaginator> = {
       imports: [MatPaginatorModule],
     }),
   ],
-  render: (args) => ({
+  render: (args:any) => ({
     props: args,
     template: `<mat-paginator ${argsToTemplate(args)}> </mat-paginator>`,
   }),

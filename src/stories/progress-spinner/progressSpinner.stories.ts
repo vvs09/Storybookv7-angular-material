@@ -6,7 +6,7 @@ import {
 } from '@angular/material/progress-spinner';
 import { progressBarargTypes } from '../progress-bar/progress-bar-argtypes';
 
-const meta: Meta<MatProgressSpinner> = {
+const meta = {
   title: 'Components/Progress Spinner',
   component: MatProgressSpinner,
   tags: ['autodocs'],
@@ -18,7 +18,7 @@ const meta: Meta<MatProgressSpinner> = {
       imports: [MatProgressSpinnerModule],
     }),
   ],
-  render: (args) => ({
+  render: (args:any) => ({
     props: args,
     template: `<mat-progress-spinner aria-label="spinner" ${argsToTemplate(
       args
