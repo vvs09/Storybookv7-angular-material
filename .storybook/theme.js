@@ -32,8 +32,8 @@ export default create({
   barBg: '#ffffff',
 
   // Form colors
-  inputBg: '#ffffff',
-  inputBorder: '#10162F',
-  inputTextColor: '#10162F',
+  // inputBg: '#ffffff',
+  // inputBorder: '#10162F',
+  // inputTextColor: '#10162F',
   // inputBorderRadius: 2,
 });
