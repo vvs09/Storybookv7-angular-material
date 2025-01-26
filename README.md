@@ -44,6 +44,29 @@ Slider | :white_check_mark: | :white_check_mark: | :white_check_mark: | :negativ
 Snackbar | :white_check_mark: | :white_check_mark: | :white_check_mark: | :negative_squared_cross_mark: | :white_check_mark:
 Tooltip | :white_check_mark: | :white_check_mark: | :white_check_mark: | :negative_squared_cross_mark: | :white_check_mark:
 
+## Components in progress
+
+| Autocomplete      | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Button Toggle     | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Card              | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Divider           | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Expansion Panel   | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Form Field        | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Grid List         | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Icon              | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Input             | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| List              | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Menu              | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Ripple            | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Select            | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Sidenav           | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Sort Header       | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Stepper           | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Table             | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Tabs              | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Toolbar           | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+| Tree              | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
+
 ## Key Features
 <ul>
   <li>Prebuilt stories for each component which represents each state of the component.</li> 
