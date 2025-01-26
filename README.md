@@ -45,7 +45,8 @@ Snackbar | :white_check_mark: | :white_check_mark: | :white_check_mark: | :negat
 Tooltip | :white_check_mark: | :white_check_mark: | :white_check_mark: | :negative_squared_cross_mark: | :white_check_mark:
 
 ## Components in progress
-
+Component | [Stories](https://storybook.js.org/docs/angular/get-started/whats-a-story) | [Documentation](https://storybook.js.org/docs/writing-docs/doc-blocks#available-blocks) | [Controls](https://storybook.js.org/docs/essentials/controls) | [Actions](https://storybook.js.org/docs/essentials/actions) | [Accessibility](https://storybook.js.org/docs/writing-tests/accessibility-testing)
+---|:---:|:---:|:---:|:---:|:---:
 | Autocomplete      | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
 | Button Toggle     | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
 | Card              | :negative_squared_cross_mark: | :white_check_mark: | :negative_squared_cross_mark: | :negative_squared_cross_mark: | :white_check_mark: |
